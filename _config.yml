@@ -10,7 +10,7 @@ title: TokyoRubyKaigi11
 email: tokyorubykaigi11@atdot.net
 description: > # this means to ignore newlines until "baseurl:"
   Website of TokyoRubyKaigi11.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/tokyo11" # the subpath of your site, e.g. /blog
 url: "http://regional.rubykaigi.org/tokyo11" # the base hostname & protocol for your site
 twitter_username: tokyorubykaigi11
 github_username:  ko1
