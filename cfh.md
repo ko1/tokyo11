@@ -26,7 +26,7 @@ permalink: /cfh/
 手伝って下さる方は、ご経験などを添えて、手伝って下さることを <tokyorubykaigi11@atdot.net> までお送り下さい。
 連絡は、Idobata およびメーリングリストにて行ないます。
 
-情報提供などは、<https://idobata.io/organizations/akihabara-ruby-kaigi/rooms/chat/join_request/29cd8daf-7f4e-4553-951e-95fd23fffc5c> から登録できる Idobata チャットルームにて、お気軽にお声かけ下さい。
+「この会社に依頼するといいんじゃない？」といった情報提供などは、上記メールか、<https://idobata.io/organizations/akihabara-ruby-kaigi/rooms/chat/join_request/29cd8daf-7f4e-4553-951e-95fd23fffc5c> から登録できる公開の Idobata チャットルームにて、お気軽にお声かけ下さい。
 
 お引き受け頂くために費用が必要な場合は、お見積もりを添えて頂ければ、検討させて頂きます（売り込み歓迎します）。
 また、引き受けて頂けそうな会社などの推薦も歓迎します。
