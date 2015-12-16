@@ -12,7 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Website of TokyoRubyKaigi11.
 baseurl: "/tokyo11" # the subpath of your site, e.g. /blog
 url: "http://regional.rubykaigi.org/tokyo11" # the base hostname & protocol for your site
-twitter_username: tokyorubykaigi11
+twitter_username: tokyork11
 github_username:  ko1
 
 # Build settings
