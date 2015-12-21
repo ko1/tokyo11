@@ -1,0 +1,41 @@
+ruby3:
+  - name: サンプルです。Koichi Sasada (individual)
+    image: 220x220.png
+    link: http://www.atdot.net/~ko1/
+    desc: サンプル解説です。Koichi Sasada is a programmer, mainly developing Ruby interpreter (CRuby/MRI).
+          He received Ph.D (Information Science and Technology) from the University of Tokyo, 2007.
+          He became a faculty of University of Tokyo (Assistant associate 2006-2008, Assistant professor 2008-2012).
+          After the 13 years life in university, now, he is a member of Matz's team in <a href='http://www.heroku.com/'>Heroku, Inc</a>.
+          He is also a director of <a href='http://www.ruby.or.jp/'>Ruby Association</a>.
+          See <a href='activities/'>a summary page of his activities</a> (in Japanese) or 
+          <a href='http://jp.linkedin.com/pub/koichi-sasada/9/99a/963'>a LinkedIn page</a> for more details.
+  - name: まだ居ません
+    image: 220x220.png
+    link: http://www.atdot.net/~ko1/
+    desc: こんな感じで説明が載ります。
+ruby:
+  - name: まだ居ません
+    image: 220x220.png
+    link: http://www.atdot.net/~ko1/
+    desc: こんな感じで説明が載ります。
+  - name: まだ居ません
+    image: 220x220.png
+    link: http://www.atdot.net/~ko1/
+    desc: こんな感じで説明が載ります。
+gold:
+  - name: まだ居ません
+    image: 130x130.png
+    link: http://www.atdot.net/~ko1/
+    desc: こんな感じで説明が載ります。
+  - name: まだ居ません
+    image: 130x130.png
+    link: http://www.atdot.net/~ko1/
+    desc: こんな感じで説明が載ります。
+  - name: まだ居ません
+    image: 130x130.png
+    link: http://www.atdot.net/~ko1/
+    desc: こんな感じで説明が載ります。
+  - name: まだ居ません
+    image: 130x130.png
+    link: http://www.atdot.net/~ko1/
+    desc: こんな感じで説明が載ります。

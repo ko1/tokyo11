@@ -1,0 +1,53 @@
+---
+layout: page
+title: Sponsors
+permalink: /sponsors/
+---
+
+<p>こんな感じで掲載します。</p>
+
+  <h2>Ruby3スポンサー</h2>
+  
+{% for sponsor in site.data.sponsors.ruby3 %}
+  <table>
+    <tr>
+      <td>
+	<a href='{{sponsor.link}}'><img width='220' src='{{site.baseurl}}/image/{{sponsor.image}}' /></a>
+      </td>
+      <td>
+	<div class='sponsor_name'><a href='{{sponsor.link}}'>{{sponsor.name}}</a></div>
+	<div>{{sponsor.desc}}</div>
+      </td>
+    </tr>
+  </table>
+{% endfor %}
+
+  <h2>Rubyスポンサー</h2>
+{% for sponsor in site.data.sponsors.ruby %}
+  <table>
+    <tr>
+      <td>
+	<a href='{{sponsor.link}}'><img width='220' src='{{site.baseurl}}/image/{{sponsor.image}}' /></a>
+      </td>
+      <td>
+	<div class='sponsor_name'><a href='{{sponsor.link}}'>{{sponsor.name}}</a></div>
+	<div>{{sponsor.desc}}</div>
+      </td>
+    </tr>
+  </table>
+{% endfor %}
+  <h2>Goldスポンサー</h2>
+{% for sponsor in site.data.sponsors.gold %}
+  <table>
+    <tr>
+      <td>
+	<a href='{{sponsor.link}}'><img width='130' src='{{site.baseurl}}/image/{{sponsor.image}}' /></a>
+      </td>
+      <td>
+	<div class='sponsor_name'><a href='{{sponsor.link}}'>{{sponsor.name}}</a></div>
+	<div>{{sponsor.desc}}</div>
+      </td>
+    </tr>
+  </table>
+{% endfor %}
+

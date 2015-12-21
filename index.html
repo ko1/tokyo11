@@ -31,8 +31,32 @@ layout: default
 	<li>まつもとゆきひろ氏（プログラミング言語Ruby/Streem開発者）</li>
       </ul>
     </dd>
+    <dt>一般講演</dt>
+    <dd>これから公募します。</dd>
   </dl>
 
   <h1 class="page-heading">参加申し込み</h1>
-  <p>TBD</p>
+  <p>まだ参加申し込みは始まっていません。</p>
+  
+  <h1 class='page-heading'>プログラム</h1>
+  <p>まだ決まっていません。</p>
+
+  <h1 class='page-heading'>スポンサー</h1>
+
+  {% if false %}
+  <h2>Ruby3 スポンサー</h2>
+  {% for sponsor in site.data.sponsors.ruby3 %}
+  <a href='{{sponsor.link}}'><img width='220' src='{{site.baseurl}}/image/{{sponsor.image}}' /></a>
+  {% endfor %}
+  <h2>Rubyスポンサー</h2>
+  {% for sponsor in site.data.sponsors.ruby %}
+  <a href='{{sponsor.link}}'><img width='220' src='{{site.baseurl}}/image/{{sponsor.image}}' /></a>
+  {% endfor %}
+  <h2>Goldスポンサー</h2>
+  {% for sponsor in site.data.sponsors.gold %}
+  <a href='{{sponsor.link}}'><img width='110' src='{{site.baseurl}}/image/{{sponsor.image}}' /></a>
+  {% endfor %}
+  {% else %}
+  <p>まだ居ません。</p>
+  {% endif %}
 </div>
