@@ -92,6 +92,16 @@ h1 {
     /* font-weight: $base-font-weight; */
 }
 
+h2 {
+    	border-bottom		: 1px solid teal;
+	border-left		: 2px solid teal ;
+	background-color	: white;
+	/* color			: crimson ; */
+	padding-bottom		: 1px;
+	padding-left		: 0.5em;
+	margin-top		: 1em;
+        font-weight: $base-font-weight; 
+}
 
 
 /**
