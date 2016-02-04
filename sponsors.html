@@ -6,10 +6,10 @@ permalink: /sponsors/
 
 <p>こんな感じで掲載します。</p>
 
-  <h2>Ruby3スポンサー</h2>
+  <h2 id='ruby3'>Ruby3スポンサー</h2>
   
 {% for sponsor in site.data.sponsors.ruby3 %}
-  <table>
+  <table cellspacing='10'>
     <tr>
       <td>
 	<a href='{{sponsor.link}}'><img width='220' src='{{site.baseurl}}/image/{{sponsor.image}}' /></a>
@@ -22,9 +22,9 @@ permalink: /sponsors/
   </table>
 {% endfor %}
 
-  <h2>Rubyスポンサー</h2>
+  <h2 id='ruby'>Rubyスポンサー</h2>
 {% for sponsor in site.data.sponsors.ruby %}
-  <table>
+  <table cellspacing='10'>
     <tr>
       <td>
 	<a href='{{sponsor.link}}'><img width='220' src='{{site.baseurl}}/image/{{sponsor.image}}' /></a>
@@ -36,9 +36,9 @@ permalink: /sponsors/
     </tr>
   </table>
 {% endfor %}
-  <h2>Goldスポンサー</h2>
+  <h2 id='gold'>Goldスポンサー</h2>
 {% for sponsor in site.data.sponsors.gold %}
-  <table>
+  <table cellspacing='10'>
     <tr>
       <td>
 	<a href='{{sponsor.link}}'><img width='130' src='{{site.baseurl}}/image/{{sponsor.image}}' /></a>
@@ -51,3 +51,4 @@ permalink: /sponsors/
   </table>
 {% endfor %}
 
+  

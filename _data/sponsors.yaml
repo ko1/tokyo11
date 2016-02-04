@@ -5,19 +5,7 @@ ruby:
     link: https://info.cookpad.com/
     desc: <div>クックパッドは、毎日の料理を楽しみにを軸に、レシピをはじめとした様々な生活に便利なサービスを提供する世界企業です。日本をはじめ、アメリカ・スペイン・インドネシアにサービスを展開しています。</div><div>私たちは、ユーザに素早く価値を提供する必要があります。そのため大きなサービスを小さなサービスに分割するマイクロアーキテクチャや、グローバルのレシピ基盤の開発など、様々なテクノロジーに挑戦しています。</div>
 gold:
-  - name: まだ居ません
-    image: 130x130.png
-    link: http://www.atdot.net/~ko1/
-    desc: こんな感じで説明が載ります。
-  - name: まだ居ません
-    image: 130x130.png
-    link: http://www.atdot.net/~ko1/
-    desc: こんな感じで説明が載ります。
-  - name: まだ居ません
-    image: 130x130.png
-    link: http://www.atdot.net/~ko1/
-    desc: こんな感じで説明が載ります。
-  - name: まだ居ません
-    image: 130x130.png
-    link: http://www.atdot.net/~ko1/
-    desc: こんな感じで説明が載ります。
+  - name: 株式会社ウィルド
+    image: wyrd_130x130.png
+    link: http://wyrd.co.jp/
+    desc: WYRDは、クライアントのビジネスの成長まで考えたITコンサルティングを得意とする企業です。少数精鋭の多様なエンジニアがパートナーとして一緒にWebシステムを創りビジネスを成功に導きます。そのために我々は日々新しい体験をし、新しい技術に触れ、新しいアイデアを創造し続けます。

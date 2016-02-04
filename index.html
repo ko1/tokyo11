@@ -43,21 +43,19 @@ layout: default
 
   <h1 class='page-heading'><a href='sponsors/'>スポンサー</a></h1>
   {% if false %}
-  <h2><a href='sponsors/'>Ruby3 スポンサー</a></h2>
+  <h2><a href='sponsors/#ruby3'>Ruby3 スポンサー</a></h2>
   {% for sponsor in site.data.sponsors.ruby3 %}
   <a href='{{sponsor.link}}'><img width='220' src='{{site.baseurl}}/image/{{sponsor.image}}' /></a>
   {% endfor %}
   {% endif %}
-  <h2><a href='sponsors/'>Rubyスポンサー</a></h2>
+  <h2><a href='sponsors/#ruby'>Rubyスポンサー</a></h2>
   {% for sponsor in site.data.sponsors.ruby %}
   <a href='{{sponsor.link}}'><img width='220' src='{{site.baseurl}}/image/{{sponsor.image}}' /></a>
   {% endfor %}
-  {% if false %}
-  <h2><a href='sponsors/'>Goldスポンサー</a></h2>
+  <h2><a href='sponsors/#gold'>Goldスポンサー</a></h2>
   {% for sponsor in site.data.sponsors.gold %}
   <a href='{{sponsor.link}}'><img width='110' src='{{site.baseurl}}/image/{{sponsor.image}}' /></a>
   {% endfor %}
-  {% endif %}
   <h2>スポンサーについて</h2>
   <p>興味がある方は <a href='cfs/'>Call for Sponsors</a> のページをご覧下さい。</p>
 </div>
