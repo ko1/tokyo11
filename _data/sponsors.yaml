@@ -3,7 +3,7 @@ ruby:
   - name: クックパッド株式会社
     image: cookpad.png
     link: https://info.cookpad.com/
-    desc: Cookpad is a global technology company whose mission is to make cooking fun! Our services help people enjoy cooking daily across the world, including Japan, the USA, Spain, and Indonesia. To help us continue to deliver value to our users as fast as possible, we’re exploring ways to split up our service with techniques such as microservices architecture and the development of a global recipe platform.
+    desc: <div>クックパッドは、毎日の料理を楽しみにを軸に、レシピをはじめとした様々な生活に便利なサービスを提供する世界企業です。日本をはじめ、アメリカ・スペイン・インドネシアにサービスを展開しています。</div><div>私たちは、ユーザに素早く価値を提供する必要があります。そのため大きなサービスを小さなサービスに分割するマイクロアーキテクチャや、グローバルのレシピ基盤の開発など、様々なテクノロジーに挑戦しています。</div>
 gold:
   - name: まだ居ません
     image: 130x130.png
