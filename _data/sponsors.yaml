@@ -1,4 +1,8 @@
 ruby3:
+  - name: トレジャーデータ株式会社
+    image: TD.png
+    link: https://www.treasuredata.com/jp/
+    desc: トレジャーデータは、Rubyを積極的に活用し、自社サービスを提供しているだけでなく、fluentd、embulkといったOSSにも深く関与しております。これらの、サービスやソフトウェアは、多くの企業・システムに利用いただいていますので、これからもRubyを積極的に活用させていただくとともに、広く認知・活用が進むように貢献したいと考えています。
 ruby:
   - name: クックパッド株式会社
     image: cookpad.png
