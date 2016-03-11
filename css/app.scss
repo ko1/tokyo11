@@ -1,0 +1,58 @@
+---
+---
+
+@charset "utf-8";
+
+.icon > svg {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+.app-navbar-container {
+    background: url(../image/top.jpg) top center;
+    background-size: cover;
+}
+
+.app-footer, .app-cfp-block {
+    background-color: #262F36;
+}
+
+.app-cfs-block {
+    background-color: #F4F5F6;
+}
+
+.app-top-block {
+    background-color: transparent;
+    padding: 50px 0 100px;
+}
+
+h1.app-top-title {
+    color: #FFF;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 72px;
+}
+
+h4.app-top-subtitle {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    letter-spacing: .15em;
+}
+
+h1.post-title {
+    text-align: center;
+    margin: 50px 0;
+}
+
+article.post {
+    margin-bottom: 70px;
+
+    h1, h2, h3 {
+        margin-top: 50px;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        margin-top: 40px;
+    }
+}

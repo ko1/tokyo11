@@ -1,27 +1,42 @@
 <footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
+  <div class="block block-inverse app-footer p-t-md p-b-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-1 col-sm-4 p-b">
+          <ul class="list-unstyled list-spaced">
+            <li class="m-b"><h6 class="text-uppercase">主催</h6></li>
+            <li class="text-muted">
+              東京Ruby会議11実行委員会
+            </li>
+            <li class="text-muted">
+              <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-4 p-b">
+          <ul class="list-unstyled list-spaced">
+            <li class="m-b"><h6 class="text-uppercase">後援</h6></li>
+            <li class="text-muted">
+              一般社団法人 日本Rubyの会
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-3 p-b">
+          <ul class="list-unstyled list-spaced">
+            <li class="m-b"><h6 class="text-uppercase">Social Media</h6></li>
+            {% if site.twitter_username %}
+            <li class="text-muted">
+              {% include icon-twitter.html username=site.twitter_username %}
+            </li>
+            {% endif %}
+          </ul>
+        </div>
       </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
+      <div class="text-center text-muted m-b">
+        The top image was taken by <a href="https://www.flickr.com/photos/gusjer/5402554002">Gustavo Jeronimo</a>
       </div>
     </div>
-
   </div>
-
 </footer>
+<script src="{{ "/js/jquery.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/toolkit.min.js" | prepend: site.baseurl }}"></script>

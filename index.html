@@ -1,62 +1,94 @@
 ---
-layout: default
+layout: top
 ---
 
-<div class="home">
-  <h1 class="page-heading">東京Ruby会議11 開催概要</h1>
-  <dl>
-    <dt>日時</dt>
-    <dd>2016/05/28 (土) 10:00～19:00の1日開催</dd>
-    <dt>場所</dt>
-    <dd>
-      <div><a href='http://www.akibahall.jp/data/access.html'>秋葉原コンベンションホール（秋葉原駅前）</a></div>
-      <div>〒101-0021 東京都千代田区外神田1-18-13 秋葉原ダイビル2F</div>
-    </dd>
-    <dt>主催</dt>
-    <dd>東京Ruby会議11実行委員会</dd>
-    <dt>後援</dt>
-    <dd>一般社団法人 日本Rubyの会</dd>
-  </ul>
-  
-  <h1 class="page-heading">スピーカー</h1>
-  <dl>
-    <dt>基調講演</dt>
-    <dd>古橋 貞之氏 (Treasure Data, Inc. Founder & Software Architect)</dd>
-    <dt>招待講演</dt>
-    <dd>
-      <ul>
-	<li>奥一穂氏（Palmscape, Xiino, Japanize, Q4M, JSX, H2O開発者）</li>
-	<li>小崎資広氏（Linuxカーネル/Rubyインタプリタ開発者）</li>
-	<li>Aaron Patterson氏（Ruby on Rails/Rubyインタプリタ開発者）</li>
-	<li>まつもとゆきひろ氏（プログラミング言語Ruby/Streem開発者）</li>
-      </ul>
-    </dd>
-    <dt>一般講演</dt>
-    <dd>もうすぐ公開します。</dd>
-  </dl>
+<div class="p-t-md app-iphone-block text-center">
+  <h1 class="block-title">Keynote Speaker</h1>
 
-  <h1 class="page-heading">参加申し込み</h1>
-  <p>まだ参加申し込みは始まっていません。</p>
-  
-  <h1 class='page-heading'>プログラム</h1>
-  <p>まだ決まっていません。</p>
-
-  <h1 class='page-heading'><a href='sponsors/'>スポンサー</a></h1>
-  <h2><a href='sponsors/#ruby3'>Ruby3 スポンサー</a></h2>
-  <div style='text-align: center;'>
-    {% for sponsor in site.data.sponsors.ruby3 %}
-      <a href='{{sponsor.link}}'><img width='220' src='{{site.baseurl}}/image/{{sponsor.image}}' /></a>　　　　　
-    {% endfor %}
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 p-t-md">
+        <h3 class="m-t-0">Sadaharu Furuhashi</h3>
+        <h6 class="block-title text-muted text-uppercase">Treasure Data, Inc. Founder & Software Architect</h6>
+      </div>
+    </div>
   </div>
-  <h2><a href='sponsors/#ruby'>Rubyスポンサー</a></h2>
-  <div style='text-align: center;'>
-    {% for sponsor in site.data.sponsors.ruby %}
-      <a href='{{sponsor.link}}'><img width='220' src='{{site.baseurl}}/image/{{sponsor.image}}' /></a>　　　　　
-    {% endfor %}
-  </div>
-  <h2><a href='sponsors/#gold'>Goldスポンサー</a></h2>
-  {% for sponsor in site.data.sponsors.gold %}
-  <a href='{{sponsor.link}}'><img width='130' src='{{site.baseurl}}/image/{{sponsor.image}}' hspace='10'/></a>　　
-  {% endfor %}
 </div>
 
+<div class="p-y-md app-iphone-block text-center">
+  <h1 class="block-title p-b-md">Other Speakers</h1>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 m-b-md">
+        <h3 class="m-t-0">Kazuho Oku</h3>
+        <h6 class="block-title text-muted text-uppercase">Developer of Palmscape, Xiino, Japanize, Q4M, JSX, H2O</h6>
+      </div>
+      <div class="col-sm-6 m-b-md">
+        <h3 class="m-t-0">Motohiro Kosaki</h3>
+        <h6 class="block-title text-muted text-uppercase">Linux Kernel Developer, Ruby Core Commiter</h6>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 m-b-md">
+        <h3 class="m-t-0">Aaron Patterson</h3>
+        <h6 class="block-title text-muted text-uppercase">Ruby on Rails Commiter, Ruby Core Commiter</h6>
+      </div>
+      <div class="col-sm-6 m-b-md">
+        <h3 class="m-t-0">Yukihiro Matsumoto</h3>
+        <h6 class="block-title text-muted text-uppercase">Creator of Ruby</h6>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="block block-inverse block-secondary app-cfp-block text-center p-y-md">
+  <h3 class="m-t-0">Call for Proposals is open</h3>
+  <a href="cfp/" class="btn btn-primary m-t">
+    Submit Your Talk
+  </a>
+</div>
+
+<div class="p-y-md app-iphone-block app-align-center text-center">
+  <h1 class="block-title">Sponsors</h1>
+
+  <div class="container">
+    <div class="row">
+      <div class="p-y-md">
+        <h3 class="m-b">Ruby3 Sponsors</h3>
+
+        {% for sponsor in site.data.sponsors.ruby3 %}
+          <span class="m-x-md">
+            <a href='{{sponsor.link}}'><img width='220' src='{{site.baseurl}}/image/{{sponsor.image}}' /></a>
+          </span>
+        {% endfor %}
+      </div>
+
+      <div class="p-y-md">
+        <h3 class="m-b">Ruby Sponsors</h3>
+
+        {% for sponsor in site.data.sponsors.ruby %}
+          <span class="m-x-md">
+            <a href='{{sponsor.link}}'><img width='220' src='{{site.baseurl}}/image/{{sponsor.image}}' /></a>
+          </span>
+        {% endfor %}
+      </div>
+
+      <div class="p-y-md">
+        <h4>Gold Sponsors</h4>
+        <div class="row">
+          {% for sponsor in site.data.sponsors.gold %}
+          <a href='{{sponsor.link}}'><img width='130' src='{{site.baseurl}}/image/{{sponsor.image}}' hspace='10'/></a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="block block-secondary app-cfs-block text-center p-y-md">
+  <h4 class="m-t-0">興味がある方は <a href='cfs/'>Call for Sponsors</a> のページをご覧下さい。</h4>
+  <a href="cfs/" class="btn btn-primary m-t">
+    Become a Sponsor
+  </a>
+</div>

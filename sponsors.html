@@ -4,49 +4,52 @@ title: Sponsors
 permalink: /sponsors/
 ---
 
-  <h2 id='ruby3'>Ruby3スポンサー</h2>
-  
-{% for sponsor in site.data.sponsors.ruby3 %}
-  <table cellspacing='10'>
-    <tr>
-      <td width='230'>
-	<a href='{{sponsor.link}}'><img width='220' src='{{site.baseurl}}/image/{{sponsor.image}}' /></a>
-      </td>
-      <td>
-	<div class='sponsor_name'><a href='{{sponsor.link}}'>{{sponsor.name}}</a></div>
-	<div>{{sponsor.desc}}</div>
-      </td>
-    </tr>
-  </table>
-{% endfor %}
+<div class="block block-secondary app-iphone-block  p-t-0 p-b-0">
+  <h2 id="ruby3" class="text-center p-b-md">Ruby3 Sponsor</h2>
 
-  <h2 id='ruby'>Rubyスポンサー</h2>
-{% for sponsor in site.data.sponsors.ruby %}
-  <table cellspacing='10'>
-    <tr>
-      <td width='230'>
-	<a href='{{sponsor.link}}'><img width='220' src='{{site.baseurl}}/image/{{sponsor.image}}' /></a>
-      </td>
-      <td>
-	<div class='sponsor_name'><a href='{{sponsor.link}}'>{{sponsor.name}}</a></div>
-	<div>{{sponsor.desc}}</div>
-      </td>
-    </tr>
-  </table>
-{% endfor %}
-  <h2 id='gold'>Goldスポンサー</h2>
-{% for sponsor in site.data.sponsors.gold %}
-  <table cellspacing='10'>
-    <tr>
-      <td width='140'>
-	<a href='{{sponsor.link}}'><img width='130' src='{{site.baseurl}}/image/{{sponsor.image}}' /></a>
-      </td>
-      <td>
-	<div class='sponsor_name'><a href='{{sponsor.link}}'>{{sponsor.name}}</a></div>
-	<div>{{sponsor.desc}}</div>
-      </td>
-    </tr>
-  </table>
-{% endfor %}
-
+  {% for sponsor in site.data.sponsors.ruby3 %}
+  <div class="row p-b-md">
+    <div class="col-sm-4 text-center">
+      <a href="{{sponsor.link}}">
+        <img width="220" src="{{site.baseurl}}/image/{{sponsor.image}}" />
+      </a>
+    </div>
+    <div class="col-sm-8 m-t">
+      <h4 class="m-t-0"><a href='{{sponsor.link}}'>{{sponsor.name}}</a></h4>
+      <p class="m-b-md">{{sponsor.desc}}</p>
+    </div>
+  </div>
+  {% endfor %}
   
+  <h2 id="ruby" class="text-center p-b-md">Ruby Sponsor</h2>
+
+  {% for sponsor in site.data.sponsors.ruby %}
+  <div class="row p-b-md">
+    <div class="col-sm-4 text-center">
+      <a href="{{sponsor.link}}">
+        <img width="220" src="{{site.baseurl}}/image/{{sponsor.image}}" />
+      </a>
+    </div>
+    <div class="col-sm-8 m-t">
+      <h4 class="m-t-0"><a href='{{sponsor.link}}'>{{sponsor.name}}</a></h4>
+      <p class="m-b-md">{{sponsor.desc}}</p>
+    </div>
+  </div>
+  {% endfor %}
+
+  <h3 id="gold" class="text-center p-b-md">Gold Sponsor</h3>
+
+  {% for sponsor in site.data.sponsors.gold %}
+  <div class="row p-b-md">
+    <div class="col-sm-2 text-center">
+      <a href="{{sponsor.link}}">
+        <img width="130" src="{{site.baseurl}}/image/{{sponsor.image}}" />
+      </a>
+    </div>
+    <div class="col-sm-10 m-t">
+      <h4 class="m-t-0"><a href='{{sponsor.link}}'>{{sponsor.name}}</a></h4>
+      <p class="m-b-md">{{sponsor.desc}}</p>
+    </div>
+  </div>
+  {% endfor %}
+</div>
