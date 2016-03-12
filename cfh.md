@@ -8,22 +8,20 @@ permalink: /cfh/
 
 # We are recruiting assistants
 
-At the TokyoRubyKaigi11, we are recruiting people to help with the below work. Please contact if you can assist with anything, even if it is not mentioned below.
+At the Tokyo RubyKaigi 11, we are recruiting people to help with the below work. Please contact if you can assist with anything, even if it is not mentioned below.
 
 ## Help needed prior to the event
 
- * People to shoot and upload videos (those who can bring their own equipment) (if no such help is found, we will proceed without video services)
- * People to arrange and install the venue's network (if no such help is found, we will proceed without a venue network)
- * People to perform web and logo design (if no such help is found, Sasada will create it on PowerPoint as he sees fit)
- * People to assist with speakers' travel arrangements (such as contacting and negotiating with travel agencies) (if no such help is found, Sasada will go to negotiate)
+ * People to shoot and upload videos (those who can bring their own equipment). If no such help is found, we will proceed without video services
+ * People to arrange and install the venue's network. If no such help is found, we will proceed without a venue network.
+ * People to assist with speakers' travel arrangements (such as contacting and negotiating with travel agencies)
 
 We welcome people with experience.
 
 ## Help needed during the event
 
- * People to write the Rubyist Magazine report (a few people) (if no such help is found, Sasada will write it as he sees fit)
+ * People to write the Rubyist Magazine report (a few people)
  * People to cover the event in the media (if possible, we would like to publish your name as a media sponsor)
-
 
 ## How to Apply
 
