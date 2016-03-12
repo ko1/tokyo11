@@ -4,7 +4,19 @@ title: About
 permalink: /about/
 ---
 
-# 東京Ruby会議11 開催趣意書
+TokyoRubyKaigi11 is a conference for the discussion of software development techniques. Developers will give an introduction to interesting parts of the packages which they have developed. Participants will be able to share in this knowledge and experience its appeal, then contribute to the discussion on how to further push forward development techniques.
+
+While the main focus will be on Ruby, any topic is acceptable as long it has some connection with Ruby. Topics in which code does not come up, such as education, practical application, and improvements in quality and development productivity are out of scope. However, discussion centered on software which targets these is in scope.
+
+We aim to provide a venue which will rekindle your technical curiosity, and allow you to rediscover the challenge and interest of programming.
+
+## The TokyoRubyKaigi11 Executive Committee
+
+Executive Committee Chair, Accounting Officer: Koichi Sasada<br />
+Vice Chair: Yuki Torii<br />
+Accounting cooperation: Japan Ruby Group
+
+---
 
 東京Ruby会議11は、プログラムの実装技術について議論するカンファレンスです。開発したソフトウェアについて、開発者自身にその実装の興味深い部分について紹介して頂きます。参加者は、その知見を共有し、その面白さを味わって頂き、そしてさらなる実装技術の発展に関する議論を展開して貰えればと思います。
 

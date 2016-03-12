@@ -4,6 +4,81 @@ title: Call for Presentations
 permalink: /cfp/
 ---
 
+We welcome proposals for presentations to be given at TokyoRubyKaigi11.
+
+## Application Guidelines
+
+ * The content of your presentation should be related to Ruby. For details, please see the About page.
+ * (Personal preference of the President of the Executive Committee) I would love to hear of any personal programming experiences that made you think "Oh, I wrote some great code here" or "Wow, I made something awesome". That sort of "Oh, wow" stories will appeal to attendees from any field, I think. Please share your "Oh, wow" moments with us.
+ * Please make your proposed presentations about software whose development you are personally involved in. Also, we prefer presentations about things that have already been created, not things you plan to make in the future.
+ * Presentations will run for 30 minutes, including a question-and-answer session.
+ * Please present in Japanese or English.
+ * We may want to record and transmit video if sponsors and other people attend (but we will refrain from this if they do not attend). Please keep this in mind.
+ * Your presentation materials should preferably be in English, or have English side-by-side with Japanese. Also, we encourage you to publish your materials after the presentation.
+ * If your proposal is accepted, we may ask to interview you about the content of your presentation beforehand (via e-mail, Skype, face to face, or otherwise). Thank you in advance for your cooperation. The content of these interviews will be published before the conference through some medium or other.
+
+### Evaluation of proposals
+
+ * Proposals will be accepted until **2/29 (Monday)**. This deadline may be extended, depending on circumstances.
+ * Proposals will be evaluated by the individuals who are cooperating on the program of this conference, and by the Executive Committee.
+
+### Notification of acceptance
+
+We will notify you in the course of March whether your proposal was accepted or rejected. This notification will come through a speakers' mailing list created for the purpose.
+
+### Schedule (preliminary)
+
+ * 2/1 (Monday): Call for Presentations opens
+ * 2/29 (Monday): Deadline for proposals, start of assessment
+ * Sometime during March: Notifications of acceptance sent out, publication of the conference program
+ * Mid-April: Start of ticket sales
+ * 5/28 (Saturday): TokyoRubyKaigi11
+
+If you have any questions, please send them to [tokyorubykaigi11@atdot.net](tokyorubykaigi11@atdot.net).
+
+Update 2/15: Because we have received many offers of sponsorship, we may be able to provide travel assistance for speakers coming from far away. Please contact us for more information.
+
+## How to Apply
+
+Please apply via [the application page](http://atdot.net/~ko1/file.cgi/tokyo11/cfp/).
+
+## About the Application Procedure
+
+You must provide all the following information in order to propose a presentation. Please write in Japanese or English.
+
+ * Name
+ * Title
+
+The name and title of the person proposing a presentation. Please use your own preferred notation.
+
+ * Title
+ * Summary
+
+The title and an introduction of your presentation, as you would expect. As mentioned above, please make your presentation about software whose development you are involved in yourself.
+
+ * Prerequisite knowledge
+
+The prerequisite knowledge necessary for understanding your presentation. We want to publish this together with the summary, for the convenience of our attendees.
+
+ * E-mail address (This information will not be made public)
+
+The e-mail address that should be used for notifications of acceptance and the speakers' mailing list.
+
+ * Explanation of the content and technical points of interest of your presentation (This information will not be made public)
+
+Please tell us more about why the content you propose is suitable for presenting at this conference. We recommend that you focus on how your presentation is interesting from a technical standpoint. The assessment of your proposal will focus on the presentation's summary and technical points of interest.
+
+Regarding these points of interest, please tell us about the aspects of the presentation that you yourself find interesting.
+
+Your presentation does not need to be about something novel or unique, like with a full conference presentation. It is enough for it to be interesting from a technical point of view.
+
+Do you want to write an article for Rubyist Magazine or the like? (This information will not be made public)
+Please select "Yes" if you would be willing to write an article about your presentation in Rubyist Magazine, a blog, or elsewhere, before or after the conference. This may affect your chances of having your presentation accepted (we believe it is better if your presentation does not end at the conference, but lives on in some other format as well).
+
+By the way, another advantage of publishing an article in advance is that this will help you be more prepared.
+
+---
+
 # 発表募集
 
 東京Ruby会議11で発表して下さる方を募集いたします。
