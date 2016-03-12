@@ -2,8 +2,8 @@
 layout: top
 ---
 
-<div class="p-t-md app-iphone-block text-center">
-  <h1 class="block-title">Keynote Speaker</h1>
+<div class="p-t-md app-iphone-block text-center app-top-speakers">
+  <h1 class="block-title font-thin">Keynote Speaker</h1>
 
   <div class="container">
     <div class="row">
@@ -15,8 +15,8 @@ layout: top
   </div>
 </div>
 
-<div class="p-y-md app-iphone-block text-center">
-  <h1 class="block-title p-b-md">Other Speakers</h1>
+<div class="p-y-md app-iphone-block text-center app-top-speakers">
+  <h1 class="block-title font-thin p-b-md">Other Speakers</h1>
 
   <div class="container">
     <div class="row">
@@ -42,23 +42,22 @@ layout: top
   </div>
 </div>
 
-<div class="block block-inverse block-secondary app-cfp-block text-center p-y-md">
+<div class="block block-inverse block-secondary app-callout-primary text-center p-y-md">
   <h3 class="m-t-0">Call for Proposals is open</h3>
   <a href="cfp/" class="btn btn-primary m-t">
     Submit Your Talk
   </a>
 </div>
 
-<div class="p-y-md app-iphone-block app-align-center text-center">
-  <h1 class="block-title">Sponsors</h1>
+<div class="p-y-md app-iphone-block text-center app-top-sponsors">
+  <h1 class="block-title font-thin">Sponsors</h1>
 
   <div class="container">
-    <div class="row">
       <div class="p-y-md">
         <h3 class="m-b">Ruby3 Sponsors</h3>
 
         {% for sponsor in site.data.sponsors.ruby3 %}
-          <span class="m-x-md">
+          <span class="m-x-md" style="display: inline-block">
             <a href='{{sponsor.link}}'><img width='220' src='{{site.baseurl}}/image/{{sponsor.image}}' /></a>
           </span>
         {% endfor %}
@@ -68,7 +67,7 @@ layout: top
         <h3 class="m-b">Ruby Sponsors</h3>
 
         {% for sponsor in site.data.sponsors.ruby %}
-          <span class="m-x-md">
+          <span class="m-x-md" style="display: inline-block">
             <a href='{{sponsor.link}}'><img width='220' src='{{site.baseurl}}/image/{{sponsor.image}}' /></a>
           </span>
         {% endfor %}
@@ -78,15 +77,14 @@ layout: top
         <h4>Gold Sponsors</h4>
         <div class="row">
           {% for sponsor in site.data.sponsors.gold %}
-          <a href='{{sponsor.link}}'><img width='130' src='{{site.baseurl}}/image/{{sponsor.image}}' hspace='10'/></a>
+            <a href='{{sponsor.link}}'><img width='130' src='{{site.baseurl}}/image/{{sponsor.image}}' hspace='10'/></a>
           {% endfor %}
         </div>
       </div>
-    </div>
   </div>
 </div>
 
-<div class="block block-secondary app-cfs-block text-center p-y-md">
+<div class="block block-secondary app-callout-info text-center p-y-md">
   <h4 class="m-t-0">興味がある方は <a href='cfs/'>Call for Sponsors</a> のページをご覧下さい。</h4>
   <a href="cfs/" class="btn btn-primary m-t">
     Become a Sponsor

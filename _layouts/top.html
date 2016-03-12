@@ -4,29 +4,25 @@
   {% include head.html %}
   
   <body>
-    {% include sidebar.html %}
-
-    <div class="stage" id="stage">
-      <div class="app-navbar-container">
-        <div class="p-y-md p-x" style="background-color: rgba(0,0,0,0.5)">
+    <div class="app-navbar-container">
+      <div class="p-y-md p-x" style="background-color: rgba(0,0,0,0.5)">
         {% include header.html %}
 
         <div class="block text-center app-top-block">
-          <h1 class="block-title app-top-title">Tokyo RubyKaigi 11</h1>
-          <h4 class="text-muted m-y-0 app-top-subtitle" style="font-weight: 700;">May 28th, 2016</h4>
-          <h4 class="text-muted m-y-0 app-top-subtitle">Akihabara Convention Hall 2F</h4>
-          <h4 class="text-muted m-y-0 app-top-subtitle">Sotokanda 1-18-13, Chiyoda, Tokyo</h4>
-        </div>
-        </div>
-      </div>
-
-      <div class="page-content">
-        <div class="wrapper">
-          {{ content }}
+          <h1 class="block-title font-thin app-top-title">Tokyo RubyKaigi 11</h1>
+          <p class="lead m-y-0">May 28th, 2016</p>
+          <p class="lead m-y-0">Akihabara Convention Hall 2F</p>
+          <p class="lead m-y-0">Sotokanda 1-18-13, Chiyoda, Tokyo</p>
         </div>
       </div>
-
-      {% include footer.html %}
     </div>
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
   </body>
 </html>
