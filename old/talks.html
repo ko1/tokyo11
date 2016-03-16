@@ -1,0 +1,68 @@
+---
+layout: page
+title: Talks
+permalink: /talks/
+---
+
+<h2 id='keynote'>基調講演</h2>
+
+<ul>
+{% for talk in site.data.talks %}
+{% if talk.type == "keynote" %}
+  <h3>{{ talk.name }}（{{ talk.affi }}）</h3>
+    <ul>
+      <li>題目: {{ talk.title }} </li>
+      <li>概要: {{ talk.abstract }} </li>
+      <li>必要になる知識について: {{ talk.knowledge }}</li>
+      <li>発表者について: {{ talk.desc }}
+	<p>
+	{% if talk.twitter %}<a href='https://twitter.com/{{ talk.twitter }}'>Twitter</a> {% endif %}
+	{% if talk.github %}<a href='https://github.com/{{ talk.twitter }}'>GitHub</a> {% endif %}
+	</p>
+      </li>
+    </ul>
+{% endif %}
+{% endfor %}
+</ul>
+
+<h2 id='invited_talk'>招待講演</h2>
+
+<ul>
+{% for talk in site.data.talks %}
+{% if talk.type == "invited_talk" %}
+  <h3>{{ talk.name }}（{{ talk.affi }}）</h3>
+    <ul>
+      <li>題目: {{ talk.title }} </li>
+      <li>概要: {{ talk.abstract }} </li>
+      <li>必要になる知識について: {{ talk.knowledge }}</li>
+      <li>発表者について: {{ talk.desc }}
+	<p>
+	{% if talk.twitter %}<a href='https://twitter.com/{{ talk.twitter }}'>Twitter</a> {% endif %}
+	{% if talk.github %}<a href='https://github.com/{{ talk.twitter }}'>GitHub</a> {% endif %}
+	</p>
+      </li>
+    </ul>
+{% endif %}
+{% endfor %}
+</ul>
+
+<h2 id='talk'>一般講演</h2>
+
+<ul>
+{% for talk in site.data.talks %}
+{% if talk.type == "talk" %}
+  <h3>{{ talk.name }}（{{ talk.affi }}）</h3>
+    <ul>
+      <li>題目: {{ talk.title }} </li>
+      <li>概要: {{ talk.abstract }} </li>
+      <li>必要になる知識について: {{ talk.knowledge }}</li>
+      <li>発表者について: {{ talk.desc }}
+	<p>
+	{% if talk.twitter %}<a href='https://twitter.com/{{ talk.twitter }}'>Twitter</a> {% endif %}
+	{% if talk.github %}<a href='https://github.com/{{ talk.twitter }}'>GitHub</a> {% endif %}
+	</p>
+      </li>
+    </ul>
+{% endif %}
+{% endfor %}
+</ul>
