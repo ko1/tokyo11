@@ -45,11 +45,11 @@
   knowledge: TBD
 - name: 辻本 和樹
   affi: 株式会社 野村総合研究所
-  desc: TBD
-  twitter:
-  github:
+  desc: CRubyコミッタ。
+  twitter: k_tsj
+  github: k-tsj
   type: talk
-  title: "Re: Pattern matching in ruby"
+  title: "Re: Pattern Matching in Ruby"
   abstract: <p>Rubyでパターンマッチを実現するためのライブラリであるpattern-matchに関する発表です。</p><p>本ライブラリについてはSapporo RubyKaigi 2012で機能概要を紹介したことがありますが、今回はメタプログラミングやRefinementsといったRubyならではの表現力をフル活用している実装面についてその舞台裏をお見せします。</p>
   knowledge: ScalaやHaskellにおけるパターンマッチの機能を知っていると内容が理解しやすいと思いますが必須ではありません。
 - name: 須藤功平
