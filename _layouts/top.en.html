@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <div class="app-navbar-container">
+      <div class="p-y-md p-x" style="background-color: rgba(0,0,0,0.5)">
+        {% include header.html %}
+
+        <div class="block text-center app-top-block">
+          <h1 class="block-title font-thin app-top-title">Tokyo RubyKaigi 11</h1>
+          <p class="lead m-y-0">May 28th, 2016</p>
+          <p class="lead m-y-0">Akihabara Convention Hall 2F</p>
+          <p class="lead m-y-0">Sotokanda 1-18-13, Chiyoda, Tokyo</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+  </body>
+</html>

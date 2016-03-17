@@ -1,0 +1,84 @@
+---
+---
+
+@charset "utf-8";
+
+.icon > svg {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+h1.post-title {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.font-thin {
+    font-weight: 100;
+}
+
+.app-navbar {
+    font-size: 13px;
+    letter-spacing: .05em;
+
+    li {
+        a {
+            color: white;
+        }
+        a:hover {
+            background-color: rgba(0,0,0,0.5);
+            border-radius: 5px;
+        }
+    }
+
+    .icon-bar {
+        background-color: #fff;
+    }
+
+    .navbar-collapse {
+        border-top: 0;
+        box-shadow: none;
+    }
+}
+
+.app-navbar-container {
+    background: url(../image/top.jpg) top center;
+    background-size: cover;
+}
+
+.app-footer, .app-callout-primary {
+    background-color: #262F36;
+}
+
+.app-callout-info {
+    background-color: #F4F5F6;
+}
+
+.app-top-block {
+    background-color: transparent;
+    padding: 50px 0 100px;
+    color: white;
+}
+
+h1.app-top-title {
+    font-size: 72px;
+}
+
+.app-sponsors-text {
+    p {
+        font-size: 14px;
+    }
+}
+
+article.post {
+    margin-bottom: 70px;
+
+    h1, h2, h3 {
+        margin-top: 50px;
+    }
+    h4, h5, h6 {
+        margin-top: 40px;
+    }
+}
