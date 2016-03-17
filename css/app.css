@@ -1,0 +1,54 @@
+.icon > svg {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle; }
+
+h1.post-title {
+  text-align: center;
+  margin: 50px 0; }
+
+.font-thin {
+  font-weight: 100; }
+
+.app-navbar {
+  font-size: 13px;
+  letter-spacing: .05em; }
+  .app-navbar li a {
+    color: white; }
+  .app-navbar li a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px; }
+  .app-navbar .icon-bar {
+    background-color: #fff; }
+  .app-navbar .navbar-collapse {
+    border-top: 0;
+    box-shadow: none; }
+
+.app-navbar-container {
+  background: url(../image/top.jpg) top center;
+  background-size: cover; }
+
+.app-footer, .app-callout-primary {
+  background-color: #262F36; }
+
+.app-callout-info {
+  background-color: #F4F5F6; }
+
+.app-top-block {
+  background-color: transparent;
+  padding: 50px 0 100px;
+  color: white; }
+
+h1.app-top-title {
+  font-size: 72px; }
+
+.app-sponsors-text p {
+  font-size: 14px; }
+
+article.post {
+  margin-bottom: 70px; }
+  article.post h1, article.post h2, article.post h3 {
+    margin-top: 50px; }
+  article.post h4, article.post h5, article.post h6 {
+    margin-top: 40px; }
