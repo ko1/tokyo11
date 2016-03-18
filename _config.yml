@@ -17,12 +17,3 @@ github_username:  ko1
 
 # Build settings
 markdown: kramdown
-
-languages:
-  - code: en
-    name: English
-    path: en
-  - code: ja
-    name: 日本語
-    path: ''
-    default: true
