@@ -61,14 +61,14 @@
   title: アプリケーションへのRubyインタープリターの組み込み
   abstract: <p>発表者はmilter managerというアプリケーションへCRubyを組み込んだ経験と、Groongaというアプリケーションへmrubyを組み込んだ経験があります。</p><p>milter managerはメールフィルターアプリケーションです。大量の接続を同時にさばくために、マルチプロセス+イベント駆動型のサーバープログラムとして実装しています。このアプリケーションをRubyでカスタマイズするためにCRubyを組み込みました。このケースでうまく動かすためのGC、fork、シグナル、イベントループ回りの実装について紹介します。</p><p>Groongaは全文検索エンジンです。より高速に検索結果を返すために、細部もチューニングして実装しています。（細部は私は実装していません。）このアプリケーションのクエリーオプティマイザー、クエリー言語（の一部）をRubyで実現するためにmrubyを組み込みました。このケースでうまく動かすためのオブジェクトのライフサイクルの実装について紹介します。</p><p>時間次第ではmilter managerの話だけにするかもしれません。</p>
   knowledge: マルチプロセスとGCとシグナルとイベントループについての一般的な知識。
-- name: ksss
-  affi: Engineer
-  desc: TBD
-  twitter:
-  github:
+- name: 栗原 勇樹
+  affi: 株式会社spice life
+  desc: ふつうの会社員
+  twitter: _ksss_
+  github: ksss
   type: talk
   title: Rubyに型があると便利か
-  abstract: Ruby3にむけて、最近開発したgem https://github.com/ksss/type_struct を中心に「Rubyに型があると便利か」という問について考察します。
+  abstract: 最近開発したgem <a href="https://github.com/ksss/type_struct">type_struct</a> を中心に「Rubyに型があると便利か」という問いについて考察します。ひいては、Ruby3への議論に貢献できればと考えています。
   knowledge: 基本的なRubyの知識があればよいです。golangやcrystalのさわりもわかっていると、より楽しめると思います。
 - name: 田中 和明
   affi: 九州工業大学
