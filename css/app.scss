@@ -27,7 +27,7 @@ h1.post-title {
         a {
             color: white;
         }
-        a:hover {
+        a:hover, a:focus, a:hover {
             background-color: rgba(0,0,0,0.5);
             border-radius: 5px;
         }
