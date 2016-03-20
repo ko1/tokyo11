@@ -1,99 +1,132 @@
 - name: 古橋 貞之
+  name_en: Sadayuki Furuhashi
   affi: Treasure Data, Inc, Treasure Data, Inc. Founder & Software Architect
   desc: 分散データベース「PlazmaDB」や分散Key-Valueストア「Kumofs」など、十年にわたって分散システムの開発に携わる。また、バイナリシリアライズ形式『MessagePack』、ログコレクタ『Fluentd』、並列ETL『Embulk』などのオープンソースプロジェクトを創始した。
   twitter: frsyuki
   github: frsyuki
   type: keynote
   title: TBD
+  title_en: TBD
   abstract: TBD
+  abstract_en:
   knowledge: TBD
 - name: 奥一穂
+  name_en: Kazuho Oku
   affi: 
   desc: Palmscape, Xiino, Japanize, Q4M, JSX, H2O開発者
   twitter:
   github:
   type: invited_talk
   title: TBD
+  title_en: TBD
   abstract: TBD
+  abstract_en:
   knowledge: TBD
 - name: 小崎資広
+  name_en: Motohiro Kosaki
   affi:
   desc: Linuxカーネル/Rubyインタプリタ開発者
   twitter:
   github:
   type: invited_talk
   title: TBD
+  title_en: TBD
   abstract: TBD
+  abstract_en:
   knowledge: TBD
 - name: Aaron Patterson
+  name_en: Aaron Patterson
   affi:
   desc: Ruby on Rails/Rubyインタプリタ開発者
   twitter:
   github:
   type: invited_talk
   title: TBD
+  title_en: TBD
   abstract: TBD
+  abstract_en:
   knowledge: TBD
 - name: まつもとゆきひろ
+  name_en: Yukihiro 'Matz' Matsumoto
   affi:
   desc: プログラミング言語Ruby/Streem開発者
   twitter:
   github:
   type: invited_talk
   title: TBD
+  title_en: TBD
   abstract: TBD
+  abstract_en:
   knowledge: TBD
 - name: 辻本 和樹
+  name_en: Kazuki Tsujimoto
   affi: 株式会社 野村総合研究所
   desc: CRubyコミッタ。
   twitter: k_tsj
   github: k-tsj
   type: talk
   title: "Re: Pattern Matching in Ruby"
+  title_en: "Re: Pattern Matching in Ruby"
   abstract: <p>Rubyでパターンマッチを実現するためのライブラリであるpattern-matchに関する発表です。</p><p>本ライブラリについてはSapporo RubyKaigi 2012で機能概要を紹介したことがありますが、今回はメタプログラミングやRefinementsといったRubyならではの表現力をフル活用している実装面についてその舞台裏をお見せします。</p>
+  abstract_en: 
   knowledge: ScalaやHaskellにおけるパターンマッチの機能を知っていると内容が理解しやすいと思いますが必須ではありません。
 - name: 須藤功平
+  name_en: Kouhei Suto
   affi: 社長
   desc: TBD
   twitter:
   github:
   type: talk
   title: アプリケーションへのRubyインタープリターの組み込み
+  title_en: Embedding a Ruby Implementation into Your App
   abstract: <p>発表者はmilter managerというアプリケーションへCRubyを組み込んだ経験と、Groongaというアプリケーションへmrubyを組み込んだ経験があります。</p><p>milter managerはメールフィルターアプリケーションです。大量の接続を同時にさばくために、マルチプロセス+イベント駆動型のサーバープログラムとして実装しています。このアプリケーションをRubyでカスタマイズするためにCRubyを組み込みました。このケースでうまく動かすためのGC、fork、シグナル、イベントループ回りの実装について紹介します。</p><p>Groongaは全文検索エンジンです。より高速に検索結果を返すために、細部もチューニングして実装しています。（細部は私は実装していません。）このアプリケーションのクエリーオプティマイザー、クエリー言語（の一部）をRubyで実現するためにmrubyを組み込みました。このケースでうまく動かすためのオブジェクトのライフサイクルの実装について紹介します。</p><p>時間次第ではmilter managerの話だけにするかもしれません。</p>
+  abstract_en:
   knowledge: マルチプロセスとGCとシグナルとイベントループについての一般的な知識。
 - name: 栗原 勇樹
+  name_en: Yuki Kurihara
   affi: 株式会社spice life
   desc: ふつうの会社員
   twitter: _ksss_
   github: ksss
   type: talk
   title: Rubyに型があると便利か
+  title_en: What If Ruby is Statically Typed?
   abstract: <p>最近開発したgem <a href="https://github.com/ksss/type_struct">type_struct</a> を中心に「Rubyに型があると便利か」という問いについて考察します。ひいては、Ruby3への議論に貢献できればと考えています。</p>
+  abstract_en:
   knowledge: 基本的なRubyの知識があればよいです。golangやcrystalのさわりもわかっていると、より楽しめると思います。
 - name: 田中 和明
+  name_en: Kazuaki Tanaka
   affi: 九州工業大学
   desc: TBD
   twitter:
   github:
   type: talk
   title: mruby/c
+  title_en: mruby/c
   abstract: <p>OSS版のmrubyよりも小さな資源で動作するVMの実装です．40KB程度のメモリで動作しています．ワンチップマイコンを想定した実装になっていて，多くのクラスを削減しています．そのため，一般的なRubyプログラムには向きませんが，組込みシステムでの機器制御やIoT分野への適用を目指しています．</p>
+  abstract_en:
   knowledge: mruby
 - name: 村田 賢太
+  name_en: Kenta Murata
   affi: Ruby committer
   desc: TBD
   twitter:
   github:
   type: talk
   title: "IMF: Image Manipulation Framework"
+  title_en: "IMF: Image Manipulation Framework"
   abstract: <p>発表者は、Ruby のための画像操作ライブラリを昨年終盤から開発しています。本発表では、このまだ開発途上のライブラリについて、いま何ができるのか、そして将来どうしようと考えているかをご説明します。</p><p>IMF の開発が順調に進めば、いずれ RMagick は不要になります。そういう世界を速く実現するため、本発表を聞いて興味を持った人が開発に協力してくれるようになると嬉しいです。</p>
+  abstract_en:
   knowledge: JPEG とか PNG とか WEBP などのビットマップ画像を扱ったことがあり、Ruby で画像を処理したいなぁと思ったことがある人向けです。RMagick を使ったことがある人はなお良いです。
 - name: 遠藤侑介
+  name_en: Yusuke Endoh
   affi: 
   desc: TBD
   twitter:
   github:
   type: talk
   title: "Optcarrot: A pure-ruby NES emulator"
+  title_en: "Optcarrot: A pure-ruby NES emulator"
   abstract: <p>Ruby の高速化を煽るためのベンチマークプログラムとして、任天堂の家庭用ゲーム機であるファミリーコンピュータのエミュレータ Optcarrot を Ruby のみで開発した。Ruby プログラムを高速化するために行った工夫と、Optcarrot を用いた各種 Ruby 処理系のベンチマーク結果を紹介する。</p>
+  abstract_en:
   knowledge: ハードウェアに関する基礎的な知識があると望ましい。

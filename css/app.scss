@@ -1,7 +1,9 @@
 ---
 ---
 
-@charset "utf-8";
+@Charset "utf-8";
+
+$callout-primary-color: #262F36;
 
 .icon > svg {
     display: inline-block;
@@ -15,9 +17,11 @@ h1.post-title {
     margin: 50px 0;
 }
 
-.font-thin {
-    font-weight: 100;
-}
+.m-b-5 { margin-bottom: 5px; }
+.p-b-5 { padding-bottom: 5px; }
+
+.font-thin { font-weight: 100; }
+.font-bold { font-weight: 500; }
 
 .app-navbar {
     font-size: 13px;
@@ -35,7 +39,7 @@ h1.post-title {
 }
 
 .app-footer, .app-callout-primary {
-    background-color: #262F36;
+    background-color: $callout-primary-color;
 }
 
 .app-callout-info {
@@ -56,6 +60,231 @@ h1.app-top-title {
     p {
         font-size: 14px;
     }
+}
+
+$timetable-icon-size: 14%;
+$timetable-border-weight: 3px;
+$timetable-border-color: #fff;
+
+.app-top-timetable-container {
+    margin-left: ($timetable-icon-size / 2);
+    border-left: $timetable-border-color $timetable-border-weight solid;
+}
+
+.app-top-timetable-body {
+    margin-left: - ($timetable-icon-size / 2);
+}
+
+.app-top-timetable-icon {
+    width: $timetable-icon-size;
+    float: left;
+    padding-left: 10px;
+
+    img {
+        width: 100%;
+        border-radius: 100px;
+        border: $timetable-border-color $timetable-border-weight solid;
+    }
+}
+
+.app-top-timetable-break-icon {
+    border-radius: 10px;
+    background-color: $timetable-border-color;
+    width: 20px;
+    height: 20px;
+}
+
+.app-top-timetable-talk {
+    width: 100% - ($timetable-icon-size * 1.2);
+    float: left;
+    padding-left: 10px;
+}
+
+@media (min-width: 768px) {
+    $container-width: 740px;
+    $timetable-icon-size: 50px;
+
+    .app-top-timetable-container {
+        margin-left: ($timetable-icon-size / 2);
+    }
+
+    .app-top-timetable-body {
+        margin-left: - ($timetable-icon-size / 2) - $timetable-border-weight;
+    }
+
+    .app-top-timetable-break-icon {
+        margin-left: $timetable-border-weight / 2;
+    }
+
+    .app-top-timetable-icon {
+        width: $timetable-icon-size;
+        margin-left: 10px;
+        padding-left: 0;
+    }
+
+    .app-top-timetable-talk {
+        width: $container-width - $timetable-icon-size;
+    }    
+}
+
+@media (min-width: 992px) {
+    $container-width: 880px;
+    $timetable-icon-size: 60px;
+
+    .app-top-timetable-container {
+        margin-left: ($timetable-icon-size / 2);
+    }
+
+    .app-top-timetable-body {
+        margin-left: - ($timetable-icon-size / 2) - $timetable-border-weight;
+    }
+
+    .app-top-timetable-icon {
+        width: $timetable-icon-size;
+    }
+
+    .app-top-timetable-talk {
+        width: $container-width - $timetable-icon-size;
+    }
+}
+
+@media (min-width: 1200px) {
+    $container-width: 1020px;
+    $timetable-icon-size: 80px;
+
+    .app-top-timetable-container {
+        margin-left: ($timetable-icon-size / 2);
+    }
+
+    .app-top-timetable-body {
+        margin-left: - ($timetable-icon-size / 2) - $timetable-border-weight;
+    }
+
+    .app-top-timetable-icon {
+        width: $timetable-icon-size;
+    }
+
+    .app-top-timetable-talk {
+        width: $container-width - $timetable-icon-size;
+        padding-left: 20px;
+    }
+}
+
+$timetable-icon-size: 14%;
+$timetable-border-weight: 3px;
+$timetable-border-color: #D10154; //#F72077;
+
+.app-timetable-container {
+    margin-left: ($timetable-icon-size / 2);
+    border-left: $timetable-border-color $timetable-border-weight solid;
+}
+
+.app-timetable-body {
+    margin-left: - ($timetable-icon-size / 2);
+}
+
+.app-timetable-icon {
+    width: $timetable-icon-size;
+    float: left;
+    padding-left: 10px;
+    line-height: 1;
+
+    img {
+        width: 100%;
+        border-radius: 100px;
+        border: $timetable-border-color $timetable-border-weight solid;
+    }
+}
+
+.app-timetable-break-icon {
+    border-radius: 10px;
+    background-color: $timetable-border-color;
+    width: 20px;
+    height: 20px;
+}
+
+.app-timetable-talk {
+    width: 100% - ($timetable-icon-size * 1.2);
+    float: left;
+    padding-left: 10px;
+}
+
+@media (min-width: 768px) {
+    $container-width: 740px;
+    $timetable-icon-size: 50px;
+
+    .app-timetable-container {
+        margin-left: ($timetable-icon-size / 2);
+    }
+
+    .app-timetable-body {
+        margin-left: - ($timetable-icon-size / 2) - $timetable-border-weight;
+    }
+
+    .app-timetable-break-icon {
+        margin-left: $timetable-border-weight / 2;
+    }
+
+    .app-timetable-icon {
+        width: $timetable-icon-size;
+        margin-left: 10px;
+        padding-left: 0;
+    }
+
+    .app-timetable-talk {
+        width: $container-width - $timetable-icon-size;
+    }    
+}
+
+@media (min-width: 992px) {
+    $container-width: 880px;
+    $timetable-icon-size: 60px;
+
+    .app-timetable-container {
+        margin-left: ($timetable-icon-size / 2);
+    }
+
+    .app-timetable-body {
+        margin-left: - ($timetable-icon-size / 2) - $timetable-border-weight;
+    }
+
+    .app-timetable-icon {
+        width: $timetable-icon-size;
+    }
+
+    .app-timetable-talk {
+        width: $container-width - $timetable-icon-size;
+    }
+}
+
+@media (min-width: 1200px) {
+    $container-width: 1020px;
+    $timetable-icon-size: 80px;
+
+    .app-timetable-container {
+        margin-left: ($timetable-icon-size / 2);
+    }
+
+    .app-timetable-body {
+        margin-left: - ($timetable-icon-size / 2) - $timetable-border-weight;
+    }
+
+    .app-timetable-icon {
+        width: $timetable-icon-size;
+    }
+
+    .app-timetable-talk {
+        width: $container-width - $timetable-icon-size;
+        padding-left: 20px;
+    }
+}
+
+.app-timetable-title {
+    font-weight: 500;
+}
+
+.app-timetable-talk-ja p {
+    font-size: 15px;
 }
 
 article.post {

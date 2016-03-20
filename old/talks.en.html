@@ -1,0 +1,116 @@
+---
+layout: page
+title: Talks
+permalink: /en/talks/
+---
+
+<p class="m-a-lg text-center">Don't tell a soul!</p>
+
+<div class="container p-a-0">
+  <div class="app-timetable-container">
+    <div class="app-timetable-body">
+      <div class="row m-b-md">
+        <div class="app-timetable-icon text-center">
+          <span class="app-timetable-break-icon" style="display: inline-block;"></span>
+        </div>
+        <div class="app-timetable-talk">
+          <h5 class="m-t-0 block-title text-muted text-uppercase">10:00 - 10:15</h5>
+          <h4 class="m-a-0 text-uppercase">OPENING</h4>
+        </div>
+      </div>
+
+      {% for talk in site.data.talks %}
+      {% if talk.type == "keynote" %}
+      <div class="row m-b-md">
+        <div class="app-timetable-icon">
+          <img src="https://avatars2.githubusercontent.com/u/386234?v=3&s=460">
+        </div>
+        <div class="app-timetable-talk app-timetable-talk-ja">
+          <h5 class="block-title text-muted text-uppercase m-t-0">10:00 - 10:45</h5>
+          <h4 class="m-a-0">{{ talk.name_en }}</h4>
+          <h2 class="p-b-5 m-a-0">Keynote</h2>
+          {{ talk.abstract_en }}
+
+          {% if talk.desc_en %}
+            <h6 class="block-title text-muted text-uppercase m-t">About Speaker</h6>
+            <p>{{ talk.desc_en }}</p>
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+
+      <div class="row m-b-lg">
+        <div class="app-timetable-icon text-center">
+          <span class="app-timetable-break-icon" style="display: inline-block;"></span>
+        </div>
+        <div class="app-timetable-talk">
+          <h5 class="m-t-0 block-title text-muted text-uppercase">10:15 - 10:30</h5>
+          <h4 class="m-a-0 text-uppercase">BREAK</h4>
+        </div>
+      </div>
+
+      {% for talk in site.data.talks %}
+      {% if talk.type == "invited_talk" %}
+      <div class="row m-b-md">
+        <div class="app-timetable-icon">
+          <img src="https://avatars2.githubusercontent.com/u/386234?v=3&s=460">
+        </div>
+        <div class="app-timetable-talk app-timetable-talk-ja">
+          <h5 class="m-b-5 block-title text-muted text-uppercase m-t-0">9:45 - 10:15</h5>
+          <h4 class="m-a-0">{{ talk.name_en }}</h4>
+          <h2 class="p-b-5 m-a-0">{{ talk.title_en }}</h2>
+          {{ talk.abstract_en }}
+
+          {% if talk.desc_en %}
+            <h6 class="block-title text-muted text-uppercase m-t">About Speaker</h6>
+            <p>{{ talk.desc_en }}</p>
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+
+      <div class="row m-b-lg">
+        <div class="app-timetable-icon text-center">
+          <span class="app-timetable-break-icon" style="display: inline-block;"></span>
+        </div>
+        <div class="app-timetable-talk">
+          <h5 class="m-t-0 block-title text-muted text-uppercase">10:15 - 10:30</h5>
+          <h4 class="m-a-0 text-uppercase">BREAK</h4>
+        </div>
+      </div>
+
+      {% for talk in site.data.talks %}
+      {% if talk.type == "talk" %}
+      <div class="row m-b-md">
+        <div class="app-timetable-icon">
+          <img src="https://avatars2.githubusercontent.com/u/386234?v=3&s=460">
+        </div>
+        <div class="app-timetable-talk app-timetable-talk-ja">
+          <h5 class="m-b-5 block-title text-muted text-uppercase m-t-0">9:45 - 10:15</h5>
+          <h4 class="m-a-0">{{ talk.name_en }}</h4>
+          <h2 class="p-b-5 m-a-0 ">{{ talk.title_en }}</h2>
+          {{ talk.abstract_en }}
+
+          {% if talk.desc_en %}
+            <h6 class="block-title text-muted text-uppercase m-t">About Speaker</h6>
+            <p>{{ talk.desc }}</p>
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+
+      <div class="row m-b-md" style="height: 0;">
+        <div class="app-timetable-icon text-center">
+          <span class="app-timetable-break-icon" style="display: inline-block;"></span>
+        </div>
+        <div class="app-timetable-talk">
+          <h5 class="m-t-0 block-title text-muted text-uppercase">10:15 - 10:30</h5>
+          <h4 class="m-a-0 text-uppercase">CLOSING</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,165 @@
+---
+layout: page
+title: Talks
+permalink: /talks/
+---
+
+<p>まだ内緒だよ？</p>
+
+<h2 id="keynote" class="m-b-md">基調講演</h2>
+
+{% for talk in site.data.talks %}
+{% if talk.type == "keynote" %}
+<div class="row">
+  <div class="col-sm-2 text-center m-b">
+    <img width="150" src="https://avatars2.githubusercontent.com/u/386234?v=3&amp;s=460" style="border-radius: 75px; border: #fff 3px solid;">
+  </div>
+  <div class="col-sm-10">
+    <h3 class="m-t-0 text-xs-center text-sm-left">{{ talk.name }}</h3>
+    <h5 class="m-t-0 text-xs-center text-sm-left text-muted">{{ talk.affi }}</h5>
+    {{ talk.desc }}
+  </div>
+</div>
+{% endif %}
+{% endfor %}
+
+<h2 id="invited_talk">招待講演</h2>
+
+{% for talk in site.data.talks %}
+{% if talk.type == "invited_talk" %}
+<div class="row m-b-lg">
+  <div class="col-sm-2 text-center">
+    <img width="150" src="https://avatars2.githubusercontent.com/u/386234?v=3&amp;s=460" style="border-radius: 75px; border: #fff 3px solid;">
+  </div>
+  <div class="col-sm-10">
+    <h3 class="m-t-md text-xs-center text-sm-left">{{ talk.name }}</h3>
+    <h5 class="m-t-0 text-xs-center text-sm-left text-muted">{{ talk.desc }}</h5>
+  </div>
+</div>
+{% endif %}
+{% endfor %}
+
+<h2 id="talk">一般講演</h2>
+
+{% for talk in site.data.talks %}
+{% if talk.type == "talk" %}
+<div class="row m-b-lg">
+  <div class="col-sm-2 text-center">
+    <img width="150" src="https://avatars2.githubusercontent.com/u/386234?v=3&amp;s=460" style="border-radius: 75px; border: #fff 3px solid;">
+  </div>
+  <div class="col-sm-10">
+    <h2 class="m-a-0" style="font-weight: 500; padding-bottom: 10px;">{{ talk.title }}</h2>
+    <div class="small">
+      {{ talk.abstract }}
+
+      <h4 class="m-t-md">{{ talk.name }}</h4>
+      <h5 class="m-t-0 text-muted">{{ talk.affi }}</h5>
+      {{ talk.desc }}
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endfor %}
+
+<h1 id="timetable" class="m-y-lg text-center">タイムテーブル</h1>
+
+<div class="container p-a-0">
+  <div class="app-timetable-container">
+    <div class="app-timetable-body">
+      <div class="row m-b-md">
+        <div class="app-timetable-icon text-center">
+          <span class="app-timetable-break-icon" style="display: inline-block;"></span>
+        </div>
+        <div class="app-timetable-talk">
+          <h5 class="m-t-0 block-title text-muted text-uppercase">10:00 - 10:15</h5>
+          <h4 class="m-a-0 text-uppercase">OPENING</h4>
+        </div>
+      </div>
+
+      {% for talk in site.data.talks %}
+      {% if talk.type == "keynote" %}
+      <div class="row m-b-md">
+        <div class="app-timetable-icon">
+          <img src="https://avatars2.githubusercontent.com/u/386234?v=3&s=460">
+        </div>
+        <div class="app-timetable-talk app-timetable-talk-ja">
+          <h5 class="block-title text-muted text-uppercase m-t-0">10:00 - 10:45</h5>
+          <h4 class="m-a-0">{{ talk.name }}</h4>
+          <h3 class="p-b-5 m-a-0 font-bold">Keynote</h3>
+
+          <h6 class="block-title text-muted text-uppercase m-t">About Speaker</h6>
+          <p>{{ talk.desc }}</p>
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+
+      <div class="row m-b-lg">
+        <div class="app-timetable-icon text-center">
+          <span class="app-timetable-break-icon" style="display: inline-block;"></span>
+        </div>
+        <div class="app-timetable-talk">
+          <h5 class="m-t-0 block-title text-muted text-uppercase">10:15 - 10:30</h5>
+          <h4 class="m-a-0 text-uppercase">BREAK</h4>
+        </div>
+      </div>
+
+      {% for talk in site.data.talks %}
+      {% if talk.type == "invited_talk" %}
+      <div class="row m-b-md">
+        <div class="app-timetable-icon">
+          <img src="https://avatars2.githubusercontent.com/u/386234?v=3&s=460">
+        </div>
+        <div class="app-timetable-talk app-timetable-talk-ja">
+          <h5 class="m-b-5 block-title text-muted text-uppercase m-t-0">9:45 - 10:15</h5>
+          <h4 class="m-a-0">{{ talk.name }}</h4>
+          <h3 class="p-b-5 m-a-0 font-bold">{{ talk.title }}</h3>
+
+          <h6 class="block-title text-muted text-uppercase m-t">About Speaker</h6>
+          <p>{{ talk.desc }}</p>
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+
+      <div class="row m-b-lg">
+        <div class="app-timetable-icon text-center">
+          <span class="app-timetable-break-icon" style="display: inline-block;"></span>
+        </div>
+        <div class="app-timetable-talk">
+          <h5 class="m-t-0 block-title text-muted text-uppercase">10:15 - 10:30</h5>
+          <h4 class="m-a-0 text-uppercase">BREAK</h4>
+        </div>
+      </div>
+
+      {% for talk in site.data.talks %}
+      {% if talk.type == "talk" %}
+      <div class="row m-b-md">
+        <div class="app-timetable-icon">
+          <img src="https://avatars2.githubusercontent.com/u/386234?v=3&s=460">
+        </div>
+        <div class="app-timetable-talk app-timetable-talk-ja">
+          <h5 class="m-b-5 block-title text-muted text-uppercase m-t-0">9:45 - 10:15</h5>
+          <h4 class="m-a-0">{{ talk.name }}</h4>
+          <h3 class="p-b-5 m-a-0 font-bold">{{ talk.title }}</h3>
+          {{ talk.abstract }}
+
+          <h6 class="block-title text-muted text-uppercase m-t">About Speaker</h6>
+          <p>{{ talk.desc }}</p>
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+
+      <div class="row m-b-md" style="height: 0;">
+        <div class="app-timetable-icon text-center">
+          <span class="app-timetable-break-icon" style="display: inline-block;"></span>
+        </div>
+        <div class="app-timetable-talk">
+          <h5 class="m-t-0 block-title text-muted text-uppercase">10:15 - 10:30</h5>
+          <h4 class="m-a-0 text-uppercase">CLOSING</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
