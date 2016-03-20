@@ -1,5 +1,6 @@
 - name: 古橋 貞之
   name_en: Sadayuki Furuhashi
+  gravatar_url: http://lorempixel.com/300/300/people/
   affi: Treasure Data, Inc, Treasure Data, Inc. Founder & Software Architect
   desc: 分散データベース「PlazmaDB」や分散Key-Valueストア「Kumofs」など、十年にわたって分散システムの開発に携わる。また、バイナリシリアライズ形式『MessagePack』、ログコレクタ『Fluentd』、並列ETL『Embulk』などのオープンソースプロジェクトを創始した。
   twitter: frsyuki
@@ -12,6 +13,7 @@
   knowledge: TBD
 - name: 奥一穂
   name_en: Kazuho Oku
+  gravatar_url: http://lorempixel.com/300/300/people/
   affi: 
   desc: Palmscape, Xiino, Japanize, Q4M, JSX, H2O開発者
   twitter:
@@ -24,6 +26,7 @@
   knowledge: TBD
 - name: 小崎資広
   name_en: Motohiro Kosaki
+  gravatar_url: http://lorempixel.com/300/300/people/
   affi:
   desc: Linuxカーネル/Rubyインタプリタ開発者
   twitter:
@@ -36,6 +39,7 @@
   knowledge: TBD
 - name: Aaron Patterson
   name_en: Aaron Patterson
+  gravatar_url: http://lorempixel.com/300/300/people/
   affi:
   desc: Ruby on Rails/Rubyインタプリタ開発者
   twitter:
@@ -48,6 +52,7 @@
   knowledge: TBD
 - name: まつもとゆきひろ
   name_en: Yukihiro 'Matz' Matsumoto
+  gravatar_url: http://lorempixel.com/300/300/people/
   affi:
   desc: プログラミング言語Ruby/Streem開発者
   twitter:
@@ -60,6 +65,7 @@
   knowledge: TBD
 - name: 辻本 和樹
   name_en: Kazuki Tsujimoto
+  gravatar_url: http://lorempixel.com/300/300/people/
   affi: 株式会社 野村総合研究所
   desc: CRubyコミッタ。
   twitter: k_tsj
@@ -72,6 +78,7 @@
   knowledge: ScalaやHaskellにおけるパターンマッチの機能を知っていると内容が理解しやすいと思いますが必須ではありません。
 - name: 須藤功平
   name_en: Kouhei Suto
+  gravatar_url: http://lorempixel.com/300/300/people/
   affi: 社長
   desc: TBD
   twitter:
@@ -84,6 +91,7 @@
   knowledge: マルチプロセスとGCとシグナルとイベントループについての一般的な知識。
 - name: 栗原 勇樹
   name_en: Yuki Kurihara
+  gravatar_url: http://lorempixel.com/300/300/people/
   affi: 株式会社spice life
   desc: ふつうの会社員
   twitter: _ksss_
@@ -96,6 +104,7 @@
   knowledge: 基本的なRubyの知識があればよいです。golangやcrystalのさわりもわかっていると、より楽しめると思います。
 - name: 田中 和明
   name_en: Kazuaki Tanaka
+  gravatar_url: http://lorempixel.com/300/300/people/
   affi: 九州工業大学
   desc: TBD
   twitter:
@@ -108,6 +117,7 @@
   knowledge: mruby
 - name: 村田 賢太
   name_en: Kenta Murata
+  gravatar_url: http://lorempixel.com/300/300/people/
   affi: Ruby committer
   desc: TBD
   twitter:
@@ -120,6 +130,7 @@
   knowledge: JPEG とか PNG とか WEBP などのビットマップ画像を扱ったことがあり、Ruby で画像を処理したいなぁと思ったことがある人向けです。RMagick を使ったことがある人はなお良いです。
 - name: 遠藤侑介
   name_en: Yusuke Endoh
+  gravatar_url: http://lorempixel.com/300/300/people/
   affi: 
   desc: TBD
   twitter:

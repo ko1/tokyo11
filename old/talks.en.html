@@ -23,7 +23,7 @@ permalink: /en/talks/
       {% if talk.type == "keynote" %}
       <div class="row m-b-md">
         <div class="app-timetable-icon">
-          <img src="https://avatars2.githubusercontent.com/u/386234?v=3&s=460">
+          <img src="{{ talk.gravatar_url }}">
         </div>
         <div class="app-timetable-talk app-timetable-talk-ja">
           <h5 class="block-title text-muted text-uppercase m-t-0">10:00 - 10:45</h5>
@@ -54,7 +54,7 @@ permalink: /en/talks/
       {% if talk.type == "invited_talk" %}
       <div class="row m-b-md">
         <div class="app-timetable-icon">
-          <img src="https://avatars2.githubusercontent.com/u/386234?v=3&s=460">
+          <img src="{{ talk.gravatar_url }}">
         </div>
         <div class="app-timetable-talk app-timetable-talk-ja">
           <h5 class="m-b-5 block-title text-muted text-uppercase m-t-0">9:45 - 10:15</h5>
@@ -85,7 +85,7 @@ permalink: /en/talks/
       {% if talk.type == "talk" %}
       <div class="row m-b-md">
         <div class="app-timetable-icon">
-          <img src="https://avatars2.githubusercontent.com/u/386234?v=3&s=460">
+          <img src="{{ talk.gravatar_url }}">
         </div>
         <div class="app-timetable-talk app-timetable-talk-ja">
           <h5 class="m-b-5 block-title text-muted text-uppercase m-t-0">9:45 - 10:15</h5>
