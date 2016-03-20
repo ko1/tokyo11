@@ -1,0 +1,57 @@
+---
+layout: page
+title: Schedule
+permalink: /en/schedule/
+---
+
+<p class="m-a-lg text-center">This page is not public yet!</p>
+
+<div class="container p-a-0">
+  <div class="app-timetable-container">
+    <div class="app-timetable-body">
+      {% for talk in site.data.schedule %}
+      <div class="row m-b-md">
+        <div class="app-timetable-icon text-center">
+          {% if talk.type == "other" %}
+            <span class="app-timetable-break-icon" style="display: inline-block;"></span>
+          {% else %}
+            <img src="{{ talk.gravatar_url }}">
+          {% endif %}
+        </div>
+        <div class="app-timetable-talk">
+          {% if talk.type != "other" %}
+            <h4 class="m-b-5 block-title text-muted text-uppercase font-bold m-t-0">{{ talk.starts_at }}</h4>
+            <h4 class="m-t-0 m-b-5">{{ talk.name_en }}</h4>
+            <h2 class="m-t-0 m-b-5">{{ talk.title_en }}</h2>
+            {% if talk.abstract_en != "TBD" %}
+              {{ talk.abstract_en }}
+            {% endif %}
+
+            {% if talk.desc_en %}
+              <h6 class="block-title text-muted text-uppercase m-t">About Speaker</h6>
+              <p>{{ talk.desc_en }}</p>
+            {% endif %}
+          {% else %}
+            <h4 class="m-b block-title m-t-0">
+              <span class="text-muted text-uppercase font-bold" style="letter-spacing: .15em;">{{ talk.starts_at }}</span>
+              {{ talk.name_en }}
+            </h4>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+
+      <div class="row m-b-md" style="height: 0;">
+        <div class="app-timetable-icon text-center">
+          <span class="app-timetable-break-icon" style="display: inline-block;"></span>
+        </div>
+        <div class="app-timetable-talk">
+          <h4 class="m-b block-title m-t-0">
+            <span class="text-muted text-uppercase font-bold" style="letter-spacing: .15em;">18:50</span>
+            Closing
+          </h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,55 @@
+---
+layout: page
+title: Schedule
+permalink: /schedule/
+---
+
+<p class="m-b-lg">まだ内緒だよ？</p>
+
+<div class="container p-a-0">
+  <div class="app-timetable-container">
+    <div class="app-timetable-body">
+      {% for talk in site.data.schedule %}
+      <div class="row m-b-md">
+        <div class="app-timetable-icon text-center">
+          {% if talk.type == "other" %}
+            <span class="app-timetable-break-icon" style="display: inline-block;"></span>
+          {% else %}
+            <img src="{{ talk.gravatar_url }}">
+          {% endif %}
+        </div>
+        <div class="app-timetable-talk app-timetable-talk-ja">
+          {% if talk.type != "other" %}
+            <h4 class="m-b-5 block-title text-muted text-uppercase font-bold m-t-0">{{ talk.starts_at }}</h4>
+            <h4 class="m-t-0 m-b-5">{{ talk.name }}</h4>
+            <h3 class="m-t-0 m-b-5 font-bold">{{ talk.title }}</h3>
+            {% if talk.abstract != "TBD" %}
+              {{ talk.abstract }}
+            {% endif %}
+
+            <h6 class="block-title text-muted text-uppercase m-t">About Speaker</h6>
+            <p>{{ talk.desc }}</p>
+            {% else %}
+            <h4 class="m-b block-title m-t-0" style="letter-spacing: .15em;">
+              <span class="text-muted text-uppercase font-bold">{{ talk.starts_at }}</span>
+              {{ talk.name }}
+            </h4>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+
+      <div class="row m-b-md" style="height: 0;">
+        <div class="app-timetable-icon text-center">
+          <span class="app-timetable-break-icon" style="display: inline-block;"></span>
+        </div>
+        <div class="app-timetable-talk">
+          <h4 class="m-b block-title m-t-0" style="letter-spacing: .15em;">
+            <span class="text-muted text-uppercase font-bold">18:50</span>
+            閉会の挨拶
+          </h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
