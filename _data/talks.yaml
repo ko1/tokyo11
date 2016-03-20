@@ -68,7 +68,7 @@
   github: ksss
   type: talk
   title: Rubyに型があると便利か
-  abstract: 最近開発したgem <a href="https://github.com/ksss/type_struct">type_struct</a> を中心に「Rubyに型があると便利か」という問いについて考察します。ひいては、Ruby3への議論に貢献できればと考えています。
+  abstract: <p>最近開発したgem <a href="https://github.com/ksss/type_struct">type_struct</a> を中心に「Rubyに型があると便利か」という問いについて考察します。ひいては、Ruby3への議論に貢献できればと考えています。</p>
   knowledge: 基本的なRubyの知識があればよいです。golangやcrystalのさわりもわかっていると、より楽しめると思います。
 - name: 田中 和明
   affi: 九州工業大学
@@ -77,7 +77,7 @@
   github:
   type: talk
   title: mruby/c
-  abstract: OSS版のmrubyよりも小さな資源で動作するVMの実装です．40KB程度のメモリで動作しています．ワンチップマイコンを想定した実装になっていて，多くのクラスを削減しています．そのため，一般的なRubyプログラムには向きませんが，組込みシステムでの機器制御やIoT分野への適用を目指しています．
+  abstract: <p>OSS版のmrubyよりも小さな資源で動作するVMの実装です．40KB程度のメモリで動作しています．ワンチップマイコンを想定した実装になっていて，多くのクラスを削減しています．そのため，一般的なRubyプログラムには向きませんが，組込みシステムでの機器制御やIoT分野への適用を目指しています．</p>
   knowledge: mruby
 - name: 村田 賢太
   affi: Ruby committer
@@ -95,5 +95,5 @@
   github:
   type: talk
   title: "Optcarrot: A pure-ruby NES emulator"
-  abstract: Ruby の高速化を煽るためのベンチマークプログラムとして、任天堂の家庭用ゲーム機であるファミリーコンピュータのエミュレータ Optcarrot を Ruby のみで開発した。Ruby プログラムを高速化するために行った工夫と、Optcarrot を用いた各種 Ruby 処理系のベンチマーク結果を紹介する。
+  abstract: <p>Ruby の高速化を煽るためのベンチマークプログラムとして、任天堂の家庭用ゲーム機であるファミリーコンピュータのエミュレータ Optcarrot を Ruby のみで開発した。Ruby プログラムを高速化するために行った工夫と、Optcarrot を用いた各種 Ruby 処理系のベンチマーク結果を紹介する。</p>
   knowledge: ハードウェアに関する基礎的な知識があると望ましい。
