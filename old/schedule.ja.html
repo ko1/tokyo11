@@ -20,7 +20,14 @@ permalink: /schedule/
         </div>
         <div class="app-timetable-talk app-timetable-talk-ja">
           {% if talk.type != "other" %}
-            <h4 class="m-b-5 block-title text-muted text-uppercase font-bold m-t-0">{{ talk.starts_at }}</h4>
+            <h4 class="m-b-5 block-title text-muted font-bold m-t-0">
+              {{ talk.starts_at }}
+              {% if talk.type == "keynote" %}
+                <span class="label label-success" style="margin-left: 5px;">Keynote</span>
+              {% elsif talk.type == "invited_talk" %}
+                <span class="label label-info" style="margin-left: 5px;">Invited Speaker</span>
+              {% endif %}
+            </h4>
             <h4 class="m-t-0 m-b-5">{{ talk.name }}</h4>
             <h3 class="m-t-0 m-b-5 font-bold">{{ talk.title }}</h3>
             {% if talk.abstract != "TBD" %}
@@ -29,9 +36,9 @@ permalink: /schedule/
 
             <h6 class="block-title text-muted text-uppercase m-t">About Speaker</h6>
             <p>{{ talk.desc }}</p>
-            {% else %}
-            <h4 class="m-b block-title m-t-0" style="letter-spacing: .15em;">
-              <span class="text-muted text-uppercase font-bold">{{ talk.starts_at }}</span>
+          {% else %}
+            <h4 class="m-b block-title m-t-0">
+              <span class="text-muted font-bold">{{ talk.starts_at }}</span>
               {{ talk.name }}
             </h4>
           {% endif %}
