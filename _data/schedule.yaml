@@ -74,17 +74,17 @@
   starts_at: "13:30"
 
 - name: 須藤功平
-  name_en: Kouhei Suto
-  gravatar_url: http://lorempixel.com/300/300/people/
-  affi: 社長
-  desc: TBD
-  twitter:
-  github:
+  name_en: Kouhei Sutou
+  gravatar_url: http://www.gravatar.com/avatar/ee6ffca720cc428d70247dcd7377dd48.jpeg?s=300
+  affi: 株式会社クリアコード
+  desc: milter manager/Groonga開発者
+  twitter: ktou
+  github: kou
   type: talk
   title: アプリケーションへのRubyインタープリターの組み込み
-  title_en: Embedding a Ruby Implementation into Your App
+  title_en: Embedding a Ruby Implementation into My Application
   abstract: <p>発表者はmilter managerというアプリケーションへCRubyを組み込んだ経験と、Groongaというアプリケーションへmrubyを組み込んだ経験があります。</p><p>milter managerはメールフィルターアプリケーションです。大量の接続を同時にさばくために、マルチプロセス+イベント駆動型のサーバープログラムとして実装しています。このアプリケーションをRubyでカスタマイズするためにCRubyを組み込みました。このケースでうまく動かすためのGC、fork、シグナル、イベントループ回りの実装について紹介します。</p><p>Groongaは全文検索エンジンです。より高速に検索結果を返すために、細部もチューニングして実装しています。（細部は私は実装していません。）このアプリケーションのクエリーオプティマイザー、クエリー言語（の一部）をRubyで実現するためにmrubyを組み込みました。このケースでうまく動かすためのオブジェクトのライフサイクルの実装について紹介します。</p><p>時間次第ではmilter managerの話だけにするかもしれません。</p>
-  abstract_en:
+  abstract_en: <p>This talk describes how to embed CRuby to milter manager. milter manager is a mail filter application. It needs to handle many connections for large mail system. It's implemented as a multiprocessing and event driven style server program. CRuby is embedded for customizing milter manager by Ruby. This talks describe about GC, fork, signal and event loop related implementations for this case.</p>
   knowledge: マルチプロセスとGCとシグナルとイベントループについての一般的な知識。
   starts_at: "14:15"
 
