@@ -3,6 +3,7 @@
 
 @Charset "utf-8";
 
+$primary-color: #BC0100;
 $callout-primary-color: #262F36;
 
 .icon > svg {
@@ -286,6 +287,11 @@ $timetable-border-color: #D10154; //#F72077;
 .app-timetable-talk-ja p {
     font-size: 14px;
     line-height: 1.4em;
+}
+
+.app-timetable-starts-at {
+    color: $primary-color;
+    font-weight: 700;
 }
 
 article.post {

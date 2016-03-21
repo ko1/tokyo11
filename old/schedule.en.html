@@ -20,7 +20,7 @@ permalink: /en/schedule/
         </div>
         <div class="app-timetable-talk">
           {% if talk.type != "other" %}
-            <h4 class="m-b-5 block-title text-muted font-bold m-t-0">
+            <h4 class="m-b-5 block-title text-muted font-bold m-t-0 app-timetable-starts-at">
               {{ talk.starts_at }}
               {% if talk.type == "keynote" %}
                 <span class="label label-success" style="margin-left: 5px;">Keynote</span>
@@ -40,7 +40,7 @@ permalink: /en/schedule/
             {% endif %}
           {% else %}
             <h4 class="m-b block-title m-t-0">
-              <span class="text-muted font-bold">{{ talk.starts_at }}</span>
+              <span class="text-muted font-bold app-timetable-starts-at">{{ talk.starts_at }}</span>
               {{ talk.name_en }}
             </h4>
           {% endif %}
