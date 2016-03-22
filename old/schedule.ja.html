@@ -28,7 +28,10 @@ permalink: /schedule/
                 <span class="label label-info" style="margin-left: 5px;">Invited Speaker</span>
               {% endif %}
             </h4>
-            <h4 class="m-t-0 m-b-5">{{ talk.name }}</h4>
+            <h4 class="m-t-0 m-b-5">
+              {{ talk.name }}
+              <small class="text-muted">{{ talk.affi }}</small>
+            </h4>
             <h3 class="m-t-0 m-b-5 font-bold">{{ talk.title }}</h3>
             {% if talk.abstract != "TBD" %}
               {{ talk.abstract }}
