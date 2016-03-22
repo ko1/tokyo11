@@ -10,7 +10,7 @@
 
 - name: まつもとゆきひろ
   name_en: Yukihiro 'Matz' Matsumoto
-  gravatar_url: https://www.gravatar.com/avatar/REPLACE-THIS-URL-WITH-YOURS
+  gravatar_url: https://www.gravatar.com/avatar/0ec4920185b657a03edf01fff96b4e9b
   affi: 日経Linuxライター
   desc: プログラミング言語Ruby/Streem開発者
   desc_en: 
@@ -26,7 +26,7 @@
 
 - name: 小崎資広
   name_en: Motohiro Kosaki
-  gravatar_url: https://www.gravatar.com/avatar/REPLACE-THIS-URL-WITH-YOURS
+  gravatar_url: https://www.gravatar.com/avatar/02da662c083396641da96c1d32fc86ed
   affi:
   desc: Linuxカーネル/Rubyインタプリタ開発者
   desc_en: 
@@ -63,7 +63,7 @@
 
 - name: 奥一穂
   name_en: Kazuho Oku
-  gravatar_url: https://www.gravatar.com/avatar/REPLACE-THIS-URL-WITH-YOURS
+  gravatar_url: view-source:http://www.gravatar.com/avatar/a1f8ed12fefd7759ef8838e62ee409a6
   affi: 
   desc: Palmscape, Xiino, Japanize, Q4M, JSX, H2O開発者
   desc_en: 
@@ -132,7 +132,7 @@
 
 - name: Aaron Patterson
   name_en: Aaron Patterson
-  gravatar_url: https://www.gravatar.com/avatar/REPLACE-THIS-URL-WITH-YOURS
+  gravatar_url: https://www.gravatar.com/avatar/f29327647a9cff5c69618bae420792ea
   affi:
   desc: Ruby on Rails/Rubyインタプリタ開発者
   desc_en: 
@@ -185,7 +185,7 @@
 
 - name: 古橋 貞之
   name_en: Sadayuki Furuhashi
-  gravatar_url: https://www.gravatar.com/avatar/REPLACE-THIS-URL-WITH-YOURS
+  gravatar_url: https://www.gravatar.com/avatar/aba3c1870b6cea67493617e5a343b586
   affi: Treasure Data, Inc, Treasure Data, Inc. Founder & Software Architect
   desc: 分散データベース「PlazmaDB」や分散Key-Valueストア「Kumofs」など、十年にわたって分散システムの開発に携わる。また、バイナリシリアライズ形式『MessagePack』、ログコレクタ『Fluentd』、並列ETL『Embulk』などのオープンソースプロジェクトを創始した。
   desc_en: 
