@@ -62,3 +62,12 @@ gold:
     link: https://www.r-learning.co.jp/
     desc: アールラーニングは「エンジニアに夢を 人と企業にHappyを！」を掲げ、エンジニアとクライアント両方の幸せを共存させることが、私たち企業の存在意義だと考えています。クライアントのIT力向上をサポートし、企業目標を達成する事をコミットするITアドバイザー、パートナーであり続け、クライアントの視点に立ち同じチームのメンバーとして躍進していきます。
 
+network:
+  - name: CONBU
+    image: conbu.png
+  - name: DMM.com Labo
+    image: DMMcom_Labo.png
+  - name: Juniper Networks
+    image: juniper-networks.png
+  - name: BroadBand Tower
+    image: BBTower.png
