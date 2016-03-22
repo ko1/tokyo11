@@ -55,11 +55,11 @@ permalink: /
 -->
 
 <div class="p-y-md app-iphone-block text-center app-top-sponsors">
-  <h2 class="block-title font-thin">スポンサー</h2>
+  <h2 class="block-title font-thin">Sponsors</h2>
 
   <div class="container">
       <div class="p-y-md">
-        <h3 class="m-b">Ruby3 スポンサー</h3>
+        <h3 class="m-b"><a href='sponsors/#ruby3'>Ruby3 Sponsors</a></h3>
 
         {% for sponsor in site.data.sponsors.ruby3 %}
           <span class="m-x-md" style="display: inline-block">
@@ -69,7 +69,7 @@ permalink: /
       </div>
 
       <div class="p-y-md">
-        <h3 class="m-b">Ruby スポンサー</h3>
+        <h3 class="m-b"><a href='sponsors/#ruby'>Ruby Sponsors</a></h3>
 
         {% for sponsor in site.data.sponsors.ruby %}
           <span class="m-x-md" style="display: inline-block">
@@ -79,7 +79,7 @@ permalink: /
       </div>
 
       <div class="p-y-md">
-        <h4>ゴールドスポンサー</h4>
+        <h4><a href='sponsors/#gold'>Gold Sponsors</a></h4>
         <div class="row">
           {% for sponsor in site.data.sponsors.gold %}
             <a href='{{sponsor.link}}'><img width='130' src='{{site.baseurl}}/image/{{sponsor.image}}' hspace='10'/></a>
@@ -87,8 +87,4 @@ permalink: /
         </div>
       </div>
   </div>
-</div>
-
-<div class="block block-secondary app-callout-info text-center p-y-md">
-  <h4>スポンサーの募集は終了致しました。</h4>
 </div>
