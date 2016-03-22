@@ -1,4 +1,4 @@
-- name: 会場
+- name: 開場
   name_en: Doors Open
   type: other
   starts_at: "9:30"
