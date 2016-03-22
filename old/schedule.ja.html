@@ -36,12 +36,11 @@ permalink: /schedule/
             {% if talk.abstract != "TBD" %}
               {{ talk.abstract }}
             {% endif %}
-	    {% if talk.knowledge != "TBD" %}
-	    <h6 class="block-title text-muted text-uppercase m-t">必要となる知識</h6>
-	    <p>
-	      {{ talk.knowledge }}
-	    </p>
-	    {% endif %}
+
+            {% if talk.knowledge != "TBD" %}
+              <h6 class="block-title text-muted text-uppercase m-t">必要となる知識</h6>
+              <p>{{ talk.knowledge }}</p>
+            {% endif %}
 
             <h6 class="block-title text-muted text-uppercase m-t">スピーカーについて</h6>
             <p class="m-a-0">{{ talk.desc }}</p>
