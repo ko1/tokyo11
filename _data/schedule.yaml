@@ -164,18 +164,21 @@
 
 - name: 遠藤侑介
   name_en: Yusuke Endoh
-  gravatar_url: https://www.gravatar.com/avatar/REPLACE-THIS-URL-WITH-YOURS
-  affi: 
-  desc: TBD
-  desc_en: 
-  twitter:
-  github:
+  gravatar_url: https://www.gravatar.com/avatar/e73159002200b33d51b7a6a312f2440e
+  affi:
+  desc: |
+      'Ruby コミッタ。かつてはテスト、コードカバレッジ、リリースマネジメントなどを担当していた。高速化にはあまり興味がない。また、この説明文のように役に立たないプログラムを書く「超絶技巧プログラミング」を提唱・実践している。'.tap{|s|printf(t=%{'%s'.tap{|s|printf(t=%%{%s},s,t)}},s,t)}
+  desc_en: |
+      'A Ruby committer.  He used to engage in testing, code coverage, and release management.  He is not so interested in performance improvement.  He is an advocate of "transcendental programming" that creates a useless program like this description.'.tap{|s|printf(t=%{'%s'.tap{|s|printf(t=%%{%s},s,t)}},s,t)}
+  twitter: mametter
+  github: mame
   type: talk
   title: "Optcarrot: A pure-ruby NES emulator"
   title_en: "Optcarrot: A pure-ruby NES emulator"
-  abstract: <p>Ruby の高速化を煽るためのベンチマークプログラムとして、任天堂の家庭用ゲーム機であるファミリーコンピュータのエミュレータ Optcarrot を Ruby のみで開発した。Ruby プログラムを高速化するために行った工夫と、Optcarrot を用いた各種 Ruby 処理系のベンチマーク結果を紹介する。</p>
-  abstract_en:
+  abstract: <p>Ruby の高速化を煽るためのベンチマークプログラムとして、任天堂の家庭用ゲーム機であるファミリーコンピュータのエミュレータ Optcarrot を Ruby で開発した。高速な Ruby プログラムを書くための工夫と、各種 Ruby 処理系のベンチマーク結果を紹介し、MRI の最適化方針について議論する。</p>
+  abstract_en: <p>We developed a Nintendo Entertainment System (NES) emulator in Ruby, called Optcarrot, as a non-trivial benchmark program for driving performance improvement of Ruby implementations.  We present ProTips(TM) for writing a fast Ruby program and a benchmark result of some Ruby implementations, and discuss some promising approaches to improve performance of MRI.</p>
   knowledge: ハードウェアに関する基礎的な知識があると望ましい。
+  knowledge_en: Basic understanding about hardware will be helpful.
   starts_at: "17:10"
 
 - name: 休憩
