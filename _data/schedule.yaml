@@ -97,7 +97,7 @@
   github: ksss
   type: talk
   title: Rubyに型があると便利か
-  title_en: What If Ruby is Statically Typed?
+  title_en: What If Ruby was Statically Typed?
   abstract: <p>最近開発したgem <a href="https://github.com/ksss/type_struct">type_struct</a> を中心に「Rubyに型があると便利か」という問いについて考察します。ひいては、Ruby3への議論に貢献できればと考えています。</p>
   abstract_en:
   knowledge: 基本的なRubyの知識があればよいです。golangやcrystalのさわりもわかっていると、より楽しめると思います。
