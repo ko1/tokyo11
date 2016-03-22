@@ -10,7 +10,7 @@ permalink: /en/schedule/
   <div class="app-timetable-container">
     <div class="app-timetable-body">
       {% for talk in site.data.schedule %}
-      <div class="row m-b-md">
+      <div class="row m-b-0">
         <div class="app-timetable-icon text-center">
           {% if talk.type == "other" %}
             <span class="app-timetable-break-icon" style="display: inline-block;"></span>
@@ -36,14 +36,15 @@ permalink: /en/schedule/
 
             {% if talk.desc_en %}
               <h6 class="block-title text-muted text-uppercase m-t">About Speaker</h6>
-              <p>{{ talk.desc_en }}</p>
+              <p class="m-a-0">{{ talk.desc_en }}</p>
             {% endif %}
           {% else %}
-            <h4 class="m-b block-title m-t-0">
+            <h4 class="m-b-0 block-title m-t-0">
               <span class="text-muted font-bold app-timetable-starts-at">{{ talk.starts_at }}</span>
               {{ talk.name_en }}
             </h4>
           {% endif %}
+          <hr />
         </div>
       </div>
       {% endfor %}
