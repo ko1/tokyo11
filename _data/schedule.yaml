@@ -13,6 +13,7 @@
   gravatar_url: https://www.gravatar.com/avatar/REPLACE-THIS-URL-WITH-YOURS
   affi: 日経Linuxライター
   desc: プログラミング言語Ruby/Streem開発者
+  desc_en: 
   twitter: yukihiro_matz
   github: matz
   type: invited_talk
@@ -28,6 +29,7 @@
   gravatar_url: https://www.gravatar.com/avatar/REPLACE-THIS-URL-WITH-YOURS
   affi:
   desc: Linuxカーネル/Rubyインタプリタ開発者
+  desc_en: 
   twitter:
   github:
   type: invited_talk
@@ -43,6 +45,7 @@
   gravatar_url: https://www.gravatar.com/avatar/REPLACE-THIS-URL-WITH-YOURS
   affi: 株式会社 野村総合研究所
   desc: CRubyコミッタ。
+  desc_en: 
   twitter: k_tsj
   github: k-tsj
   type: talk
@@ -63,6 +66,7 @@
   gravatar_url: https://www.gravatar.com/avatar/REPLACE-THIS-URL-WITH-YOURS
   affi: 
   desc: Palmscape, Xiino, Japanize, Q4M, JSX, H2O開発者
+  desc_en: 
   twitter:
   github:
   type: invited_talk
@@ -78,6 +82,7 @@
   gravatar_url: http://www.gravatar.com/avatar/ee6ffca720cc428d70247dcd7377dd48.jpeg?s=300
   affi: 株式会社クリアコード
   desc: milter manager/Groonga開発者
+  desc_en: 
   twitter: ktou
   github: kou
   type: talk
@@ -93,6 +98,7 @@
   gravatar_url: https://www.gravatar.com/avatar/REPLACE-THIS-URL-WITH-YOURS
   affi: 株式会社spice life
   desc: ふつうの会社員
+  desc_en: 
   twitter: _ksss_
   github: ksss
   type: talk
@@ -108,6 +114,7 @@
   gravatar_url: https://www.gravatar.com/avatar/REPLACE-THIS-URL-WITH-YOURS
   affi: 九州工業大学
   desc: TBD
+  desc_en: 
   twitter:
   github:
   type: talk
@@ -128,6 +135,7 @@
   gravatar_url: https://www.gravatar.com/avatar/REPLACE-THIS-URL-WITH-YOURS
   affi:
   desc: Ruby on Rails/Rubyインタプリタ開発者
+  desc_en: 
   twitter:
   github:
   type: invited_talk
@@ -143,6 +151,7 @@
   gravatar_url: https://www.gravatar.com/avatar/REPLACE-THIS-URL-WITH-YOURS
   affi: Ruby committer
   desc: TBD
+  desc_en: 
   twitter:
   github:
   type: talk
@@ -158,6 +167,7 @@
   gravatar_url: https://www.gravatar.com/avatar/REPLACE-THIS-URL-WITH-YOURS
   affi: 
   desc: TBD
+  desc_en: 
   twitter:
   github:
   type: talk
@@ -178,6 +188,7 @@
   gravatar_url: https://www.gravatar.com/avatar/REPLACE-THIS-URL-WITH-YOURS
   affi: Treasure Data, Inc, Treasure Data, Inc. Founder & Software Architect
   desc: 分散データベース「PlazmaDB」や分散Key-Valueストア「Kumofs」など、十年にわたって分散システムの開発に携わる。また、バイナリシリアライズ形式『MessagePack』、ログコレクタ『Fluentd』、並列ETL『Embulk』などのオープンソースプロジェクトを創始した。
+  desc_en: 
   twitter: frsyuki
   github: frsyuki
   type: keynote
