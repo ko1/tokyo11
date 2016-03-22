@@ -11,17 +11,17 @@
 - name: まつもとゆきひろ
   name_en: Yukihiro 'Matz' Matsumoto
   gravatar_url: https://www.gravatar.com/avatar/REPLACE-THIS-URL-WITH-YOURS
-  affi:
+  affi: 日経Linuxライター
   desc: プログラミング言語Ruby/Streem開発者
-  twitter:
-  github:
+  twitter: yukihiro_matz
+  github: matz
   type: invited_talk
-  title: TBD
-  title_en: TBD
+  title: Streem
+  title_en: Streem
   abstract: TBD
   abstract_en:
   knowledge: TBD
-  starts_at: "10:15"
+  starts_at: "10:10"
 
 - name: 小崎資広
   name_en: Motohiro Kosaki
@@ -36,7 +36,7 @@
   abstract: TBD
   abstract_en:
   knowledge: TBD
-  starts_at: "11:05"
+  starts_at: "11:00"
 
 - name: 辻本 和樹
   name_en: Kazuki Tsujimoto
