@@ -94,7 +94,7 @@ permalink: /en/
         <h4>Network Sponsors</h4>
         <div class="row">
           {% for sponsor in site.data.sponsors.network %}
-          <img width="130" src="{{site.baseurl}}/image/{{sponsor.image}}" hspace="10" />
+            <a href="{{sponsor.link}}"><img width="130" src="{{site.baseurl}}/image/{{sponsor.image}}" hspace="10" /></a>
           {% endfor %}
         </div>
       </div>
