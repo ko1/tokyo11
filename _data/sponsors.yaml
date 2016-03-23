@@ -65,9 +65,13 @@ gold:
 network:
   - name: CONBU
     image: conbu.png
+    link: http://conbu.net/
   - name: DMM.com Labo
     image: DMMcom_Labo.png
+    link: http://labo.dmm.com/
   - name: Juniper Networks
     image: juniper-networks.png
+    link: http://www.juniper.net/jp/jp/
   - name: BroadBand Tower
     image: BBTower.png
+    link: http://www.bbtower.co.jp/
