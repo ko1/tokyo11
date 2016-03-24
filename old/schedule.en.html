@@ -28,7 +28,20 @@ permalink: /en/schedule/
                 <span class="label label-info" style="margin-left: 5px;">Invited Speaker</span>
               {% endif %}
             </h4>
-            <h4 class="m-t-0 m-b-5">{{ talk.name_en }}</h4>
+            <h4 class="m-t-0 m-b-5">
+              {{ talk.name_en }}
+
+              {% if talk.twitter %}
+              <a class="m-l-5 link-no-decoration" target="_blank" href="https://twitter.com/{{ talk.twitter }}">
+                <span class="icon icon--twitter">{% include icon-twitter.svg %}</span>
+              </a>
+              {% endif %}
+              {% if talk.github %}
+              <a class="link-no-decoration" target="_blank" href="https://github.com/{{ talk.github }}">
+                <span class="icon icon--github">{% include icon-github.svg %}</span>
+              </a>
+              {% endif %}
+            </h4>
             <h2 class="m-t-0 m-b-5">{{ talk.title_en }}</h2>
             {% if talk.abstract_en != "TBD" %}
               {{ talk.abstract_en }}
@@ -37,17 +50,6 @@ permalink: /en/schedule/
             {% if talk.desc_en %}
               <h6 class="block-title text-muted text-uppercase m-t">About Speaker</h6>
               <p class="m-a-0">{{ talk.desc_en }}</p>
-            {% endif %}
-
-            {% if talk.twitter %}
-              <a target="_blank" href="https://twitter.com/{{ talk.twitter }}" class="link-no-decoration">
-                <span class="icon icon--twitter">{% include icon-twitter.svg %}</span>
-              </a>
-            {% endif %}
-            {% if talk.github %}
-              <a target="_blank" href="https://github.com/{{ talk.github }}" class="link-no-decoration">
-                <span class="icon icon--github">{% include icon-github.svg %}</span>
-              </a>
             {% endif %}
           {% else %}
             <h4 class="m-b-0 block-title m-t-0">
