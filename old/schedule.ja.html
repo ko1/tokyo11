@@ -44,6 +44,17 @@ permalink: /schedule/
 
             <h6 class="block-title text-muted text-uppercase m-t">スピーカーについて</h6>
             <p class="m-a-0">{{ talk.desc }}</p>
+
+            {% if talk.twitter %}
+              <a target="_blank" href="https://twitter.com/{{ talk.twitter }}" class="link-no-decoration">
+                <span class="icon icon--twitter">{% include icon-twitter.svg %}</span>
+              </a>
+            {% endif %}
+            {% if talk.github %}
+              <a target="_blank" href="https://github.com/{{ talk.github }}" class="link-no-decoration">
+                <span class="icon icon--github">{% include icon-github.svg %}</span>
+              </a>
+            {% endif %}
           {% else %}
             <h4 class="m-b-0 block-title m-t-0">
               <span class="text-muted font-bold app-timetable-starts-at">{{ talk.starts_at }}</span>

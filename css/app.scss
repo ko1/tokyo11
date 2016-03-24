@@ -24,6 +24,14 @@ h1.post-title {
 .font-thin { font-weight: 100; }
 .font-bold { font-weight: 500; }
 
+a.link-no-decoration,
+a.link-no-decoration:active,
+a.link-no-decoration:hover,
+a.link-no-decoration:focus
+a.link-no-decoration:visited {
+    text-decoration: none;
+}
+
 .app-navbar {
     font-size: 13px;
     letter-spacing: .05em;
