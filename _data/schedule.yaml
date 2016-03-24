@@ -30,8 +30,8 @@
   affi:
   desc: Linuxカーネル/Rubyインタプリタ開発者
   desc_en: 
-  twitter:
-  github:
+  twitter: kosaki55tea
+  github: kosaki
   type: invited_talk
   title: TBD
   title_en: TBD
@@ -67,8 +67,8 @@
   affi: 
   desc: Palmscape, Xiino, Japanize, Q4M, JSX, H2O開発者
   desc_en: 
-  twitter:
-  github:
+  twitter: kazuho
+  github: kazuho
   type: invited_talk
   title: TBD
   title_en: TBD
@@ -136,8 +136,8 @@
   affi:
   desc: Ruby on Rails/Rubyインタプリタ開発者
   desc_en: 
-  twitter:
-  github:
+  twitter: tenderlove
+  github: tenderlove
   type: invited_talk
   title: TBD
   title_en: TBD
@@ -152,8 +152,8 @@
   affi: Ruby committer
   desc: TBD
   desc_en: 
-  twitter:
-  github:
+  twitter: mrkn
+  github: mrkn
   type: talk
   title: "IMF: Image Manipulation Framework"
   title_en: "IMF: Image Manipulation Framework"
