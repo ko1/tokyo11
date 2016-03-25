@@ -196,7 +196,7 @@
   github: frsyuki
   type: keynote
   title: 分散ワークフローエンジン『Digdag』の実装
-  title_en: "Digdag" - implementation of a distributed workflow engine
+  title_en: '"Digdag" - implementation of a distributed workflow engine'
   abstract: ワークフローエンジンは、依存関係のある複数のタスクを実行するツールです。古典的なMakefileを始め、Python製のLuigi、商用のJP1/AJS3など、様々な実装があります。Digdagは、現在活発に開発が進んでいる新しいワークフローエンジンです。このセッションでは、ツリー構造を持つワークフローの状態遷移を効率的に実行する手法、ワークフローの実行状態の永続化と分散実行、タスクスケジューラ、Dockerによるサンドボックス化など、その実装手法を紹介しながらワークフローエンジンの構成技術について解説します。
   abstract_en: A workflow engine is a tool that processes multiple tasks with dependencies. Historically, there are a lot of implementations including traditional Makefile, open-source Python software "Luigi", and "JP1/AJS3" made by Hitachi. Digdag is a new workflow engine that is in active development. In this session, I'll cover implementation techniques used in workflow engines by explaining details of Digdag such as efficient state transition of nodes in a tree structure, persistent store and transfer of execution state of tasks over network, fair task scheduling, and sandboxed task execution in Docker containers.
   knowledge: SQLの基本的な知識と、Rubyのリフレクション、オプティマイザなどの知識があると、より楽しめると思います。
