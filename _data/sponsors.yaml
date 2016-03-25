@@ -2,15 +2,18 @@ ruby3:
   - name: トレジャーデータ株式会社
     image: TD.png
     link: https://www.treasuredata.com/jp/
+    link_en: https://www.treasuredata.com/
     desc: トレジャーデータは、Rubyを積極的に活用し、自社サービスを提供しているだけでなく、fluentd、embulkといったOSSにも深く関与しております。これらの、サービスやソフトウェアは、多くの企業・システムに利用いただいていますので、これからもRubyを積極的に活用させていただくとともに、広く認知・活用が進むように貢献したいと考えています。
   - name: エムスリー株式会社
     image: M3.png
     link: http://corporate.m3.com/
+    link_en: https://corporate.m3.com/en/
     desc: エムスリーは「インターネットを活用して、健康で楽しく長生きする人を一人でも増やし、不必要な医療コストを1円でも減らすこと」をミッションに掲げています。世界の医療コストの問題は、今までのやり方では解決できず、テクノロジーの活用がカギと考えます。今まで構築してきた圧倒的なパワーを持つ医師向けプラットフォームを生かしつつ、医療現場・患者さんの問題解決にどんどん取り組んでいきます。
 ruby:
   - name: クックパッド株式会社
     image: cookpad.png
     link: https://info.cookpad.com/
+    link_en: https://cookpad.com/us
     desc: クックパッドは、毎日の料理を楽しみにを軸に、レシピをはじめとした様々な生活に便利なサービスを提供する世界企業です。日本をはじめ、アメリカ・スペイン・インドネシアにサービスを展開しています。<br />私たちは、ユーザに素早く価値を提供する必要があります。そのため大きなサービスを小さなサービスに分割するマイクロアーキテクチャや、グローバルのレシピ基盤の開発など、様々なテクノロジーに挑戦しています。
   - name: 株式会社フリークアウト
     image: FreakOut.png
@@ -24,10 +27,12 @@ gold:
   - name: 株式会社リブセンス
     image: LIVESENSE_logo.png
     link: http://www.livesense.co.jp
+    link_en: http://en.livesense.co.jp
     desc: リブセンスは「あたりまえを、発明しよう。」をビジョンに掲げ、新しいビジネスモデルや行動様式が世の中に次の「あたりまえ」として広まるよう、アルバイト求人サイト「ジョブセンス」や転職クチコミサイト「転職会議」など数多くのサービスを展開しています。世の中に新たな「あたりまえ」が興る必然性は技術によって支えられます。そのために私たちは様々な技術に精通し、またそれが世の中の次のメカニズムとして駆動するよう実践を続けています。
   - name: GMOペパボ株式会社
     image: pepabo.png
     link: https://pepabo.com
+    link_en: https://pepabo.com/en
     desc: GMOペパボ株式会社は、ホスティング・EC支援・コミュニティ・ハンドメイドなど、様々な領域でWebサービスを運営している会社です。開発言語とし て、近年特に力を入れているRubyについては、単にユーザとして使うだけでなく、CRubyのコミッタやngx_mrubyの作者などのスターエンジニ アが多数在籍しており、コミュニティへの貢献も積極的に行っています。「いるだけで成長できる環境」を標榜し、エンジニアが楽しく開発できるWebサービ ス企業を目指しています。
   - name: 永和システムマネジメント アジャイル事業部
     image: esm.png
@@ -52,6 +57,7 @@ gold:
   - name: 株式会社リクルートライフスタイル
     image: RLS_logo_130_130.png
     link: http://engineer.recruit-lifestyle.co.jp/
+    link_en: http://www.recruit-lifestyle.co.jp/english/
     desc: リクルートライフスタイルは「顧客接点」の強さとITの力を使って多くの新規事業やイノベーションを生み出しています。『じゃらん』や『ホットペッパー グルメ』、『ホットペッパービューティー』などを通じた「ネット予約」は、多くのユーザーにご利用いただき、昨年度は業界最大級の利用者数を実現しました。また、これらの事業の延長線上に『サロンボード』や『Airレジ』のようなサービスを拡充し、経営効率や業務効率を改善するという顧客課題にも向き合っています。未来を見据え、変化を先導するスピード感を持って、全力で取り組んでいきます！
   - name: 株式会社マネーフォワード
     image: MoneyForward_130.png
@@ -72,6 +78,8 @@ network:
   - name: Juniper Networks
     image: juniper-networks.png
     link: http://www.juniper.net/jp/jp/
+    link_en: http://www.juniper.net/us/en/
   - name: BroadBand Tower
     image: BBTower.png
     link: http://www.bbtower.co.jp/
+    link_en: http://www.bbtower.co.jp/en/corporate/

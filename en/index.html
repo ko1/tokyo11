@@ -98,7 +98,7 @@ permalink: /en/
 
         {% for sponsor in site.data.sponsors.ruby3 %}
           <span class="m-x-md" style="display: inline-block">
-            <a href="{{sponsor.link}}" target="_blank"><img width="220" src="{{site.baseurl}}/image/{{sponsor.image}}" /></a>
+            <a href="{{ sponsor.link_en | default: sponsor.link }}" target="_blank"><img width="220" src="{{site.baseurl}}/image/{{sponsor.image}}" /></a>
           </span>
         {% endfor %}
       </div>
@@ -108,7 +108,7 @@ permalink: /en/
 
         {% for sponsor in site.data.sponsors.ruby %}
           <span class="m-x-md" style="display: inline-block">
-            <a href="{{sponsor.link}}" target="_blank"><img width="220" src="{{site.baseurl}}/image/{{sponsor.image}}" /></a>
+            <a href="{{ sponsor.link_en | default: sponsor.link }}" target="_blank"><img width="220" src="{{site.baseurl}}/image/{{sponsor.image}}" /></a>
           </span>
         {% endfor %}
       </div>
@@ -117,7 +117,7 @@ permalink: /en/
         <h4>Gold Sponsors</h4>
         <div class="row">
           {% for sponsor in site.data.sponsors.gold %}
-            <a href="{{sponsor.link}}" target="_blank"><img width="130" src="{{site.baseurl}}/image/{{sponsor.image}}" hspace="10" /></a>
+            <a href="{{ sponsor.link_en | default: sponsor.link }}" target="_blank"><img width="130" src="{{site.baseurl}}/image/{{sponsor.image}}" hspace="10" /></a>
           {% endfor %}
         </div>
       </div>
