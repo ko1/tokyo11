@@ -42,17 +42,17 @@
 
 - name: 辻本 和樹
   name_en: Kazuki Tsujimoto
-  gravatar_url: https://www.gravatar.com/avatar/REPLACE-THIS-URL-WITH-YOURS
-  affi: 株式会社 野村総合研究所
-  desc: CRubyコミッタ。
-  desc_en: 
+  gravatar_url: http://www.gravatar.com/avatar/303dd57f37d64288bb4f0336332a8882
+  affi: 株式会社野村総合研究所
+  desc: Rubyコミッタ/power_assert開発者
+  desc_en: A Ruby committer/power_assert developer
   twitter: k_tsj
   github: k-tsj
   type: talk
   title: "Re: Pattern Matching in Ruby"
   title_en: "Re: Pattern Matching in Ruby"
-  abstract: <p>Rubyでパターンマッチを実現するためのライブラリであるpattern-matchに関する発表です。</p><p>本ライブラリについてはSapporo RubyKaigi 2012で機能概要を紹介したことがありますが、今回はメタプログラミングやRefinementsといったRubyならではの表現力をフル活用している実装面についてその舞台裏をお見せします。</p>
-  abstract_en: 
+  abstract: <p>Rubyでパターンマッチを実現するためのライブラリであるpattern-matchに関する発表です。</p><p>本ライブラリについてはSapporo RubyKaigi 2012の<a href="http://sapporo.rubykaigi.org/2012/ja/schedule/details/11.html">Pattern Matching in Ruby</a>というセッションで機能概要を紹介したことがありますが、今回はメタプログラミングやRefinementsといったRubyならではの表現力をフル活用している実装面についてその舞台裏をお見せします。</p>
+  abstract_en: <p>I'll talk about implementation of pattern-match gem which uses Ruby's powerful features like metaprogramming/Refinements and so on.</p>
   knowledge: ScalaやHaskellにおけるパターンマッチの機能を知っていると内容が理解しやすいと思いますが必須ではありません。
   starts_at: "11:50"
 
