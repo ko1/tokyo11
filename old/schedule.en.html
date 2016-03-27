@@ -6,10 +6,9 @@ permalink: /en/schedule/
 
 <p class="m-a-lg text-center">This page is not public yet!</p>
 
-<div class="container p-a-0">
-  <div class="app-timetable-container">
-    <div class="app-timetable-body">
-      {% for talk in site.data.schedule %}
+<div class="app-timetable-container">
+  <div class="app-timetable-body">
+    {% for talk in site.data.schedule %}
       <div class="row m-b-0">
         <div class="app-timetable-icon text-center">
           {% if talk.type == "other" %}
@@ -20,28 +19,33 @@ permalink: /en/schedule/
         </div>
         <div class="app-timetable-talk app-timetable-talk-en">
           {% if talk.type != "other" %}
-            <h4 class="m-b-5 block-title text-muted font-bold m-t-0 app-timetable-starts-at">
-              {{ talk.starts_at }}
+            <h4 class="m-a-0">
+              <span class="m-b-5 block-title text-muted font-bold m-t-0 app-timetable-starts-at">
+                {{ talk.starts_at }}
+              </span>
+
               {% if talk.type == "keynote" %}
-                <span class="label label-success" style="margin-left: 5px;">Keynote</span>
+                <span class="m-b-5 label label-success">Keynote</span>
               {% elsif talk.type == "invited_talk" %}
-                <span class="label label-info" style="margin-left: 5px;">Invited Speaker</span>
+                <span class="m-b-5 label label-info">Invited Speaker</span>
               {% endif %}
             </h4>
+
             <h4 class="m-t-0 m-b-5">
               {{ talk.name_en }}
 
               {% if talk.twitter %}
-              <a class="m-l-5 link-no-decoration" target="_blank" href="https://twitter.com/{{ talk.twitter }}">
-                <span class="icon icon--twitter">{% include icon-twitter.svg %}</span>
-              </a>
+                <a class="m-l-5 link-no-decoration" target="_blank" href="https://twitter.com/{{ talk.twitter }}">
+                  <span class="icon icon--twitter">{% include icon-twitter.svg %}</span>
+                </a>
               {% endif %}
               {% if talk.github %}
-              <a class="link-no-decoration" target="_blank" href="https://github.com/{{ talk.github }}">
-                <span class="icon icon--github">{% include icon-github.svg %}</span>
-              </a>
+                <a class="link-no-decoration" target="_blank" href="https://github.com/{{ talk.github }}">
+                  <span class="icon icon--github">{% include icon-github.svg %}</span>
+                </a>
               {% endif %}
             </h4>
+
             <h2 class="m-t-0 m-b-5">{{ talk.title_en }}</h2>
             {% if talk.abstract_en != "TBD" %}
               {{ talk.abstract_en }}
@@ -53,25 +57,24 @@ permalink: /en/schedule/
             {% endif %}
           {% else %}
             <h4 class="m-b-0 block-title m-t-0">
-              <span class="text-muted font-bold app-timetable-starts-at">{{ talk.starts_at }}</span>
+              <span class="text-muted font-bold app-timetable-starts-at" style="top: 0">{{ talk.starts_at }}</span>
               {{ talk.name_en }}
             </h4>
           {% endif %}
           <hr />
         </div>
       </div>
-      {% endfor %}
+    {% endfor %}
 
-      <div class="row m-b-md" style="height: 0;">
-        <div class="app-timetable-icon text-center">
-          <span class="app-timetable-break-icon" style="display: inline-block;"></span>
-        </div>
-        <div class="app-timetable-talk">
-          <h4 class="m-b block-title m-t-0">
-            <span class="text-muted text-uppercase font-bold app-timetable-starts-at">18:50</span>
-            Closing
-          </h4>
-        </div>
+    <div class="row m-b-md" style="height: 0;">
+      <div class="app-timetable-icon text-center">
+        <span class="app-timetable-break-icon" style="display: inline-block;"></span>
+      </div>
+      <div class="app-timetable-talk">
+        <h4 class="m-b block-title m-t-0">
+          <span class="text-muted text-uppercase font-bold app-timetable-starts-at" style="top: 0">18:50</span>
+          Closing
+        </h4>
       </div>
     </div>
   </div>

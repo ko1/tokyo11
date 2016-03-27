@@ -114,45 +114,52 @@ $timetable-border-color: #D10154;
     width: 100% - ($timetable-icon-size * 1.2);
     float: left;
     padding-left: 10px;
+    position: relative;
+
+    .label {
+        display: inline-block;
+        vertical-align: middle;
+    }
 }
 
 @media (min-width: 768px) {
-    $container-width: 740px;
+    $container-width: 720px;
     $timetable-icon-size: 50px;
 
     .app-timetable-container {
-        margin-left: ($timetable-icon-size / 2);
+        margin-left: $timetable-icon-size * 1.5;
     }
 
     .app-timetable-body {
-        margin-left: - ($timetable-icon-size / 2) - $timetable-border-weight;
-    }
-
-    .app-timetable-break-icon {
-        margin-left: $timetable-border-weight / 2;
+        margin-left: - ($timetable-icon-size / 2) + $timetable-border-weight;
     }
 
     .app-timetable-icon {
         width: $timetable-icon-size;
-        margin-left: 10px;
-        padding-left: 0;
     }
 
     .app-timetable-talk {
-        width: $container-width - $timetable-icon-size;
-    }    
+        width: $container-width - (($timetable-icon-size * 2) - $timetable-border-weight - 10);
+        padding-left: 20px;
+    }
+
+    .app-timetable-starts-at {
+        top: 10px;
+        left: -97px;
+        position: absolute;
+    }
 }
 
 @media (min-width: 992px) {
-    $container-width: 880px;
+    $container-width: 860px;
     $timetable-icon-size: 60px;
 
     .app-timetable-container {
-        margin-left: ($timetable-icon-size / 2);
+        margin-left: $timetable-icon-size * 1.5;
     }
 
     .app-timetable-body {
-        margin-left: - ($timetable-icon-size / 2) - $timetable-border-weight;
+        margin-left: - ($timetable-icon-size / 2) + $timetable-border-weight;
     }
 
     .app-timetable-icon {
@@ -160,20 +167,26 @@ $timetable-border-color: #D10154;
     }
 
     .app-timetable-talk {
-        width: $container-width - $timetable-icon-size;
+        width: $container-width - (($timetable-icon-size * 2) - $timetable-border-weight - 10);
+        padding-left: 20px;
+    }
+
+    .app-timetable-starts-at {
+        top: 16px;
+        left: -112px;
     }
 }
 
 @media (min-width: 1200px) {
-    $container-width: 1020px;
+    $container-width: 1000px;
     $timetable-icon-size: 80px;
 
     .app-timetable-container {
-        margin-left: ($timetable-icon-size / 2);
+        margin-left: $timetable-icon-size * 1.5;
     }
 
     .app-timetable-body {
-        margin-left: - ($timetable-icon-size / 2) - $timetable-border-weight;
+        margin-left: - ($timetable-icon-size / 2) + $timetable-border-weight;
     }
 
     .app-timetable-icon {
@@ -181,8 +194,13 @@ $timetable-border-color: #D10154;
     }
 
     .app-timetable-talk {
-        width: $container-width - $timetable-icon-size;
+        width: $container-width - (($timetable-icon-size * 2) - $timetable-border-weight - 10);
         padding-left: 20px;
+    }
+
+    .app-timetable-starts-at {
+        top: 24px;
+        left: -145px;
     }
 }
 
@@ -197,6 +215,12 @@ $timetable-border-color: #D10154;
 
 .app-timetable-talk-en p {
     font-size: 16px;
+}
+
+@media (max-width: 767px) {
+    .app-timetable-talk-en h2 {
+        font-size: 24px;
+    }
 }
 
 .app-timetable-starts-at {
