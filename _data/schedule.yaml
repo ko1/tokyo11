@@ -38,7 +38,7 @@
   abstract: TBD
   abstract_en:
   knowledge: TBD
-  starts_at: "11:00"
+  starts_at:
 
 - name: 辻本 和樹
   name_en: Kazuki Tsujimoto
@@ -54,7 +54,7 @@
   abstract: <p>Rubyでパターンマッチを実現するためのライブラリであるpattern-matchに関する発表です。</p><p>本ライブラリについてはSapporo RubyKaigi 2012の<a href="http://sapporo.rubykaigi.org/2012/ja/schedule/details/11.html">Pattern Matching in Ruby</a>というセッションで機能概要を紹介したことがありますが、今回はメタプログラミングやRefinementsといったRubyならではの表現力をフル活用している実装面についてその舞台裏をお見せします。</p>
   abstract_en: <p>I'll talk about implementation of pattern-match gem which uses Ruby's powerful features like metaprogramming/Refinements and so on.</p>
   knowledge: ScalaやHaskellにおけるパターンマッチの機能を知っていると内容が理解しやすいと思いますが必須ではありません。
-  starts_at: "11:50"
+  starts_at:
 
 - name: ランチ
   name_en: Lunch
@@ -91,7 +91,7 @@
   abstract: <p>発表者はmilter managerというアプリケーションへCRubyを組み込んだ経験と、Groongaというアプリケーションへmrubyを組み込んだ経験があります。</p><p>milter managerはメールフィルターアプリケーションです。大量の接続を同時にさばくために、マルチプロセス+イベント駆動型のサーバープログラムとして実装しています。このアプリケーションをRubyでカスタマイズするためにCRubyを組み込みました。このケースでうまく動かすためのGC、fork、シグナル、イベントループ回りの実装について紹介します。</p><p>Groongaは全文検索エンジンです。より高速に検索結果を返すために、細部もチューニングして実装しています。（細部は私は実装していません。）このアプリケーションのクエリーオプティマイザー、クエリー言語（の一部）をRubyで実現するためにmrubyを組み込みました。このケースでうまく動かすためのオブジェクトのライフサイクルの実装について紹介します。</p><p>時間次第ではmilter managerの話だけにするかもしれません。</p>
   abstract_en: <p>This talk describes how to embed CRuby to milter manager. milter manager is a mail filter application. It needs to handle many connections for large mail system. It's implemented as a multiprocessing and event driven style server program. CRuby is embedded for customizing milter manager by Ruby. This talks describe about GC, fork, signal and event loop related implementations for this case.</p>
   knowledge: マルチプロセスとGCとシグナルとイベントループについての一般的な知識。
-  starts_at: "14:15"
+  starts_at:
 
 - name: 栗原 勇樹
   name_en: Yuki Kurihara
@@ -107,7 +107,7 @@
   abstract: <p>最近開発したgem <a href="https://github.com/ksss/type_struct">type_struct</a> を中心に「Rubyに型があると便利か」という問いについて考察します。ひいては、Ruby3への議論に貢献できればと考えています。</p>
   abstract_en: <p>This talk consider about question "What If Ruby was Typed?" with <a href="https://github.com/ksss/type_struct">type_struct</a> that I'm developing recently. Finaly, I want to contribute discussion about Ruby3.</p>
   knowledge: 基本的なRubyの知識があればよいです。golangやcrystalのさわりもわかっていると、より楽しめると思います。
-  starts_at: "14:45"
+  starts_at:
 
 - name: 田中 和明
   name_en: Kazuaki Tanaka
@@ -123,7 +123,7 @@
   abstract: <p>OSS版のmrubyよりも小さな資源で動作するVMの実装です．40KB程度のメモリで動作しています．ワンチップマイコンを想定した実装になっていて，多くのクラスを削減しています．そのため，一般的なRubyプログラムには向きませんが，組込みシステムでの機器制御やIoT分野への適用を目指しています．</p>
   abstract_en:
   knowledge: mruby
-  starts_at: "15:05"
+  starts_at:
 
 - name: 休憩
   name_en: Break
@@ -160,7 +160,7 @@
   abstract: <p>発表者は、Ruby のための画像操作ライブラリを昨年終盤から開発しています。本発表では、このまだ開発途上のライブラリについて、いま何ができるのか、そして将来どうしようと考えているかをご説明します。</p><p>IMF の開発が順調に進めば、いずれ RMagick は不要になります。そういう世界を速く実現するため、本発表を聞いて興味を持った人が開発に協力してくれるようになると嬉しいです。</p>
   abstract_en:
   knowledge: JPEG とか PNG とか WEBP などのビットマップ画像を扱ったことがあり、Ruby で画像を処理したいなぁと思ったことがある人向けです。RMagick を使ったことがある人はなお良いです。
-  starts_at: "16:50"
+  starts_at:
 
 - name: 遠藤侑介
   name_en: Yusuke Endoh
@@ -179,7 +179,7 @@
   abstract_en: <p>We developed a Nintendo Entertainment System (NES) emulator in Ruby, called Optcarrot, as a non-trivial benchmark program for driving performance improvement of Ruby implementations.  We present ProTips(TM) for writing a fast Ruby program and a benchmark result of some Ruby implementations, and discuss some promising approaches to improve performance of MRI.</p>
   knowledge: ハードウェアに関する基礎的な知識があると望ましい。
   knowledge_en: Basic understanding about hardware will be helpful.
-  starts_at: "17:10"
+  starts_at:
 
 - name: 休憩
   name_en: Break
