@@ -149,16 +149,16 @@
 - name: 村田 賢太
   name_en: Kenta Murata
   gravatar_url: https://www.gravatar.com/avatar/7cca11c5257fda526eeb4b1ada28f904
-  affi: Ruby committer
-  desc: TBD
-  desc_en: 
+  affi: Cookpad Inc. / Ruby committer
+  desc: クックパッドにてソフトウェアエンジニアとして働きながら、プライベートでは BigDecimal のメンテなとして Ruby の開発に携わっている。
+  desc_en: A Ruby committer as a BigDecimal maintainer, and working for Cookpad Inc. as a software engineer.
   twitter: mrkn
   github: mrkn
   type: talk
   title: "IMF: Image Manipulation Framework"
   title_en: "IMF: Image Manipulation Framework"
   abstract: <p>発表者は、Ruby のための画像操作ライブラリを昨年終盤から開発しています。本発表では、このまだ開発途上のライブラリについて、いま何ができるのか、そして将来どうしようと考えているかをご説明します。</p><p>IMF の開発が順調に進めば、いずれ RMagick は不要になります。そういう世界を速く実現するため、本発表を聞いて興味を持った人が開発に協力してくれるようになると嬉しいです。</p>
-  abstract_en:
+  abstract_en: <p>The speaker has started to develop a library for manupilating images.  In this talk the speaker will demonstrate what we can do with the library, and explain the future development plans.</p><p>The speaker hopes to make RMagick needless with this library as soon as possible.  To realize such world asap, the speaker wants to gather the people who are interested in this library.</p>
   knowledge: JPEG とか PNG とか WEBP などのビットマップ画像を扱ったことがあり、Ruby で画像を処理したいなぁと思ったことがある人向けです。RMagick を使ったことがある人はなお良いです。
   starts_at:
 
