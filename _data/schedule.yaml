@@ -19,9 +19,9 @@
   type: invited_talk
   title: Streem
   title_en: Streem
-  abstract: TBD
+  abstract: To Be Announced...
   abstract_en:
-  knowledge: TBD
+  knowledge: To Be Announced...
   starts_at: "10:10"
 
 - name: 小崎資広
@@ -33,11 +33,11 @@
   twitter: kosaki55tea
   github: kosaki
   type: invited_talk
-  title: TBD
-  title_en: TBD
-  abstract: TBD
+  title: To Be Announced...
+  title_en: To Be Announced...
+  abstract: To Be Announced...
   abstract_en:
-  knowledge: TBD
+  knowledge: To Be Announced...
   starts_at:
 
 - name: 辻本 和樹
@@ -70,11 +70,11 @@
   twitter: kazuho
   github: kazuho
   type: invited_talk
-  title: TBD
-  title_en: TBD
-  abstract: TBD
+  title: To Be Announced...
+  title_en: To Be Announced...
+  abstract: To Be Announced...
   abstract_en:
-  knowledge: TBD
+  knowledge: To Be Announced...
   starts_at: "13:30"
 
 - name: 須藤功平
@@ -113,7 +113,7 @@
   name_en: Kazuaki Tanaka
   gravatar_url: https://www.gravatar.com/avatar/REPLACE-THIS-URL-WITH-YOURS
   affi: 九州工業大学
-  desc: TBD
+  desc: To Be Announced...
   desc_en: 
   twitter:
   github: kaz0505
@@ -139,11 +139,11 @@
   twitter: tenderlove
   github: tenderlove
   type: invited_talk
-  title: TBD
-  title_en: TBD
-  abstract: TBD
+  title: To Be Announced...
+  title_en: To Be Announced...
+  abstract: To Be Announced...
   abstract_en:
-  knowledge: TBD
+  knowledge: To Be Announced...
   starts_at: "16:00"
 
 - name: 村田 賢太
