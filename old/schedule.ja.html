@@ -57,8 +57,11 @@ permalink: /schedule/
               {% endif %}
               <br />
               <small class="text-muted">{{ talk.affi }}</small>
+
             </h4>
-            <p class="m-a-0">{{ talk.desc }}</p>
+            {% if talk.desc != "To Be Announced..." %}
+              <p class="m-a-0">{{ talk.desc }}</p>
+            {% endif %}
           {% else %}
             <h4 class="m-b-0 block-title m-t-0">
               <span class="text-muted font-bold app-timetable-starts-at" style="top: 0">{{ talk.starts_at }}</span>
