@@ -40,26 +40,26 @@
   knowledge: To Be Announced...
   starts_at:
 
-- name: 辻本 和樹
-  name_en: Kazuki Tsujimoto
-  gravatar_url: http://www.gravatar.com/avatar/303dd57f37d64288bb4f0336332a8882
-  affi: 株式会社野村総合研究所
-  desc: Rubyコミッタ/power_assert開発者
-  desc_en: A Ruby committer/power_assert developer
-  twitter: k_tsj
-  github: k-tsj
+- name: 栗原 勇樹
+  name_en: Yuki Kurihara
+  gravatar_url: https://www.gravatar.com/avatar/77897395d9b84463bd474a69b922b2ec
+  affi: 株式会社spice life
+  desc: ふつうの会社員
+  desc_en: Software Engineer
+  twitter: _ksss_
+  github: ksss
   type: talk
-  title: "Re: Pattern Matching in Ruby"
-  title_en: "Re: Pattern Matching in Ruby"
-  abstract: <p>Rubyでパターンマッチを実現するためのライブラリであるpattern-matchに関する発表です。</p><p>本ライブラリについてはSapporo RubyKaigi 2012の<a href="http://sapporo.rubykaigi.org/2012/ja/schedule/details/11.html">Pattern Matching in Ruby</a>というセッションで機能概要を紹介したことがありますが、今回はメタプログラミングやRefinementsといったRubyならではの表現力をフル活用している実装面についてその舞台裏をお見せします。</p>
-  abstract_en: <p>I'll talk about implementation of pattern-match gem which uses Ruby's powerful features like metaprogramming/Refinements and so on.</p>
-  knowledge: ScalaやHaskellにおけるパターンマッチの機能を知っていると内容が理解しやすいと思いますが必須ではありません。
+  title: Rubyに型があると便利か
+  title_en: What If Ruby was Typed?
+  abstract: <p>最近開発したgem <a href="https://github.com/ksss/type_struct">type_struct</a> を中心に「Rubyに型があると便利か」という問いについて考察します。ひいては、Ruby3への議論に貢献できればと考えています。</p>
+  abstract_en: <p>This talk consider about question "What If Ruby was Typed?" with <a href="https://github.com/ksss/type_struct">type_struct</a> that I'm developing recently. Finaly, I want to contribute discussion about Ruby3.</p>
+  knowledge: 基本的なRubyの知識があればよいです。golangやcrystalのさわりもわかっていると、より楽しめると思います。
   starts_at:
 
 - name: ランチ
   name_en: Lunch
   type: other
-  starts_at: "12:25"
+  starts_at: "12:15"
 
 - name: 奥一穂
   name_en: Kazuho Oku
@@ -75,7 +75,7 @@
   abstract: To Be Announced...
   abstract_en:
   knowledge: To Be Announced...
-  starts_at: "13:30"
+  starts_at: "13:20"
 
 - name: 須藤功平
   name_en: Kouhei Sutou
@@ -93,20 +93,20 @@
   knowledge: マルチプロセスとGCとシグナルとイベントループについての一般的な知識。
   starts_at:
 
-- name: 栗原 勇樹
-  name_en: Yuki Kurihara
-  gravatar_url: https://www.gravatar.com/avatar/77897395d9b84463bd474a69b922b2ec
-  affi: 株式会社spice life
-  desc: ふつうの会社員
-  desc_en: Software Engineer
-  twitter: _ksss_
-  github: ksss
+- name: 辻本 和樹
+  name_en: Kazuki Tsujimoto
+  gravatar_url: http://www.gravatar.com/avatar/303dd57f37d64288bb4f0336332a8882
+  affi: 株式会社野村総合研究所
+  desc: Rubyコミッタ/power_assert開発者
+  desc_en: A Ruby committer/power_assert developer
+  twitter: k_tsj
+  github: k-tsj
   type: talk
-  title: Rubyに型があると便利か
-  title_en: What If Ruby was Typed?
-  abstract: <p>最近開発したgem <a href="https://github.com/ksss/type_struct">type_struct</a> を中心に「Rubyに型があると便利か」という問いについて考察します。ひいては、Ruby3への議論に貢献できればと考えています。</p>
-  abstract_en: <p>This talk consider about question "What If Ruby was Typed?" with <a href="https://github.com/ksss/type_struct">type_struct</a> that I'm developing recently. Finaly, I want to contribute discussion about Ruby3.</p>
-  knowledge: 基本的なRubyの知識があればよいです。golangやcrystalのさわりもわかっていると、より楽しめると思います。
+  title: "Re: Pattern Matching in Ruby"
+  title_en: "Re: Pattern Matching in Ruby"
+  abstract: <p>Rubyでパターンマッチを実現するためのライブラリであるpattern-matchに関する発表です。</p><p>本ライブラリについてはSapporo RubyKaigi 2012の<a href="http://sapporo.rubykaigi.org/2012/ja/schedule/details/11.html">Pattern Matching in Ruby</a>というセッションで機能概要を紹介したことがありますが、今回はメタプログラミングやRefinementsといったRubyならではの表現力をフル活用している実装面についてその舞台裏をお見せします。</p>
+  abstract_en: <p>I'll talk about implementation of pattern-match gem which uses Ruby's powerful features like metaprogramming/Refinements and so on.</p>
+  knowledge: ScalaやHaskellにおけるパターンマッチの機能を知っていると内容が理解しやすいと思いますが必須ではありません。
   starts_at:
 
 - name: 田中 和明
