@@ -150,9 +150,9 @@
 - name: 村田 賢太
   name_en: Kenta Murata
   gravatar_url: https://www.gravatar.com/avatar/7cca11c5257fda526eeb4b1ada28f904
-  affi: Cookpad Inc. / Ruby committer
-  desc: クックパッドにてソフトウェアエンジニアとして働きながら、プライベートでは BigDecimal のメンテナとして Ruby の開発に携わっている。
-  desc_en: A Ruby committer as a BigDecimal maintainer, and working for Cookpad Inc. as a software engineer.
+  affi: Recruit Holdings Co., Ltd. / Ruby committer
+  desc: リクルートホールディングス Media Technology Lab にてソフトウェアエンジニアとして働きながら、プライベートでは BigDecimal のメンテナとして Ruby の開発に携わっている。
+  desc_en: A Ruby committer as a BigDecimal maintainer, and working for Recruit Holdings Media Technology Lab as a software engineer.
   twitter: mrkn
   github: mrkn
   type: talk
