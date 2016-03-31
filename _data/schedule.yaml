@@ -151,7 +151,7 @@
   name_en: Kenta Murata
   gravatar_url: https://www.gravatar.com/avatar/7cca11c5257fda526eeb4b1ada28f904
   affi: Cookpad Inc. / Ruby committer
-  desc: クックパッドにてソフトウェアエンジニアとして働きながら、プライベートでは BigDecimal のメンテなとして Ruby の開発に携わっている。
+  desc: クックパッドにてソフトウェアエンジニアとして働きながら、プライベートでは BigDecimal のメンテナとして Ruby の開発に携わっている。
   desc_en: A Ruby committer as a BigDecimal maintainer, and working for Cookpad Inc. as a software engineer.
   twitter: mrkn
   github: mrkn
@@ -192,7 +192,7 @@
   gravatar_url: https://www.gravatar.com/avatar/aba3c1870b6cea67493617e5a343b586
   affi: Treasure Data, Inc. Founder & Software Architect
   desc: 分散データベース「PlazmaDB」や分散Key-Valueストア「Kumofs」など、十年にわたって分散システムの開発に携わる。また、バイナリシリアライズ形式『MessagePack』、ログコレクタ『Fluentd』、並列ETL『Embulk』などのオープンソースプロジェクトを創始した。
-  desc_en: A OSS hacker. He founded successful projects including MessagePack - a binary serialization format, Fluentd - streaming log collector, and Embulk - a parallel ETL. He has been working on distributed systems for a decade, and developing a distributed storage named "PlazmaDB" at Treasure Data.
+  desc_en: An OSS hacker. He founded successful projects including MessagePack - a binary serialization format, Fluentd - streaming log collector, and Embulk - a parallel ETL. He has been working on distributed systems for a decade, and developing a distributed storage named "PlazmaDB" at Treasure Data.
   twitter: frsyuki
   github: frsyuki
   type: keynote
