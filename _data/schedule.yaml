@@ -115,14 +115,14 @@
   gravatar_url: https://www.gravatar.com/avatar/REPLACE-THIS-URL-WITH-YOURS
   affi: 九州工業大学
   desc: To Be Announced...
-  desc_en: 
+  desc_en: Associate Professor in the Department of Mechanical Information Science and Technology at Kyushu Institute of Technology
   twitter:
   github: kaz0505
   type: talk
   title: mruby/c
   title_en: mruby/c
   abstract: <p>OSS版のmrubyよりも小さな資源で動作するVMの実装です．40KB程度のメモリで動作しています．ワンチップマイコンを想定した実装になっていて，多くのクラスを削減しています．そのため，一般的なRubyプログラムには向きませんが，組込みシステムでの機器制御やIoT分野への適用を目指しています．</p>
-  abstract_en:
+  abstract_en: <p>mruby is a lightweight Ruby interpreter with the intention of being easily embeddable. mruby/c is a VM implementation that works on even less resources than the OSS version of mruby. It works with around 40KB of memory. This implementation assumes the use of a one-chip microcomputer, so it has a considerably reduced number of classes. Therefore, it is not suitable for general Ruby programming; however, its application is aimed at the control of embedded system devices and the development of IoT products.</p>
   knowledge: mruby
   starts_at:
 
