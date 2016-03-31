@@ -106,7 +106,7 @@
   title: "Re: Pattern Matching in Ruby"
   title_en: "Re: Pattern Matching in Ruby"
   abstract: <p>Rubyでパターンマッチを実現するためのライブラリであるpattern-matchに関する発表です。</p><p>本ライブラリについてはSapporo RubyKaigi 2012の<a href="http://sapporo.rubykaigi.org/2012/ja/schedule/details/11.html">Pattern Matching in Ruby</a>というセッションで機能概要を紹介したことがありますが、今回はメタプログラミングやRefinementsといったRubyならではの表現力をフル活用している実装面についてその舞台裏をお見せします。</p>
-  abstract_en: <p>I'll talk about implementation of pattern-match gem which uses Ruby's powerful features like metaprogramming/Refinements and so on.</p>
+  abstract_en: <p>I'll talk about implementation details of the pattern-match gem which uses Ruby's powerful features like metaprogramming and Refinements.</p>
   knowledge: ScalaやHaskellにおけるパターンマッチの機能を知っていると内容が理解しやすいと思いますが必須ではありません。
   starts_at:
 
