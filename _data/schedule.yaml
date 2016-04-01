@@ -112,10 +112,10 @@
 
 - name: 田中 和明
   name_en: Kazuaki Tanaka
-  gravatar_url: https://www.gravatar.com/avatar/REPLACE-THIS-URL-WITH-YOURS
+  gravatar_url: https://www.gravatar.com/avatar/c00e107a1d249b046ecb7d2138ce88cc
   affi: 九州工業大学
-  desc: To Be Announced...
-  desc_en: Associate Professor in the Department of Mechanical Information Science and Technology at Kyushu Institute of Technology
+  desc: mruby, mruby/c開発者, 大学では組込みソフトウェアの研究に従事している．
+  desc_en: mruby and mruby/c developper, and also a researcher in embedded software area
   twitter:
   github: kaz0505
   type: talk
