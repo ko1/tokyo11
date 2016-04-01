@@ -67,6 +67,10 @@ gold:
     image: r-learning.png
     link: https://www.r-learning.co.jp/
     desc: アールラーニングは「エンジニアに夢を 人と企業にHappyを！」を掲げ、エンジニアとクライアント両方の幸せを共存させることが、私たち企業の存在意義だと考えています。クライアントのIT力向上をサポートし、企業目標を達成する事をコミットするITアドバイザー、パートナーであり続け、クライアントの視点に立ち同じチームのメンバーとして躍進していきます。
+  - name: Media Technology Lab.
+    image: mtllogo.png
+    link: http://mtl.recruit.co.jp/
+    desc: Media Technology Lab.は、株式会社リクルートホールディングスの新規事業開発部署です。毎月数多く寄せられる新規事業のアイデアの中から、１０年後のグローバルスタンダードになりうるシードを発掘し、投資・育成を行っています。プログラミングするエンジニアに向けたトレンドメディア「POSTD」の運営等も行っています。
 
 network:
   - name: CONBU
