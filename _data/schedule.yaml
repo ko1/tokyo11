@@ -45,14 +45,14 @@
   gravatar_url: https://www.gravatar.com/avatar/77897395d9b84463bd474a69b922b2ec
   affi: 株式会社spice life
   desc: RubyKaja 2014。子育ての合間に小さいライブラリーを作るのが趣味。
-  desc_en: A software engineer, one of the <a href="http://kaja.rubyist.net/">RubyKaja 2014 winners</a> and a father. He enjoys implementing a small library when he has free time.
+  desc_en: A software engineer, one of the <a href="http://kaja.rubyist.net/">RubyKaja 2014 winners</a> and a father. He enjoys writing small libraries when he has free time.
   twitter: _ksss_
   github: ksss
   type: talk
   title: Rubyに型があると便利か
   title_en: Pseudo Type System on Struct
   abstract: <p>最近開発したgem <a href="https://github.com/ksss/type_struct">type_struct</a> を中心に「Rubyに型があると便利か」という問いについて考察します。ひいては、Ruby3への議論に貢献できればと考えています。</p>
-  abstract_en: "<p>Everyone knows Ruby is a dynamic programming language, but what if it was dynamically typed? In this talk, I'll talk about whether having a type system in Ruby would be useful or not by walking through what we can do with <a href=\"https://github.com/ksss/type_struct\">type_struct</a>. Come and join me for a conversation about the future of Ruby 3 and its type system.</p>"
+  abstract_en: "<p>Everyone knows Ruby is a dynamic programming language, but what if it was statically typed? In this talk, I'll talk about whether having a type system in Ruby would be useful or not by walking through what we can do with <a href=\"https://github.com/ksss/type_struct\">type_struct</a>. Come and join me for a conversation about the future of Ruby 3 and its type system.</p>"
   knowledge: 基本的なRubyの知識があればよいです。golangやcrystalのさわりもわかっていると、より楽しめると思います。
   starts_at:
 
