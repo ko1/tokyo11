@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: TokyoRubyKaigi11
+title: Tokyo RubyKaigi 11
 email: tokyorubykaigi11@atdot.net
 description: > # this means to ignore newlines until "baseurl:"
-  Website of TokyoRubyKaigi11.
+  Tokyo RubyKaigi 11 is a one-day, single-track conference. Join us for a discussion with other enthusiasts and the creator of Ruby, in the land of Ruby.
 baseurl: "/tokyo11" # the subpath of your site, e.g. /blog
 url: "http://regional.rubykaigi.org/tokyo11" # the base hostname & protocol for your site
 twitter_username: tokyork11
