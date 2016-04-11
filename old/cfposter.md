@@ -19,5 +19,6 @@ permalink: /cfposter/
 
 ポスターを展示したい方は、下記の内容を <tokyorubykaigi11@atdot.net> までご連絡ください。
 
+* メールの Subject を「ポスター応募：（お名前）」として下さい。
 * 展示される方のお名前と所属、e-mail アドレス
 * ポスターの内容と展示する目的

@@ -26,6 +26,7 @@ permalink: /cfb/
 
 展示いただける場合は、下記の内容を <tokyorubykaigi11@atdot.net> までご連絡ください。
 
+* メールの Subject を「書籍展示：（組織名）」として下さい。
 * 組織名
 * ご担当者様の名前
 * ご担当者様の e-mail アドレス
