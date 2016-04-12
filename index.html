@@ -9,6 +9,27 @@ permalink: /
 </div>
 
 
+<h2 class="text-center m-t-lg">お知らせ</h2>
+
+<div class="container m-t-md">
+  <div class="row">
+    {% for announcement in site.data.announcements %}
+      <div class="col-sm-4">
+        <div class="m-b-md">
+          <p class="featured-list-icon-text text-center m-b-0">
+            {{announcement.date}}<br />
+            <strong>{{announcement.title}}</strong>
+          </p>
+          <hr class="m-t-5 m-b-5" />
+
+          <p class="featured-list-icon-text">{{announcement.description}}</p>
+          <p class="text-center"><a href="{{announcement.link}}">詳細はこちら</a></p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
 <div class="p-t-md text-center">
   <h2 class="block-title font-thin">基調講演</h2>
 
