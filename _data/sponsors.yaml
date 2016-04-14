@@ -87,3 +87,10 @@ network:
     image: BBTower.png
     link: http://www.bbtower.co.jp/
     link_en: http://www.bbtower.co.jp/en/corporate/
+book:
+  - name: 技術評論社 WEB+DB PRESS編集部
+    image: LOGO-WDB-RGB-BLUE.png
+    link: http://wdpress.gihyo.jp
+  - name: 株式会社オライリー・ジャパン
+    image: ORJ_logo_2C.jpg
+    link: http://www.oreilly.co.jp/index.shtml

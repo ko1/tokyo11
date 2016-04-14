@@ -133,5 +133,15 @@ permalink: /en/
           {% endfor %}
         </div>
       </div>
-  </div>
+
+      <div class="p-y-md">
+        <h4>Book Sponsors</h4>
+        <div class="row">
+          {% for sponsor in site.data.sponsors.book %}
+            <a href="{{sponsor.link}}" target="_blank"><img width="130" src="{{site.baseurl}}/image/{{sponsor.image}}" hspace="10" /></a>
+          {% endfor %}
+        </div>
+      </div>
+
+    </div>
 </div>
