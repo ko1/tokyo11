@@ -142,8 +142,8 @@
   type: invited_talk
   title: "Image Recognition and Code that shouldn't exist"
   title_en: "Image Recognition and Code that shouldn't exist"
-  abstract: この発表では、どのようにRubyを使った画像認識処理方法で、経時的に精度向上が行なわれていくかを説明します。それと、実際に存在する必要のないコードを見ていきます。本発表で紹介する研究の目的は、あくまでも私個人の創造的で役に立たない課題を書くことの挑戦であり、有益な結果の生産ではありません。本発表を「自身に表示できないクワイン」と理解して頂ければ良いと思います。
-  abstract_en: In this presentation we will look at how to use Ruby to do image recognition that will improve over time.  We will also look at some other code that has no reason to exist.  The point of the projects I will present is not to produce something useful, but to challenge myself to do something creative.  Think of this presentation as a Quine that cannot print itself.
+  abstract: <p>この発表では、どのようにRubyを使った画像認識処理方法で、経時的に精度向上が行なわれていくかを説明します。それと、実際に存在する必要のないコードを見ていきます。本発表で紹介する研究の目的は、あくまでも私個人の創造的で役に立たない課題を書くことの挑戦であり、有益な結果の生産ではありません。本発表を「自身に表示できないクワイン」と理解して頂ければ良いと思います。</p>
+  abstract_en: <p>In this presentation we will look at how to use Ruby to do image recognition that will improve over time.  We will also look at some other code that has no reason to exist.  The point of the projects I will present is not to produce something useful, but to challenge myself to do something creative.  Think of this presentation as a Quine that cannot print itself.</p>
   knowledge: To Be Announced...
   starts_at: "16:00"
 
