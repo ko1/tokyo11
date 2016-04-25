@@ -87,6 +87,10 @@ network:
     image: BBTower.png
     link: http://www.bbtower.co.jp/
     link_en: http://www.bbtower.co.jp/en/corporate/
+  - name: Mackerel
+    image: mackerel.png
+    link: https://mackerel.io/
+    link_en: https://mackerel.io/
 book:
   - name: 技術評論社 WEB+DB PRESS編集部
     image: LOGO-WDB-RGB-BLUE.png
