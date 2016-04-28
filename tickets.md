@@ -21,6 +21,8 @@ permalink: /tickets/
 
 大きな休憩スペース（ライブ中継有り）、小さな休憩スペース（子供の世話などが可能）を用意する予定です。具体的には、[会場施設](http://www.akibahall.jp/data/outline.html) 5階の 5C、5E です。
 
+保護者に連れられた、15歳以下のお子さんはチケット不要です（保護者の方は必要です）。
+
 Paypal への支払い時、送金先が doorkeeper、および SASADA KOICHI （実行委員長　笹田耕一）宛になります
 （[こんな感じ](https://gyazo.com/de2bf9c3f683405f16ae024e9bca552c)）。
 
@@ -30,7 +32,7 @@ Paypal への支払い時、送金先が doorkeeper、および SASADA KOICHI �
 会議のチケットは、次の3種類になります。
 
 * [通常チケット](https://tokyorubykaigi11.doorkeeper.jp/events/44178)
-* [学生割引、および女性、男性以外の割引チケット](https://tokyorubykaigi11.doorkeeper.jp/events/44179)
+* [学生割引、女性割引、男性以外の割引チケット](https://tokyorubykaigi11.doorkeeper.jp/events/44179)
 * [メディアスポンサーチケット](https://tokyorubykaigi11.doorkeeper.jp/events/44180)
 
 該当するチケットをお求め下さい。詳細は、下記をご確認下さい。
@@ -43,15 +45,15 @@ Paypal への支払い時、送金先が doorkeeper、および SASADA KOICHI �
 
 → [通常チケットを購入する](https://tokyorubykaigi11.doorkeeper.jp/events/44178)
 
-## 学生割引、および女性、男性以外の割引チケット
+## 学生割引、女性割引、男性以外の割引チケット
 
-東京Ruby会議11では、参加者の多様性を増やすことを目的として、学生と、女性、男性以外の方を対象とした割り引きチケットを発売します。
+東京Ruby会議11では、参加者の多様性を増やすことを目的として、学生と、女性、男性以外の方を対象とした割引チケットを発売します。
 金額は 1,000 円になります。
 
-手続き簡略化のため、とくにチェックはしませんので、条件に該当するかどうかは、購入する方でご判断下さい。
+手続き簡略化のため、とくにチェックはしませんので、条件に該当するかどうかは、購入する方がご判断下さい。
 例えば、社会人学生の場合は、懐具合によってご判断下さい。
 
-→ [学生割引、および女性、男性以外の割引チケット](https://tokyorubykaigi11.doorkeeper.jp/events/44179)
+→ [学生割引、女性割引、男性以外の割引チケット](https://tokyorubykaigi11.doorkeeper.jp/events/44179)
 
 ## メディアスポンサーチケット
 
