@@ -1,3 +1,8 @@
+- date: 4/29
+  title: チケット発売開始
+  description: チケットの発売を開始しました。いくつか種類があるので、お気を付け下さい。
+  link: tickets/
+
 - date: 4/11
   title: 募集：ポスターを展示したい方
   description: ポスターを展示したい方を募集しています。
@@ -7,8 +12,3 @@
   title: 募集：書籍を展示したい方
   description: プログラミング技術についての書籍を展示したい方を募集します。
   link: cfb/
-
-- date: 4/3
-  title: スケジュールを公開しました。
-  description:
-  link: schedule/
