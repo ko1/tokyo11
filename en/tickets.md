@@ -6,9 +6,9 @@ permalink: /en/tickets/
 
 There are three types tikcets and an after party ticket.
 
-# information
+# Information
 
-* All of talks and announcements are spoken in Japanese.
+* **All of talks and announcements are spoken in Japanese.**
 * Please keep polite checking other conferences' anti harassment policy (for example, [RubyKaigi Anti Harassment Policy  2016](http://rubykaigi.org/2016/code-of-conduct/)).
 * We don't refund so that please do not cancel tickets.
 * We will place name cards where every one can see them. Plaese use a nick name or a false name if you don't want to publish your real name.
