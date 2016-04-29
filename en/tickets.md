@@ -38,8 +38,8 @@ We don't check each entries, so please decide your condition by yourself.
 ## Media sponsor tickets
 
 * Journalist who will write about our event
-* [Book presentors](/tokyo/cfb/)
-* [Poster presentors](/tokyo/cfposter/)
+* [Book presentors](/tokyo11/cfb/)
+* [Poster presentors](/tokyo11/cfposter/)
 
 → [Buy Media sponsor tickets](https://tokyorubykaigi11.doorkeeper.jp/events/44180)
 

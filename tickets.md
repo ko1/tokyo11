@@ -59,8 +59,8 @@ Paypal への支払い時、送金先が doorkeeper、および SASADA KOICHI �
 無料です。
 
 * 東京Ruby会議11を取材をして頂けるメディアの方
-* [書籍を展示して頂ける方](/tokyo/cfb/)
-* [ポスターを展示して頂ける方](/tokyo/cfposter/)
+* [書籍を展示して頂ける方](/tokyo11/cfb/)
+* [ポスターを展示して頂ける方](/tokyo11/cfposter/)
 
 → [メディアスポンサーのチケットを購入する](https://tokyorubykaigi11.doorkeeper.jp/events/44180)
 
