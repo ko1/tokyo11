@@ -65,16 +65,16 @@
   name_en: Kazuho Oku
   gravatar_url: http://www.gravatar.com/avatar/a1f8ed12fefd7759ef8838e62ee409a6
   affi: 
-  desc: To Be Announced...
+  desc: 
   desc_en: 
   twitter: kazuho
   github: kazuho
   type: invited_talk
-  title: To Be Announced...
-  title_en: To Be Announced...
-  abstract: To Be Announced...
-  abstract_en:
-  knowledge: To Be Announced...
+  title: 最速ウェブサーバの作り方
+  title_en: How to make the fastest web server
+  abstract: <p>近年、ウェブの体感速度は、ネットワークのバンド幅ではなくレイテンシによって律速される傾向が強まってきています。また、それに伴い、TCP Fast Open、HTTP/2、TLS 1.3といった、レイテンシの影響を削減／隠蔽する技術の標準化が進んでいます。本セッションでは、HTTP/2サーバ「H2O」の主開発者が、レイテンシの影響削減を主目的とするサーバのプログラミング技法や、HTTP/2の更なる高速化を実現する手法として標準化提案中の「Cache Digest」等を紹介し、それらをrubyから制御する手法を検討します。</p>
+  abstract_en: <p>In recent years, performance bottleneck of the Web has shifted from network bandwidth to latency.  In response, technologies that reduce and / or conceal the latency are getting standardized, which include, but not limited to TCP Fast Open, HTTP/2, TLS 1.3.  In the session, lead developer of the HTTP/2 server H2O will present server programming techniques that reduce the negative influence of latency, introduce "Cache Digest" - a proposed approach to farther optimize HTTP/2, etc., and also discuss how to control them from ruby.</p>
+  knowledge: TCP/IPとUnixのソケットプログラミングに関する基礎的な知識があると、分かりやすいかと思います。
   starts_at: "13:20"
 
 - name: 須藤功平
