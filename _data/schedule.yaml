@@ -64,8 +64,9 @@
 - name: 奥一穂
   name_en: Kazuho Oku
   gravatar_url: http://www.gravatar.com/avatar/a1f8ed12fefd7759ef8838e62ee409a6
-  affi: 
-  desc: 
+  affi: 株式会社ディー・エヌ・エー
+  affi_en: DeNA Co., Ltd.
+  desc: MIT TR100、日本OSS貢献者賞受賞、未踏ソフト認定の天才プログラマー。ウェブ基盤ソフトウェアが専門。代表作にPalmscape/Xiino、Japanize、Pathtraq、Q4M等。最近の仕事はHTTP/2サーバ「H2O」の開発。
   desc_en: 
   twitter: kazuho
   github: kazuho
