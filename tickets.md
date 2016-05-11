@@ -41,7 +41,9 @@ Paypal への支払い時、送金先が doorkeeper、および SASADA KOICHI �
 早期割引価格 3,000 円 になります。
 通常価格は 5,000 円を予定しています。
 
-→ [通常チケットを購入する](https://tokyorubykaigi11.doorkeeper.jp/events/44178)
+<div class="text-center m-t">
+  <a class="btn btn-primary btn-lg" href="https://tokyorubykaigi11.doorkeeper.jp/events/44178">通常チケットを購入する</a>
+</div>
 
 ## 学生割引、女性割引、男性以外の割引チケット
 
@@ -51,7 +53,9 @@ Paypal への支払い時、送金先が doorkeeper、および SASADA KOICHI �
 手続き簡略化のため、とくにチェックはしませんので、条件に該当するかどうかは、購入する方がご判断下さい。
 例えば、社会人学生の場合は、懐具合によってご判断下さい。
 
-→ [学生割引、女性割引、男性以外の割引チケット](https://tokyorubykaigi11.doorkeeper.jp/events/44179)
+<div class="text-center m-t">
+  <a class="btn btn-primary btn-lg" href="https://tokyorubykaigi11.doorkeeper.jp/events/44179">学生割引、女性割引、男性以外の割引チケット</a>
+</div>
 
 ## メディアスポンサーチケット
 
@@ -62,7 +66,9 @@ Paypal への支払い時、送金先が doorkeeper、および SASADA KOICHI �
 * [書籍を展示して頂ける方](/tokyo11/cfb/)
 * [ポスターを展示して頂ける方](/tokyo11/cfposter/)
 
-→ [メディアスポンサーのチケットを購入する](https://tokyorubykaigi11.doorkeeper.jp/events/44180)
+<div class="text-center m-t">
+  <a class="btn btn-primary btn-lg" href="https://tokyorubykaigi11.doorkeeper.jp/events/44180">メディアスポンサーのチケットを購入する</a>
+</div>
 
 # 懇親会のチケット
 
@@ -71,5 +77,6 @@ Paypal への支払い時、送金先が doorkeeper、および SASADA KOICHI �
 
 なお、スピーカー、スタッフは懇親会のチケットの購入は不要です。
 
-→ [懇親会のチケットを購入する](https://tokyorubykaigi11.doorkeeper.jp/events/44181)
-
+<div class="text-center m-t">
+  <a class="btn btn-primary btn-lg" href="https://tokyorubykaigi11.doorkeeper.jp/events/44181">懇親会のチケットを購入する</a>
+</div>
