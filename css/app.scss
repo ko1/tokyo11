@@ -30,6 +30,8 @@ h1.post-title {
 .font-thin { font-weight: 100; }
 .font-bold { font-weight: 500; }
 
+.font-size-med { font-size: 16px; }
+
 a.link-no-decoration,
 a.link-no-decoration:active,
 a.link-no-decoration:hover,
@@ -74,6 +76,12 @@ h1.app-top-title {
 .app-sponsors-text {
     p {
         font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) {
+    input.app-form-input {
+        width: 300px !important;
     }
 }
 
