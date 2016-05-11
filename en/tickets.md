@@ -6,8 +6,6 @@ permalink: /en/tickets/
 
 Tokyo RubyKaigi 11 is selling tickets for its conference and after-party social event.
 
-## Important Notice
-
  * **All talks will be given in Japanese.**
  * Please note that those wishing to participate in the conference are kindly requested to refer to the anti-harassment policies of other conferences (for example, [the RubyKaigi Anti Harassment Policy 2016](http://rubykaigi.org/2016/code-of-conduct/)) in order to avoid trouble with other participants.
  * Please note that in order to reduce the cost of hosting this conference, we are unable to accept any ticket cancellations or refunds requested by the participants. In addition, we do not impose any restrictions on tickets being transferred between individuals.
