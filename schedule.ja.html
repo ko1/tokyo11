@@ -45,6 +45,11 @@ permalink: /schedule/
               <p>{{ talk.knowledge }}</p>
             {% endif %}
 
+            {% if talk.interview == "done" %}
+              <h5 class="block-title text-muted m-t m-b-5">事前インタビュー</h5>
+              <p><a href='/tokyo11/interview/{{ talk.github }}'>{{ talk.name }} さんインタビュー</a></p>
+            {% endif %}
+
             <h4 class="block-title m-t m-b-5">
               {{ talk.name }}
 

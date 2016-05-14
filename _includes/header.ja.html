@@ -18,6 +18,7 @@
         {% for my_page in site.pages %}
           {% if my_page.title %}
             {% if my_page.path contains "old/" %}
+            {% elsif my_page.path contains "interview/" %}
             {% elsif my_page.path contains "en/" %}
             {% else %}
               <li>

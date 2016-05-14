@@ -147,6 +147,7 @@
   abstract_en: <p>In this presentation we will look at how to use Ruby to do image recognition that will improve over time.  We will also look at some other code that has no reason to exist.  The point of the projects I will present is not to produce something useful, but to challenge myself to do something creative.  Think of this presentation as a Quine that cannot print itself.</p>
   knowledge:   Ruby, little about C, MtG (card game culture)
   starts_at: "16:00"
+  interview: done
 
 - name: 村田 賢太
   name_en: Kenta Murata
