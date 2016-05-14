@@ -10,40 +10,63 @@ permalink: /
   <a class="btn btn-primary btn-lg" href="{{ site.baseurl }}/tickets/">チケット購入ページへ</a>
 </div>
 
-<h2 class="text-center m-t-lg">お知らせ</h2>
-
-<div class="container m-t-md">
-  <div class="row">
-    {% for announcement in site.data.announcements %}
-      <div class="col-sm-4">
-        <div class="m-b-md">
-          <p class="featured-list-icon-text text-center m-b-0">
-            {{announcement.date}}<br />
-            <strong>{{announcement.title}}</strong>
-          </p>
-          <hr class="m-t-5 m-b-5" />
-
-          <p class="featured-list-icon-text">{{announcement.description}}</p>
-          <p class="text-center"><a href="{{announcement.link}}">詳細はこちら</a></p>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
-</div>
-
 <h2 class="text-center m-t-lg">募集中</h2>
 
-<div class="p-t-md text-center">
-  <ul style='list-style-type: ""'>
-    <li><a href='/tokyo11/cfposter'> （当日）ポスターを展示したい方 </a></li>
-    <li><a href='/tokyo11/cfposter'>  （当日）書籍を展示したい方  </a></li>
-    <li><a href='https://github.com/rubima/rubima/issues/396'> （当日）るびまレポート係 </a></li>
-    <li><a href='/tokyo11/cfposter'>  （当日）記事にしてくれるメディアの方  </a></li>
-    <li><a href='/tokyo11/cfh'> （事前）掲示するポスターや名札などをデザイン・印刷発注までしてくれる方（業者さんも歓迎）</a></li>
-  </ul>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="callout">
+        <div class="callout-content"><strong>（当日）ポスターを展示したい方</strong></div>
+
+        <div class="callout-secondary">
+          <a href="/tokyo11/cfposter/" class="btn btn-sm btn-info">詳細はこちら</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="callout">
+        <div class="callout-content"><strong>（当日）書籍を展示したい方</strong></div>
+
+        <div class="callout-secondary">
+          <a href="/tokyo11/cfb/" class="btn btn-sm btn-info">詳細はこちら</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="callout">
+        <div class="callout-content"><strong>（当日）るびまレポート係</strong></div>
+
+        <div class="callout-secondary">
+          <a href="https://github.com/rubima/rubima/issues/396" class="btn btn-sm btn-info" target="_blank">詳細はこちら</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="callout">
+        <div class="callout-content"><strong>（当日）記事にしてくれるメディアの方</strong></div>
+
+        <div class="callout-secondary">
+          <a href="/tokyo11/cfposter/" class="btn btn-sm btn-info">詳細はこちら</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="callout">
+        <div class="callout-content"><strong>（事前）掲示するポスターや名札などをデザイン・印刷発注までしてくれる方（業者さんも歓迎）</strong></div>
+
+        <div class="callout-secondary">
+          <a href="/tokyo11/cfh/" class="btn btn-sm btn-info">詳細はこちら</a>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-
-
 
 <div class="p-t-md text-center">
   <h2 class="block-title font-thin">基調講演</h2>
