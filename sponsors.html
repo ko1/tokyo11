@@ -56,32 +56,17 @@ permalink: /sponsors/
 
   <h3 id="network" class="text-center p-b-md">Network Sponsors</h3>
 
-  {% for sponsor in site.data.sponsors.network %}
-  <div class="row p-b-md">
-    <div class="col-sm-2 text-center">
-      <a target="_blank" href="{{sponsor.link}}">
-        <img width="130" src="{{site.baseurl}}/image/{{sponsor.image}}" />
-      </a>
-    </div>
-    <div class="col-sm-10 m-t">
-      <h4 class="m-t-0"><a target="_blank" href="{{sponsor.link}}">{{sponsor.name}}</a></h4>
-    </div>
+  <div class="row text-center">
+    {% for sponsor in site.data.sponsors.network %}
+      <a href="{{sponsor.link}}" target="_blank"><img width="130" src="{{site.baseurl}}/image/{{sponsor.image}}" hspace="10" /></a>
+    {% endfor %}
   </div>
-  {% endfor %}
 
   <h3 id="network" class="text-center p-b-md">Book Sponsors</h3>
 
-  {% for sponsor in site.data.sponsors.book %}
-  <div class="row p-b-md">
-    <div class="col-sm-2 text-center">
-      <a target="_blank" href="{{sponsor.link}}">
-        <img width="130" src="{{site.baseurl}}/image/{{sponsor.image}}" />
-      </a>
-    </div>
-    <div class="col-sm-10 m-t">
-      <h4 class="m-t-0"><a target="_blank" href="{{sponsor.link}}">{{sponsor.name}}</a></h4>
-    </div>
+  <div class="row text-center">
+    {% for sponsor in site.data.sponsors.book %}
+      <a href="{{sponsor.link}}" target="_blank"><img width="130" src="{{site.baseurl}}/image/{{sponsor.image}}" hspace="10" /></a>
+    {% endfor %}
   </div>
-  {% endfor %}
-
 </div>
