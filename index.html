@@ -10,7 +10,29 @@ permalink: /
   <a class="btn btn-primary btn-lg" href="{{ site.baseurl }}/tickets/">チケット購入ページへ</a>
 </div>
 
-<h2 class="text-center m-t-lg">募集中</h2>
+<h2 class="text-center m-t-lg">お知らせ</h2>
+
+<div class="container m-t-md">
+  <div class="row">
+    {% for announcement in site.data.announcements %}
+    <div class="col-sm-4">
+      <div class="m-b-md">
+        <p class="featured-list-icon-text text-center m-b-0">
+          {{announcement.date}}<br />
+          <strong>{{announcement.title}}</strong>
+        </p>
+        <hr class="m-t-5 m-b-5" />
+
+        <p class="featured-list-icon-text">
+          {{announcement.description}}
+        </p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<h2 class="text-center m-t-md m-b-md">募集中</h2>
 
 <div class="container">
   <div class="row">
