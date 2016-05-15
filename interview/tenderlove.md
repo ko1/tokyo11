@@ -4,7 +4,7 @@ title: Aaron Patterson さんインタビュー
 permalink: /interview/tenderlove/
 ---
 
-{% include interview-head-tenderlove %}
+{% include interview-head github='tenderlove' %}
 
 RailsConf 2016 の三日目（5/6）の、Aaron さんのキーノートが終わった後に伺いました（話し手：Aaron Patterson、聞き手：笹田）。
 

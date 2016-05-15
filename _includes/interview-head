@@ -1,0 +1,68 @@
+<div>
+   {% for talk in site.data.schedule %}
+    {% if talk.github == include.github %}
+      <div class="row m-b-0">
+        <div class="app-timetable-icon text-center">
+          {% if talk.type == "other" %}
+            <span class="app-timetable-break-icon" style="display: inline-block;"></span>
+          {% else %}
+            <img src="{{ talk.gravatar_url }}?s=160">
+          {% endif %}
+        </div>
+        <div class="app-timetable-talk app-timetable-talk-ja">
+          {% if talk.type != "other" %}
+            <h4 class="m-a-0">
+              <span class="m-b-5 block-title text-muted font-bold m-t-0 app-timetable-starts-at">
+                {{ talk.starts_at }}
+              </span>
+
+              {% if talk.type == "keynote" %}
+                <span class="m-b-5 label label-success">Keynote</span>
+              {% elsif talk.type == "invited_talk" %}
+                <span class="m-b-5 label label-info">Invited Speaker</span>
+              {% endif %}
+            </h4>
+
+            <h3 class="m-t-0 m-b-5 font-bold">{{ talk.title }}</h3>
+
+            {% if talk.abstract != "To Be Announced..." %}
+              {{ talk.abstract }}
+            {% endif %}
+
+            {% if talk.knowledge != "To Be Announced..." %}
+              <h5 class="block-title text-muted m-t m-b-5">必要となる知識</h5>
+              <p>{{ talk.knowledge }}</p>
+            {% endif %}
+
+            <h4 class="block-title m-t m-b-5">
+              {{ talk.name }}
+
+              {% if talk.twitter %}
+                <a class="link-no-decoratio" target="_blank" href="https://twitter.com/{{ talk.twitter }}">
+                  <span class="icon icon--twitter">{% include icon-twitter.svg %}</span>
+                </a>
+              {% endif %}
+              {% if talk.github %}
+                <a class="link-no-decoration" target="_blank" href="https://github.com/{{ talk.github }}">
+                  <span class="icon icon--github">{% include icon-github.svg %}</span>
+                </a>
+              {% endif %}
+              <br />
+              <small class="text-muted">{{ talk.affi }}</small>
+
+            </h4>
+            {% if talk.desc != "To Be Announced..." %}
+              <p class="m-a-0">{{ talk.desc }}</p>
+            {% endif %}
+          {% else %}
+            <h4 class="m-b-0 block-title m-t-0">
+              <span class="text-muted font-bold app-timetable-starts-at" style="top: 0">{{ talk.starts_at }}</span>
+              {{ talk.name }}
+            </h4>
+          {% endif %}
+          <hr />
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
