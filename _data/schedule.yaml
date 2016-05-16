@@ -127,6 +127,7 @@
   abstract_en: <p>mruby is a lightweight Ruby interpreter with the intention of being easily embeddable. mruby/c is a VM implementation that works on even less resources than the OSS version of mruby. It works with around 40KB of memory. This implementation assumes the use of a one-chip microcomputer, so it has a considerably reduced number of classes. Therefore, it is not suitable for general Ruby programming; however, its application is aimed at the control of embedded system devices and the development of IoT products.</p>
   knowledge: mruby
   starts_at:
+  interview: done
 
 - name: 休憩
   name_en: Break
