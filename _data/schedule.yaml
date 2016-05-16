@@ -94,6 +94,7 @@
   abstract_en: "<p>I'll talk about how to embed CRuby to milter manager. milter manager is an email filtering application. It should be able to handle a large number of simultaneous connections, so it’s been implemented as multi-processing and event-driven server program. I've made a self-contained package in order to customize it using Ruby. Let’s take a deep dive into the implementation of the elements needed for this case to work successfully: GC, forks, signals, and event loops.</p>"
   knowledge: マルチプロセスとGCとシグナルとイベントループについての一般的な知識。
   starts_at:
+  interview: done
 
 - name: 辻本 和樹
   name_en: Kazuki Tsujimoto
