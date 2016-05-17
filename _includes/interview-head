@@ -1,4 +1,7 @@
 <div>
+<p>
+  <a href='http://magazine.rubyist.net/?preTokyoRubyKaigi11'>[東京 Ruby 会議 11 直前特集号]</a>
+</p>
    {% for talk in site.data.schedule %}
     {% if talk.github == include.github %}
       <div class="row m-b-0">
