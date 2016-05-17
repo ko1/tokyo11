@@ -55,6 +55,7 @@
   abstract_en: "<p>Everyone knows Ruby is a dynamic programming language, but what if it was statically typed? In this talk, I'll talk about whether having a type system in Ruby would be useful or not by walking through what we can do with <a href=\"https://github.com/ksss/type_struct\">type_struct</a>. Come and join me for a conversation about the future of Ruby 3 and its type system.</p>"
   knowledge: 基本的なRubyの知識があればよいです。golangやcrystalのさわりもわかっていると、より楽しめると思います。
   starts_at:
+  interview: done
 
 - name: ランチ
   name_en: Lunch
