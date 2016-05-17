@@ -6,7 +6,7 @@ permalink: /interview/kazuho/
 
 {% include interview-head github='kazuho' %}
 
-5/12 株式会社ディー・エヌ・エーにて伺いました（話し手：奥さん、聞き手：笹田）。
+5/12 渋谷の株式会社ディー・エヌ・エーにて伺いました（話し手：奥さん、聞き手：笹田）。
 
 ## 発表で話をしたいこと
 

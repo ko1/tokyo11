@@ -6,7 +6,7 @@ permalink: /interview/ksss/
 
 {% include interview-head github='ksss' %}
 
-5/13 株式会社spice lifeにて伺いました（話し手：栗原さん、聞き手：笹田）。
+5/13 渋谷の株式会社spice lifeにて伺いました（話し手：栗原さん、聞き手：笹田）。
 
 __栗原__ 実は、だいたいスライドが出来てまして。
 
