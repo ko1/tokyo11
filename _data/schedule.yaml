@@ -210,3 +210,4 @@
   abstract_en: <p>A workflow engine is a tool that processes multiple tasks with dependencies. Historically, there are a lot of implementations including traditional Makefile, open-source Python software "Luigi", and "JP1/AJS3" made by Hitachi. Digdag is a new workflow engine that is in active development. In this session, I'll cover implementation techniques used in workflow engines by explaining details of Digdag such as efficient state transition of nodes in a tree structure, persistent store and transfer of execution state of tasks over network, fair task scheduling, and sandboxed task execution in Docker containers.</p>
   knowledge: SQLの基本的な知識と、Rubyのリフレクション、オプティマイザなどの知識があると、より楽しめると思います。
   starts_at: "18:00"
+  interview: done
