@@ -115,6 +115,7 @@
   abstract_en: <p>I'll talk about implementation details of the pattern-match gem which uses Ruby's powerful features like metaprogramming and Refinements.</p>
   knowledge: ScalaやHaskellにおけるパターンマッチの機能を知っていると内容が理解しやすいと思いますが必須ではありません。
   starts_at:
+  interview: done
 
 - name: 休憩
   name_en: Break
