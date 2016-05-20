@@ -6,7 +6,7 @@ permalink: /interview/kou/
 
 {% include interview-head github='kou' %}
 
-5/19 クリアコードにて伺いました（話し手：須藤さん、聞き手：笹田）。
+5/9 クリアコードにて伺いました（話し手：須藤さん、聞き手：笹田）。
 
 __笹田__ お忙しい中、ありがとうございます。今回の話は Groonga と milter manager に Ruby を組み込む、という話だと思うのですが、Groonga については、RubyKaigi 2014 の、『[Three Ruby usages](http://slide.rabbit-shocker.org/authors/kou/rubykaigi-2014/)』でご発表されていましたよね。
 
