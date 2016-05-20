@@ -154,6 +154,7 @@
   abstract_en: "<p>I've recently started developing a library for processing images. In this talk, I'll demonstrate what we can do with the library, and explain the future development plans.</p><p>I hope to remove the need for RMagick with this library as soon as possible, and I would be delighted if my presentation inspired people to help make this kind of library a reality.</p>"
   knowledge: JPEG とか PNG とか WEBP などのビットマップ画像を扱ったことがあり、Ruby で画像を処理したいなぁと思ったことがある人向けです。RMagick を使ったことがある人はなお良いです。
   starts_at:
+  interview: done
 
 - name: 遠藤侑介
   name_en: Yusuke Endoh
