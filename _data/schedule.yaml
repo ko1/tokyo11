@@ -25,21 +25,22 @@
   starts_at: "10:10"
   interview: done
 
-- name: 小崎資広
-  name_en: Motohiro Kosaki
-  gravatar_url: https://www.gravatar.com/avatar/02da662c083396641da96c1d32fc86ed
-  affi:
-  desc: To Be Announced...
-  desc_en: 
-  twitter: kosaki55tea
-  github: kosaki
-  type: invited_talk
-  title: To Be Announced...
-  title_en: To Be Announced...
-  abstract: To Be Announced...
-  abstract_en:
-  knowledge: To Be Announced...
+- name: 田中 和明
+  name_en: Kazuaki Tanaka
+  gravatar_url: https://www.gravatar.com/avatar/c00e107a1d249b046ecb7d2138ce88cc
+  affi: 九州工業大学
+  desc: mruby, mruby/c開発者, 大学では組込みソフトウェアの研究に従事している．
+  desc_en: mruby and mruby/c developper, and also a researcher in embedded software area
+  twitter:
+  github: kaz0505
+  type: talk
+  title: mruby/c
+  title_en: mruby/c
+  abstract: <p>OSS版のmrubyよりも小さな資源で動作するVMの実装です．40KB程度のメモリで動作しています．ワンチップマイコンを想定した実装になっていて，多くのクラスを削減しています．そのため，一般的なRubyプログラムには向きませんが，組込みシステムでの機器制御やIoT分野への適用を目指しています．</p>
+  abstract_en: <p>mruby is a lightweight Ruby interpreter with the intention of being easily embeddable. mruby/c is a VM implementation that works on even less resources than the OSS version of mruby. It works with around 40KB of memory. This implementation assumes the use of a one-chip microcomputer, so it has a considerably reduced number of classes. Therefore, it is not suitable for general Ruby programming; however, its application is aimed at the control of embedded system devices and the development of IoT products.</p>
+  knowledge: mruby
   starts_at:
+  interview: done
 
 - name: 栗原 勇樹
   name_en: Yuki Kurihara
@@ -61,7 +62,7 @@
 - name: ランチ
   name_en: Lunch
   type: other
-  starts_at: "12:15"
+  starts_at: "12:05"
 
 - name: 奥一穂
   name_en: Kazuho Oku
@@ -78,7 +79,7 @@
   abstract: <p>近年、ウェブの体感速度は、ネットワークのバンド幅ではなくレイテンシによって律速される傾向が強まってきています。また、それに伴い、TCP Fast Open、HTTP/2、TLS 1.3といった、レイテンシの影響を削減／隠蔽する技術の標準化が進んでいます。本セッションでは、HTTP/2サーバ「H2O」の主開発者が、レイテンシの影響削減を主目的とするサーバのプログラミング技法や、HTTP/2の更なる高速化を実現する手法として標準化提案中の「Cache Digest」等を紹介し、それらをrubyから制御する手法を検討します。</p>
   abstract_en: <p>In recent years, performance bottleneck of the Web has shifted from network bandwidth to latency.  In response, technologies that reduce and / or conceal the latency are getting standardized, which include, but not limited to TCP Fast Open, HTTP/2, TLS 1.3.  In the session, lead developer of the HTTP/2 server H2O will present server programming techniques that reduce the negative influence of latency, introduce "Cache Digest" - a proposed approach to farther optimize HTTP/2, etc., and also discuss how to control them from ruby.</p>
   knowledge: TCP/IPとUnixのソケットプログラミングに関する基礎的な知識があると、分かりやすいかと思います。
-  starts_at: "13:20"
+  starts_at: "13:25"
   interview: done
 
 - name: 須藤功平
@@ -115,27 +116,10 @@
   knowledge: ScalaやHaskellにおけるパターンマッチの機能を知っていると内容が理解しやすいと思いますが必須ではありません。
   starts_at:
 
-- name: 田中 和明
-  name_en: Kazuaki Tanaka
-  gravatar_url: https://www.gravatar.com/avatar/c00e107a1d249b046ecb7d2138ce88cc
-  affi: 九州工業大学
-  desc: mruby, mruby/c開発者, 大学では組込みソフトウェアの研究に従事している．
-  desc_en: mruby and mruby/c developper, and also a researcher in embedded software area
-  twitter:
-  github: kaz0505
-  type: talk
-  title: mruby/c
-  title_en: mruby/c
-  abstract: <p>OSS版のmrubyよりも小さな資源で動作するVMの実装です．40KB程度のメモリで動作しています．ワンチップマイコンを想定した実装になっていて，多くのクラスを削減しています．そのため，一般的なRubyプログラムには向きませんが，組込みシステムでの機器制御やIoT分野への適用を目指しています．</p>
-  abstract_en: <p>mruby is a lightweight Ruby interpreter with the intention of being easily embeddable. mruby/c is a VM implementation that works on even less resources than the OSS version of mruby. It works with around 40KB of memory. This implementation assumes the use of a one-chip microcomputer, so it has a considerably reduced number of classes. Therefore, it is not suitable for general Ruby programming; however, its application is aimed at the control of embedded system devices and the development of IoT products.</p>
-  knowledge: mruby
-  starts_at:
-  interview: done
-
 - name: 休憩
   name_en: Break
   type: other
-  starts_at: "15:25"
+  starts_at: "15:15"
 
 - name: Aaron Patterson
   name_en: Aaron Patterson
@@ -151,7 +135,7 @@
   abstract: <p>この発表では、Rubyを使った画像認識処理方法について、精度向上がどのように向上していったかを説明します。それと、実際に存在する必要のないコードを見ていきます。本発表で紹介する研究の目的は、あくまでも私個人の創造的で、役に立たない課題を書くことへの挑戦であり、有益な結果を産むものではありません。本発表を「自身を表示できないクワイン」と理解して頂ければと思います。</p>
   abstract_en: <p>In this presentation we will look at how to use Ruby to do image recognition that will improve over time.  We will also look at some other code that has no reason to exist.  The point of the projects I will present is not to produce something useful, but to challenge myself to do something creative.  Think of this presentation as a Quine that cannot print itself.</p>
   knowledge:   Ruby, little about C, MtG (card game culture)
-  starts_at: "16:00"
+  starts_at: "15:40"
   interview: done
 
 - name: 村田 賢太
@@ -193,7 +177,7 @@
 - name: 休憩
   name_en: Break
   type: other
-  starts_at: "17:40"
+  starts_at: "17:35"
 
 - name: 古橋 貞之
   name_en: Sadayuki Furuhashi
@@ -209,5 +193,5 @@
   abstract: <p>ワークフローエンジンは、依存関係のある複数のタスクを実行するツールです。古典的なMakefileを始め、Python製のLuigi、商用のJP1/AJS3など、様々な実装があります。Digdagは、現在活発に開発が進んでいる新しいワークフローエンジンです。このセッションでは、ツリー構造を持つワークフローの状態遷移を効率的に実行する手法、ワークフローの実行状態の永続化と分散実行、タスクスケジューラ、Dockerによるサンドボックス化など、その実装手法を紹介しながらワークフローエンジンの構成技術について解説します。</p>
   abstract_en: <p>A workflow engine is a tool that processes multiple tasks with dependencies. Historically, there are a lot of implementations including traditional Makefile, open-source Python software "Luigi", and "JP1/AJS3" made by Hitachi. Digdag is a new workflow engine that is in active development. In this session, I'll cover implementation techniques used in workflow engines by explaining details of Digdag such as efficient state transition of nodes in a tree structure, persistent store and transfer of execution state of tasks over network, fair task scheduling, and sandboxed task execution in Docker containers.</p>
   knowledge: SQLの基本的な知識と、Rubyのリフレクション、オプティマイザなどの知識があると、より楽しめると思います。
-  starts_at: "18:00"
+  starts_at: "17:55"
   interview: done
