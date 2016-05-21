@@ -3,140 +3,20 @@ layout: top.ja
 permalink: /
 ---
 
+<!--
 <div class="block block-inverse block-secondary app-callout-primary text-center p-y-md">
-  <h2 class="m-t-0 font-thin">チケットの販売を開始しました</h2>
-  <h5 class="m-b font-thin">いくつか種類があるので、お気を付け下さい。</h5>
+  <h2 class="m-t-0 font-thin">ライブ配信中</h2>
+  <h5 class="m-b font-thin">カンファレンスの模様をライブ配信しています。</h5>
 
-  <a class="btn btn-primary btn-lg" href="{{ site.baseurl }}/tickets/">チケット購入ページへ</a>
+  <a class="btn btn-primary btn-lg" href="{{ site.baseurl }}/tickets/">ライブ配信ページへ</a>
 </div>
-
-<h2 class="text-center m-t-lg">お知らせ</h2>
-
-<div class="container m-t-md">
-  <div class="row">
-    {% for announcement in site.data.announcements %}
-    <div class="col-sm-4">
-      <div class="m-b-md">
-        <p class="featured-list-icon-text text-center m-b-0">
-          {{announcement.date}}<br />
-          <strong>{{announcement.title}}</strong>
-        </p>
-        <hr class="m-t-5 m-b-5" />
-
-        <p class="featured-list-icon-text">
-          {{announcement.description}}
-        </p>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-</div>
-
-<h2 class="text-center m-t-md m-b-md">募集中</h2>
-
-<div class="container">
-  <div class="row">
-    <div class="col-sm-6">
-      <div class="callout">
-        <div class="callout-content"><strong>（当日）書籍を展示したい方</strong></div>
-
-        <div class="callout-secondary">
-          <a href="/tokyo11/cfb/" class="btn btn-sm btn-info">詳細はこちら</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6">
-      <div class="callout">
-        <div class="callout-content"><strong>（当日）記事にしてくれるメディアの方</strong></div>
-
-        <div class="callout-secondary">
-          <a href="/tokyo11/cfposter/" class="btn btn-sm btn-info">詳細はこちら</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="p-t-md text-center">
-  <h2 class="block-title font-thin">基調講演</h2>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 p-t-md">
-        <img style="border-radius: 100px;" width="200" src="https://www.gravatar.com/avatar/aba3c1870b6cea67493617e5a343b586?s=400" />
-        <h3 class="m-t">古橋 貞之</h3>
-        <h6 class="block-title text-muted text-uppercase">Treasure Data, Inc. Founder & Software Architect</h6>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="p-y-md text-center">
-  <h2 class="block-title font-thin p-b-md">招待講演</h2>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-4 m-b-md">
-        <img style="border-radius: 75px;" height="150" width="150" src="http://www.gravatar.com/avatar/a1f8ed12fefd7759ef8838e62ee409a6?s=300" />
-        <h3 class="m-t">奥 一穂</h3>
-        <h6 class="block-title text-muted text-uppercase">Palmscape, Xiino, Japanize, Q4M, JSX, H2O開発者</h6>
-      </div>
-      <div class="col-sm-4 m-b-md">
-        <img style="border-radius: 75px;" height="150" width="150" src="https://www.gravatar.com/avatar/f29327647a9cff5c69618bae420792ea?s=300" />
-        <h3 class="m-t">Aaron Patterson</h3>
-        <h6 class="block-title text-muted text-uppercase">Ruby on Rails/Rubyインタプリタ開発者</h6>
-      </div>
-      <div class="col-sm-4 m-b-md">
-        <img style="border-radius: 75px;" height="150" width="150" src="https://www.gravatar.com/avatar/0ec4920185b657a03edf01fff96b4e9b?s=300" />
-        <h3 class="m-t">まつもと ゆきひろ</h3>
-        <h6 class="block-title text-muted text-uppercase">プログラミング言語Ruby/Streem開発者</h6>
-      </div>
-    </div>
-  </div>
-</div>
+-->
 
 <div class="block block-secondary app-callout-info text-center p-y-md">
   <h2>開催スケジュール</h2>
   <h4 class="m-b">基調講演者、招待講演者に6人のスピーカーを加えた、総勢10名が登壇予定です。</h4>
 
   <a class="btn btn-primary btn-lg m-b" href="{{ site.baseurl }}/schedule">スケジュールを見る</a>
-</div>
-
-<div class="text-center p-y-md">
-  <h2>会場案内</h2>
-  <p class="lead">秋葉原コンベンションホール 2F<br />東京都千代田区外神田 1-18-13</p>
-</div>
-
-<div class="row m-a-0">
-  <div class="col-sm-4 p-a-0 hidden-xs">
-    <div id="carousel-example-generic-2" class="carousel carousel-light slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carousel-example-generic-2" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-example-generic-2" data-slide-to="1"></li>
-        <li data-target="#carousel-example-generic-2" data-slide-to="2"></li>
-        <li data-target="#carousel-example-generic-2" data-slide-to="3"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox" style="height: 400px;">
-        <div class="item active">
-          <div style="background: url(/tokyo11/image/venue/2.jpg) top center; background-size: cover; height: 400px;"></div>
-        </div>
-        <div class="item">
-          <div style="background: url(/tokyo11/image/venue/4.jpg) top center; background-size: cover; height: 400px;"></div>
-        </div>
-        <div class="item">
-          <div style="background: url(/tokyo11/image/venue/3.jpg) top center; background-size: cover; height: 400px;"></div>
-        </div>
-        <div class="item">
-          <div style="background: url(/tokyo11/image/venue/1.jpg) top center; background-size: cover; height: 400px;"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-8 p-a-0">
-    <div id="app-maps" onclick="$('#app-maps iframe').css('pointer-events', 'auto');" onmouseleave="$('#app-maps iframe').css('pointer-events', 'none');">
-      <iframe style="pointer-events:none; width: 100%; height: 400px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25925.18887156028!2d139.7421348106729!3d35.68565337948364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c1d6fb74207%3A0xe6100facc0f6dc34!2z56eL6JGJ5Y6f44Kz44Oz44OZ44Oz44K344On44Oz44Ob44O844Or!5e0!3m2!1sen!2sjp!4v1457705921474" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div>
-  </div>
 </div>
 
 <div class="p-y-md text-center">
