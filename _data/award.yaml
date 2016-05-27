@@ -1,0 +1,39 @@
+- recommender: Aaron Patterson
+  name: Charles Nutter and Tom Enebo
+  award: 頑張っているで賞
+  reason: 
+
+- recommender: 奥一穂
+  name: mattn
+  award: 手が広すぎるで賞
+  reason: どこにでも現れてコードを投げてくるその実力と馬力に敬意を表して
+
+- recommender: 須藤功平
+  name: cedlemo
+  award: Continuous development award
+  reason: 2015年1月から継続的にRuby-GNOME2の開発に参加しているから。とても助かっています。
+
+- recommender: 田中 和明
+  name: 中野 晶太
+  award: mrubyの普及に貢献してます賞
+  reason: mrubyに特化したプロトタイピングキットを販売している．mrubyでハードを簡単に動かせる．
+
+- recommender: 辻本 和樹
+  name: 青木 峰郎
+  award: Rubyハックのきっかけで賞
+  reason: RHGを始め、各種aamineプロダクツから多くのことを学ばせてもらったため
+
+- recommender: 村田 賢太
+  name: Sameer Deshmukh
+  award: SciRuby を盛り上げてますで賞
+  reason: daru の精力的な開発に留まらず、GSoCのプロジェクト管理者としてよく働き、SciRubyの開発を盛り上げている
+
+- recommender: 遠藤侑介
+  name: 樽家 昌也
+  award: optcarrot 活用事例第一号
+  reason: optcarrot を題材に使って Ruby の速度改善を発表した最初の人（遠藤の観測範囲で）
+
+- recommender: 栗原 勇樹
+  name: zzak
+  award: 巻き込んだで賞
+  reason: 自分を含め、多くの人にRubyのおもしろさを教えてくれた
