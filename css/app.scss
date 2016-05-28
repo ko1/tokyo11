@@ -35,7 +35,7 @@ h1.post-title {
 a.link-no-decoration,
 a.link-no-decoration:active,
 a.link-no-decoration:hover,
-a.link-no-decoration:focus
+a.link-no-decoration:focus,
 a.link-no-decoration:visited {
     text-decoration: none;
 }
@@ -65,7 +65,7 @@ a.link-no-decoration:visited {
 
 .app-top-block {
     background-color: transparent;
-    padding: 50px 0 100px;
+    padding: 50px 0;
     color: white;
 }
 
@@ -77,6 +77,15 @@ h1.app-top-title {
     p {
         font-size: 14px;
     }
+}
+
+a.app-map-link,
+a.app-map-link:active,
+a.app-map-link:hover,
+a.app-map-link:focus,
+a.app-map-link:visited {
+    color: white;
+    border-bottom: 1px dashed #aaa;
 }
 
 @media (min-width: 768px) {
