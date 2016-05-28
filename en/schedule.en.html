@@ -62,6 +62,12 @@ permalink: /en/schedule/
               <h6 class="block-title text-muted text-uppercase m-t">Speaker Bio</h6>
               <p class="m-a-0">{{ talk.desc_en }}</p>
             {% endif %}
+
+            <div class="m-t">
+              {% if talk.slides %}
+                <a  class="btn btn-sm btn-pill btn-success" href="{{ talk.slides }}" target="_blank">Slides</a>
+              {% endif %}
+            </div>
           {% else %}
             <h4 class="m-b-0 block-title m-t-0">
               <span class="text-muted font-bold app-timetable-starts-at" style="top: 0">{{ talk.starts_at }}</span>

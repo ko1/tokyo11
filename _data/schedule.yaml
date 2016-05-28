@@ -58,6 +58,7 @@
   knowledge: 基本的なRubyの知識があればよいです。golangやcrystalのさわりもわかっていると、より楽しめると思います。
   starts_at:
   interview: done
+  slides: https://speakerdeck.com/ksss/rubynixing-gaarutobian-li-ka
 
 - name: ランチ
   name_en: Lunch
@@ -81,6 +82,7 @@
   knowledge: TCP/IPとUnixのソケットプログラミングに関する基礎的な知識があると、分かりやすいかと思います。
   starts_at: "13:25"
   interview: done
+  slides: http://www.slideshare.net/kazuho/developing-the-fastest-http2-server
 
 - name: 須藤功平
   name_en: Kouhei Sutou
@@ -99,6 +101,7 @@
   knowledge: マルチプロセスとGCとシグナルとイベントループについての一般的な知識。
   starts_at:
   interview: done
+  slides: http://slide.rabbit-shocker.org/authors/kou/tokyork-11/
 
 - name: 辻本 和樹
   name_en: Kazuki Tsujimoto

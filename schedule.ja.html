@@ -45,11 +45,6 @@ permalink: /schedule/
               <p>{{ talk.knowledge }}</p>
             {% endif %}
 
-            {% if talk.interview == "done" %}
-              <h5 class="block-title text-muted m-t m-b-5">事前インタビュー</h5>
-              <p><a href='/tokyo11/interview/{{ talk.github }}'>{{ talk.name }} さんインタビュー</a></p>
-            {% endif %}
-
             <h4 class="block-title m-t m-b-5">
               {{ talk.name }}
 
@@ -70,6 +65,16 @@ permalink: /schedule/
             {% if talk.desc != "To Be Announced..." %}
               <p class="m-a-0">{{ talk.desc }}</p>
             {% endif %}
+
+            <div class="m-t">
+              {% if talk.slides %}
+                <a  class="btn btn-sm btn-pill btn-success" href="{{ talk.slides }}" target="_blank">発表スライド</a>
+              {% endif %}
+
+              {% if talk.interview == "done" %}
+                <a  class="btn btn-sm btn-pill btn-info" href="/tokyo11/interview/{{ talk.github }}">{{ talk.name }} さんインタビュー</a>
+              {% endif %}
+            </div>
           {% else %}
             <h4 class="m-b-0 block-title m-t-0">
               <span class="text-muted font-bold app-timetable-starts-at" style="top: 0">{{ talk.starts_at }}</span>
