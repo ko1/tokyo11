@@ -120,6 +120,7 @@
   knowledge: ScalaやHaskellにおけるパターンマッチの機能を知っていると内容が理解しやすいと思いますが必須ではありません。
   starts_at:
   interview: done
+  slides: https://speakerdeck.com/k_tsj/re-pattern-matching-in-ruby
 
 - name: 休憩
   name_en: Break
