@@ -24,6 +24,7 @@
   knowledge: 
   starts_at: "10:10"
   interview: done
+  slides: https://speakerdeck.com/matz/streem
 
 - name: 田中 和明
   name_en: Kazuaki Tanaka
@@ -160,6 +161,7 @@
   knowledge: JPEG とか PNG とか WEBP などのビットマップ画像を扱ったことがあり、Ruby で画像を処理したいなぁと思ったことがある人向けです。RMagick を使ったことがある人はなお良いです。
   starts_at:
   interview: done
+  slides: https://speakerdeck.com/mrkn/imf-and-tensor-interchange-system
 
 - name: 遠藤侑介
   name_en: Yusuke Endoh
