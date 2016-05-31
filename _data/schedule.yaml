@@ -25,6 +25,7 @@
   starts_at: "10:10"
   interview: done
   slides: https://speakerdeck.com/matz/streem
+  video: https://youtu.be/TnD8HPQl2Jg
 
 - name: 田中 和明
   name_en: Kazuaki Tanaka
@@ -43,6 +44,7 @@
   starts_at:
   interview: done
   slides: http://www.slideshare.net/kazuakitanaka391/mrubyc-in-tokyorubykaigi11
+  video: https://youtu.be/Opq50qdiaYE
 
 - name: 栗原 勇樹
   name_en: Yuki Kurihara
@@ -61,6 +63,7 @@
   starts_at:
   interview: done
   slides: https://speakerdeck.com/ksss/rubynixing-gaarutobian-li-ka
+  video: https://youtu.be/HwdWbJxLRdE
 
 - name: ランチ
   name_en: Lunch
@@ -85,6 +88,7 @@
   starts_at: "13:25"
   interview: done
   slides: http://www.slideshare.net/kazuho/developing-the-fastest-http2-server
+  video: https://youtu.be/Iu5Uynq7ubo
 
 - name: 須藤功平
   name_en: Kouhei Sutou
@@ -104,6 +108,7 @@
   starts_at:
   interview: done
   slides: http://slide.rabbit-shocker.org/authors/kou/tokyork-11/
+  video: https://youtu.be/53NFGS4O7zo
 
 - name: 辻本 和樹
   name_en: Kazuki Tsujimoto
@@ -122,6 +127,7 @@
   starts_at:
   interview: done
   slides: https://speakerdeck.com/k_tsj/re-pattern-matching-in-ruby
+  video: https://youtu.be/2IBgvipZDDI
 
 - name: 休憩
   name_en: Break
@@ -145,6 +151,7 @@
   starts_at: "15:40"
   interview: done
   slides: https://speakerdeck.com/tenderlove/tokyo-ruby-kaigi
+  video: https://youtu.be/x3UANgL98wk
 
 - name: 村田 賢太
   name_en: Kenta Murata
@@ -163,6 +170,7 @@
   starts_at:
   interview: done
   slides: https://speakerdeck.com/mrkn/imf-and-tensor-interchange-system
+  video: https://youtu.be/H1IgKhGoj90
 
 - name: 遠藤侑介
   name_en: Yusuke Endoh
@@ -184,6 +192,7 @@
   starts_at:
   interview: done
   slides: http://www.slideshare.net/mametter/optcarrot-a-pureruby-nes-emulator
+  video: https://youtu.be/oD35gcGPGQc
 
 - name: 休憩
   name_en: Break
@@ -207,3 +216,4 @@
   starts_at: "17:55"
   interview: done
   slides: http://www.slideshare.net/frsyuki/digdag-at-tokyo-rubykaigi-11
+  video: https://youtu.be/OAaFr_CnXvk

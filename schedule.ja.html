@@ -67,13 +67,18 @@ permalink: /schedule/
             {% endif %}
 
             <div class="m-t">
-              {% if talk.slides %}
-                <a  class="btn btn-sm btn-pill btn-primary" href="{{ talk.slides }}" target="_blank">発表スライド</a>
-              {% endif %}
-
-              {% if talk.interview == "done" %}
-                <a  class="btn btn-sm btn-pill btn-info" href="/tokyo11/interview/{{ talk.github }}">{{ talk.name }} さん事前インタビュー</a>
-              {% endif %}
+              <a  class="btn btn-sm btn-pill btn-primary" href="{{ talk.slides }}" target="_blank">
+                <i class="fa fa-television" aria-hidden="true"></i>
+                発表スライド
+              </a>
+              <a  class="btn btn-sm btn-pill btn-primary" href="{{ talk.video }}" target="_blank">
+                <i class="fa fa-video-camera" aria-hidden="true"></i>
+                発表動画
+              </a>
+              <a  class="btn btn-sm btn-pill btn-info" href="/tokyo11/interview/{{ talk.github }}">
+                <i class="fa fa-microphone" aria-hidden="true"></i>
+                {{ talk.name }}さん事前インタビュー
+              </a>
             </div>
           {% else %}
             <h4 class="m-b-0 block-title m-t-0">
